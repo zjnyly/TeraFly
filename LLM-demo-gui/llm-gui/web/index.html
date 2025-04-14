@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="cdn/roboto-font.css" rel="stylesheet" type="text/css" />
+    <link href="cdn/quasar.prod.css" rel="stylesheet" type="text/css" />
+
+    <!-- 标题 -->
+    <title>对话</title>
+
+    <!-- 图标 -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div
+      id="q-app"
+      class="q-pa-md"
+      style="height: 100vh; margin: 0; padding: 0"
+    >
+      <q-layout
+        view="lHh lpr lFr"
+        container
+        style="height: 100%"
+        class="shadow-2 rounded-borders"
+      >
+        <!-- 标题栏 -->
+        <q-header elevated class="bg-dark">
+          <q-toolbar>
+            <!-- 图标 -->
+            <q-avatar> <q-icon name="chat"></q-icon> </q-avatar>
+
+            <!-- 标题 -->
+            <q-toolbar-title>对话GUI</q-toolbar-title>
+
+            <!-- 连接状态显示 -->
+            <q-chip
+              color="negative"
+              text-color="white"
+              icon="link_off"
+              v-if="connectState !== 'connected'"
+              class="shadow-6 q-mr-md"
+              :loading="connectState === 'connecting'"
+            >
+              <template v-slot:loading>
+                <q-spinner class="on-left" />
+                连接中
+              </template>
+
+              未连接
+            </q-chip>
+            <q-chip
+              color="positive"
+              text-color="white"
+              icon="link"
+              v-if="connectState === 'connected'"
+              class="shadow-6 q-mr-md"
+            >
+              已连接
+            </q-chip>
+
+            <q-separator vertical inset></q-separator>
+
+            <!-- 连接管理打开按钮 -->
+            <q-btn
+              flat
+              @click="displayConnectPanel = !displayConnectPanel"
+              round
+              dense
+              icon="menu"
+              class="q-ml-md"
+            />
+          </q-toolbar>
+        </q-header>
+
+        <!-- 聊天泡泡 -->
+        <q-page-container>
+          <q-page class="q-pa-md">
+            <div v-for="(message, index) in dialogContent" :key="index">
+              <q-chat-message
+                :sent="message.sent"
+                :text="[message.content]"
+                :name="message.name"
+                :stamp="message.stamp"
+                :avatar="message.avatar"
+              ></q-chat-message>
+            </div>
+
+            <div v-if="dialogContent.length === 0" class="text-center">
+              <h2><b>无对话记录</b></h2>
+              <div v-if="connectState !== 'connected'">
+                <q-btn
+                  color="primary"
+                  label="连接服务器"
+                  @click="displayConnectPanel = true"
+                  class="q-pl-sm q-pr-sm q-mr-sm"
+                ></q-btn>
+                <span>以开始对话</span>
+              </div>
+              <div v-else>
+                <span>在下方输入框中输入消息以开始对话</span>
+              </div>
+            </div>
+          </q-page>
+        </q-page-container>
+
+        <!-- 聊天输入框 -->
+        <q-footer class="q-pa-md" style="background-color: transparent">
+          <q-input
+            v-model="messageInput"
+            counter
+            maxlength="100"
+            :disabled="messageSending || connectState !== 'connected'"
+          >
+            <template v-slot:after>
+              <q-btn
+                round
+                color="primary"
+                icon="send"
+                :disabled="messageSending || connectState !== 'connected'"
+                @click="handleMessageSendButtonClick"
+              />
+            </template>
+          </q-input>
+        </q-footer>
+
+        <!-- 连接失败弹窗 -->
+        <q-dialog v-model="showConnectFailedDialog">
+          <q-card>
+            <q-card-section>
+              <div class="text-h6">连接失败</div>
+            </q-card-section>
+
+            <q-card-section class="q-pt-none">
+              无法与服务器建立Websocket链接，请检查服务器地址是否正确或服务器是否开启！
+            </q-card-section>
+
+            <q-card-actions align="right">
+              <q-btn flat label="确定" color="primary" v-close-popup />
+            </q-card-actions>
+          </q-card>
+        </q-dialog>
+
+        <!-- 右侧连接管理框 -->
+        <q-drawer
+          side="right"
+          v-model="displayConnectPanel"
+          show-if-above
+          breakpoint="500"
+          class="bg-gray10 shadow-10"
+        >
+          <div class="q-pa-md">
+            <h4 class="q-my-md"><b>连接服务器</b></h4>
+            <div class="q-mb-md">
+              <q-input
+                filled
+                v-model="connectAddressInput"
+                label="服务器地址"
+                :disabled="connectState !== 'disconnected'"
+              ></q-input>
+            </div>
+            <div>
+              <q-btn
+                color="positive"
+                label="连接"
+                v-if="connectState === 'disconnected'"
+                class="full-width"
+                :disabled="connectState === 'connecting'"
+                :loading="connectState === 'connecting'"
+                @click="handleConnectButtonClick"
+              >
+              </q-btn>
+              <q-btn
+                color="primary"
+                label="断开"
+                v-if="connectState === 'connected'"
+                class="full-width"
+                @click="handleDisconnectButtonClick"
+              >
+              </q-btn>
+            </div>
+          </div>
+        </q-drawer>
+      </q-layout>
+    </div>
+    <script src="cdn/vue.global.prod.js"></script>
+    <script src="cdn/quasar.umd.prod.js"></script>
+    <script src="cdn/zh-CN.umd.prod.js"></script>
+    <script src="script/app.js"></script>
+    <script>
+      displayConnectPanel.value = false;
+    </script>
+  </body>
+</html>
