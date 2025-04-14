@@ -1,9 +1,7 @@
 # Official Repo for "Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs"
 
-<video controls width="500">
-  <source src="assets/opt-1.3b.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+![demo](assets/opt-1.3b.gif)
 
 ## Prerequesites
 
