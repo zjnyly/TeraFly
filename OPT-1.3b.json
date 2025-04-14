@@ -1,0 +1,13 @@
+{
+    "NUM_LAYER": 24,
+    "FULL_SEQ_NUM": 1024,
+    "CU": 2,
+    "INP_NUM": 64,
+    "PROCESSOR": 8,
+    "ROUTE_NUM": 8,
+    "INP_PARALLEL": 8,
+    "HEAD_PARALLEL" : 2,
+    "HEAD_NUM": 32,
+    "HEAD_LEN": 64,
+    "FULL_INP_LEN": 2048
+}

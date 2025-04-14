@@ -1,0 +1,11972 @@
+Open the device0
+Load the xclbin ../build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.xclbin
+Allocate Buffer in Global Memory
+Allocate Finish
+synchronize input buffer data to device global memory
+Execution of the kernel
+sync scaling factor and bias onboard
+input sequence 0
+match
+rate inf
+input sequence 1
+match
+rate 2
+input sequence 2
+match
+rate 1.5
+input sequence 3
+input sequence 4
+input sequence 5
+match
+rate 0.8
+input sequence 6
+input sequence 7
+match
+rate 0.714286
+input sequence 8
+match
+rate 0.75
+input sequence 9
+input sequence 10
+match
+rate 0.7
+input sequence 11
+input sequence 12
+match
+rate 0.666667
+input sequence 13
+match
+rate 0.692308
+input sequence 14
+input sequence 15
+match
+rate 0.666667
+input sequence 16
+match
+rate 0.6875
+input sequence 17
+match
+rate 0.705882
+input sequence 18
+match
+rate 0.722222
+input sequence 19
+match
+rate 0.736842
+input sequence 20
+match
+rate 0.75
+input sequence 21
+match
+rate 0.761905
+input sequence 22
+match
+rate 0.772727
+input sequence 23
+input sequence 24
+match
+rate 0.75
+input sequence 25
+match
+rate 0.76
+input sequence 26
+input sequence 27
+match
+rate 0.740741
+input sequence 28
+match
+rate 0.75
+input sequence 29
+input sequence 30
+match
+rate 0.733333
+input sequence 31
+input sequence 32
+input sequence 33
+input sequence 34
+match
+rate 0.676471
+input sequence 35
+match
+rate 0.685714
+input sequence 36
+match
+rate 0.694444
+input sequence 37
+match
+rate 0.702703
+input sequence 38
+match
+rate 0.710526
+input sequence 39
+input sequence 40
+input sequence 41
+input sequence 42
+input sequence 43
+match
+rate 0.651163
+input sequence 44
+match
+rate 0.659091
+input sequence 45
+match
+rate 0.666667
+input sequence 46
+match
+rate 0.673913
+input sequence 47
+match
+rate 0.680851
+input sequence 48
+match
+rate 0.6875
+input sequence 49
+match
+rate 0.693878
+input sequence 50
+match
+rate 0.7
+input sequence 51
+match
+rate 0.705882
+input sequence 52
+match
+rate 0.711538
+input sequence 53
+match
+rate 0.716981
+input sequence 54
+input sequence 55
+match
+rate 0.709091
+input sequence 56
+match
+rate 0.714286
+input sequence 57
+match
+rate 0.719298
+input sequence 58
+input sequence 59
+match
+rate 0.711864
+input sequence 60
+match
+rate 0.716667
+input sequence 61
+match
+rate 0.721311
+input sequence 62
+input sequence 63
+match
+rate 0.714286
+input sequence 64
+match
+rate 0.71875
+input sequence 65
+match
+rate 0.723077
+input sequence 66
+input sequence 67
+input sequence 68
+match
+rate 0.705882
+input sequence 69
+match
+rate 0.710145
+input sequence 70
+match
+rate 0.714286
+input sequence 71
+input sequence 72
+match
+rate 0.708333
+input sequence 73
+input sequence 74
+match
+rate 0.702703
+input sequence 75
+match
+rate 0.706667
+input sequence 76
+match
+rate 0.710526
+input sequence 77
+match
+rate 0.714286
+input sequence 78
+match
+rate 0.717949
+input sequence 79
+match
+rate 0.721519
+input sequence 80
+match
+rate 0.725
+input sequence 81
+input sequence 82
+input sequence 83
+input sequence 84
+match
+rate 0.702381
+input sequence 85
+input sequence 86
+match
+rate 0.697674
+input sequence 87
+input sequence 88
+match
+rate 0.693182
+input sequence 89
+match
+rate 0.696629
+input sequence 90
+input sequence 91
+match
+rate 0.692308
+input sequence 92
+match
+rate 0.695652
+input sequence 93
+match
+rate 0.698925
+input sequence 94
+match
+rate 0.702128
+input sequence 95
+match
+rate 0.705263
+input sequence 96
+match
+rate 0.708333
+input sequence 97
+match
+rate 0.71134
+input sequence 98
+input sequence 99
+input sequence 100
+match
+rate 0.7
+input sequence 101
+match
+rate 0.70297
+input sequence 102
+input sequence 103
+match
+rate 0.699029
+input sequence 104
+match
+rate 0.701923
+input sequence 105
+input sequence 106
+input sequence 107
+match
+rate 0.691589
+input sequence 108
+match
+rate 0.694444
+input sequence 109
+input sequence 110
+match
+rate 0.690909
+input sequence 111
+input sequence 112
+match
+rate 0.6875
+input sequence 113
+match
+rate 0.690265
+input sequence 114
+input sequence 115
+match
+rate 0.686957
+input sequence 116
+match
+rate 0.689655
+input sequence 117
+input sequence 118
+input sequence 119
+match
+rate 0.680672
+input sequence 120
+match
+rate 0.683333
+input sequence 121
+match
+rate 0.68595
+input sequence 122
+match
+rate 0.688525
+input sequence 123
+match
+rate 0.691057
+input sequence 124
+match
+rate 0.693548
+input sequence 125
+match
+rate 0.696
+input sequence 126
+match
+rate 0.698413
+input sequence 127
+match
+rate 0.700787
+input sequence 128
+input sequence 129
+input sequence 130
+match
+rate 0.692308
+input sequence 131
+match
+rate 0.694656
+input sequence 132
+input sequence 133
+match
+rate 0.691729
+input sequence 134
+match
+rate 0.69403
+input sequence 135
+input sequence 136
+match
+rate 0.691176
+input sequence 137
+match
+rate 0.693431
+input sequence 138
+input sequence 139
+match
+rate 0.690647
+input sequence 140
+match
+rate 0.692857
+input sequence 141
+match
+rate 0.695035
+input sequence 142
+match
+rate 0.697183
+input sequence 143
+match
+rate 0.699301
+input sequence 144
+match
+rate 0.701389
+input sequence 145
+match
+rate 0.703448
+input sequence 146
+input sequence 147
+match
+rate 0.70068
+input sequence 148
+match
+rate 0.702703
+input sequence 149
+input sequence 150
+match
+rate 0.7
+input sequence 151
+input sequence 152
+match
+rate 0.697368
+input sequence 153
+match
+rate 0.699346
+input sequence 154
+input sequence 155
+input sequence 156
+match
+rate 0.692308
+input sequence 157
+match
+rate 0.694268
+input sequence 158
+match
+rate 0.696203
+input sequence 159
+match
+rate 0.698113
+input sequence 160
+input sequence 161
+match
+rate 0.695652
+input sequence 162
+match
+rate 0.697531
+input sequence 163
+match
+rate 0.699386
+input sequence 164
+input sequence 165
+input sequence 166
+match
+rate 0.692771
+input sequence 167
+match
+rate 0.694611
+input sequence 168
+match
+rate 0.696429
+input sequence 169
+match
+rate 0.698225
+input sequence 170
+match
+rate 0.7
+input sequence 171
+match
+rate 0.701754
+input sequence 172
+match
+rate 0.703488
+input sequence 173
+match
+rate 0.705202
+input sequence 174
+input sequence 175
+match
+rate 0.702857
+input sequence 176
+match
+rate 0.704545
+input sequence 177
+match
+rate 0.706215
+input sequence 178
+match
+rate 0.707865
+input sequence 179
+input sequence 180
+match
+rate 0.705556
+input sequence 181
+match
+rate 0.707182
+input sequence 182
+input sequence 183
+match
+rate 0.704918
+input sequence 184
+match
+rate 0.706522
+input sequence 185
+match
+rate 0.708108
+input sequence 186
+match
+rate 0.709677
+input sequence 187
+input sequence 188
+match
+rate 0.707447
+input sequence 189
+match
+rate 0.708995
+input sequence 190
+input sequence 191
+input sequence 192
+input sequence 193
+match
+rate 0.699482
+input sequence 194
+match
+rate 0.701031
+input sequence 195
+match
+rate 0.702564
+input sequence 196
+match
+rate 0.704082
+input sequence 197
+input sequence 198
+input sequence 199
+input sequence 200
+match
+rate 0.695
+input sequence 201
+match
+rate 0.696517
+input sequence 202
+match
+rate 0.69802
+input sequence 203
+input sequence 204
+match
+rate 0.696078
+input sequence 205
+match
+rate 0.697561
+input sequence 206
+input sequence 207
+match
+rate 0.695652
+input sequence 208
+match
+rate 0.697115
+input sequence 209
+input sequence 210
+match
+rate 0.695238
+input sequence 211
+match
+rate 0.696682
+input sequence 212
+input sequence 213
+match
+rate 0.694836
+input sequence 214
+match
+rate 0.696262
+input sequence 215
+input sequence 216
+match
+rate 0.694444
+input sequence 217
+input sequence 218
+input sequence 219
+match
+rate 0.689498
+input sequence 220
+input sequence 221
+match
+rate 0.687783
+input sequence 222
+input sequence 223
+input sequence 224
+match
+rate 0.683036
+input sequence 225
+match
+rate 0.684444
+input sequence 226
+input sequence 227
+input sequence 228
+match
+rate 0.679825
+input sequence 229
+match
+rate 0.681223
+input sequence 230
+match
+rate 0.682609
+input sequence 231
+input sequence 232
+match
+rate 0.681035
+input sequence 233
+match
+rate 0.682403
+input sequence 234
+match
+rate 0.683761
+input sequence 235
+match
+rate 0.685106
+input sequence 236
+match
+rate 0.686441
+input sequence 237
+match
+rate 0.687764
+input sequence 238
+match
+rate 0.689076
+input sequence 239
+input sequence 240
+match
+rate 0.6875
+input sequence 241
+match
+rate 0.688797
+input sequence 242
+input sequence 243
+match
+rate 0.687243
+input sequence 244
+match
+rate 0.688525
+input sequence 245
+input sequence 246
+input sequence 247
+match
+rate 0.684211
+input sequence 248
+match
+rate 0.685484
+input sequence 249
+match
+rate 0.686747
+input sequence 250
+match
+rate 0.688
+input sequence 251
+match
+rate 0.689243
+input sequence 252
+input sequence 253
+match
+rate 0.687747
+input sequence 254
+match
+rate 0.688976
+input sequence 255
+match
+rate 0.690196
+input sequence 256
+input sequence 257
+match
+rate 0.688716
+input sequence 258
+match
+rate 0.689922
+input sequence 259
+input sequence 260
+match
+rate 0.688462
+input sequence 261
+match
+rate 0.689655
+input sequence 262
+match
+rate 0.69084
+input sequence 263
+input sequence 264
+match
+rate 0.689394
+input sequence 265
+match
+rate 0.690566
+input sequence 266
+match
+rate 0.691729
+input sequence 267
+match
+rate 0.692884
+input sequence 268
+match
+rate 0.69403
+input sequence 269
+match
+rate 0.695167
+input sequence 270
+match
+rate 0.696296
+input sequence 271
+input sequence 272
+input sequence 273
+match
+rate 0.692308
+input sequence 274
+input sequence 275
+match
+rate 0.690909
+input sequence 276
+match
+rate 0.692029
+input sequence 277
+match
+rate 0.693141
+input sequence 278
+match
+rate 0.694245
+input sequence 279
+input sequence 280
+match
+rate 0.692857
+input sequence 281
+input sequence 282
+match
+rate 0.691489
+input sequence 283
+match
+rate 0.69258
+input sequence 284
+match
+rate 0.693662
+input sequence 285
+match
+rate 0.694737
+input sequence 286
+match
+rate 0.695804
+input sequence 287
+match
+rate 0.696864
+input sequence 288
+match
+rate 0.697917
+input sequence 289
+match
+rate 0.698962
+input sequence 290
+input sequence 291
+match
+rate 0.697595
+input sequence 292
+match
+rate 0.69863
+input sequence 293
+match
+rate 0.699659
+input sequence 294
+match
+rate 0.70068
+input sequence 295
+match
+rate 0.701695
+input sequence 296
+match
+rate 0.702703
+input sequence 297
+input sequence 298
+match
+rate 0.701342
+input sequence 299
+match
+rate 0.702341
+input sequence 300
+input sequence 301
+match
+rate 0.700997
+input sequence 302
+match
+rate 0.701987
+input sequence 303
+match
+rate 0.70297
+input sequence 304
+match
+rate 0.703947
+input sequence 305
+match
+rate 0.704918
+input sequence 306
+match
+rate 0.705882
+input sequence 307
+match
+rate 0.70684
+input sequence 308
+input sequence 309
+match
+rate 0.705502
+input sequence 310
+match
+rate 0.706452
+input sequence 311
+input sequence 312
+match
+rate 0.705128
+input sequence 313
+match
+rate 0.70607
+input sequence 314
+match
+rate 0.707006
+input sequence 315
+match
+rate 0.707937
+input sequence 316
+input sequence 317
+match
+rate 0.706625
+input sequence 318
+match
+rate 0.707547
+input sequence 319
+match
+rate 0.708464
+input sequence 320
+match
+rate 0.709375
+input sequence 321
+match
+rate 0.71028
+input sequence 322
+match
+rate 0.71118
+input sequence 323
+input sequence 324
+match
+rate 0.709877
+input sequence 325
+match
+rate 0.710769
+input sequence 326
+input sequence 327
+match
+rate 0.70948
+input sequence 328
+input sequence 329
+match
+rate 0.708207
+input sequence 330
+match
+rate 0.709091
+input sequence 331
+input sequence 332
+match
+rate 0.707831
+input sequence 333
+input sequence 334
+input sequence 335
+input sequence 336
+input sequence 337
+match
+rate 0.700297
+input sequence 338
+match
+rate 0.701183
+input sequence 339
+match
+rate 0.702065
+input sequence 340
+input sequence 341
+input sequence 342
+match
+rate 0.69883
+input sequence 343
+match
+rate 0.699708
+input sequence 344
+match
+rate 0.700581
+input sequence 345
+input sequence 346
+match
+rate 0.699422
+input sequence 347
+match
+rate 0.700288
+input sequence 348
+input sequence 349
+match
+rate 0.69914
+input sequence 350
+match
+rate 0.7
+input sequence 351
+match
+rate 0.700855
+input sequence 352
+match
+rate 0.701705
+input sequence 353
+match
+rate 0.70255
+input sequence 354
+match
+rate 0.70339
+input sequence 355
+match
+rate 0.704225
+input sequence 356
+match
+rate 0.705056
+input sequence 357
+match
+rate 0.705882
+input sequence 358
+match
+rate 0.706704
+input sequence 359
+match
+rate 0.707521
+input sequence 360
+input sequence 361
+match
+rate 0.706371
+input sequence 362
+input sequence 363
+match
+rate 0.705234
+input sequence 364
+match
+rate 0.706044
+input sequence 365
+input sequence 366
+input sequence 367
+match
+rate 0.702997
+input sequence 368
+input sequence 369
+input sequence 370
+match
+rate 0.7
+input sequence 371
+match
+rate 0.700809
+input sequence 372
+match
+rate 0.701613
+input sequence 373
+match
+rate 0.702413
+input sequence 374
+match
+rate 0.703209
+input sequence 375
+input sequence 376
+match
+rate 0.702128
+input sequence 377
+match
+rate 0.702918
+input sequence 378
+match
+rate 0.703704
+input sequence 379
+match
+rate 0.704485
+input sequence 380
+input sequence 381
+input sequence 382
+match
+rate 0.701571
+input sequence 383
+input sequence 384
+match
+rate 0.700521
+input sequence 385
+input sequence 386
+match
+rate 0.699482
+input sequence 387
+match
+rate 0.700258
+input sequence 388
+match
+rate 0.701031
+input sequence 389
+match
+rate 0.7018
+input sequence 390
+match
+rate 0.702564
+input sequence 391
+input sequence 392
+input sequence 393
+match
+rate 0.699746
+input sequence 394
+match
+rate 0.700508
+input sequence 395
+input sequence 396
+input sequence 397
+match
+rate 0.697733
+input sequence 398
+match
+rate 0.698492
+input sequence 399
+input sequence 400
+match
+rate 0.6975
+input sequence 401
+match
+rate 0.698254
+input sequence 402
+match
+rate 0.699005
+input sequence 403
+match
+rate 0.699752
+input sequence 404
+input sequence 405
+match
+rate 0.698765
+input sequence 406
+input sequence 407
+match
+rate 0.697789
+input sequence 408
+match
+rate 0.698529
+input sequence 409
+input sequence 410
+match
+rate 0.697561
+input sequence 411
+match
+rate 0.698297
+input sequence 412
+input sequence 413
+match
+rate 0.697337
+input sequence 414
+match
+rate 0.698068
+input sequence 415
+match
+rate 0.698795
+input sequence 416
+input sequence 417
+match
+rate 0.697842
+input sequence 418
+match
+rate 0.698565
+input sequence 419
+match
+rate 0.699284
+input sequence 420
+match
+rate 0.7
+input sequence 421
+input sequence 422
+match
+rate 0.699052
+input sequence 423
+match
+rate 0.699764
+input sequence 424
+input sequence 425
+match
+rate 0.698824
+input sequence 426
+input sequence 427
+match
+rate 0.697892
+input sequence 428
+match
+rate 0.698598
+input sequence 429
+match
+rate 0.699301
+input sequence 430
+match
+rate 0.7
+input sequence 431
+input sequence 432
+match
+rate 0.699074
+input sequence 433
+match
+rate 0.699769
+input sequence 434
+match
+rate 0.700461
+input sequence 435
+input sequence 436
+input sequence 437
+match
+rate 0.697941
+input sequence 438
+input sequence 439
+match
+rate 0.697039
+input sequence 440
+match
+rate 0.697727
+input sequence 441
+input sequence 442
+match
+rate 0.696833
+input sequence 443
+match
+rate 0.697517
+input sequence 444
+match
+rate 0.698198
+input sequence 445
+input sequence 446
+match
+rate 0.697309
+input sequence 447
+input sequence 448
+input sequence 449
+match
+rate 0.694878
+input sequence 450
+input sequence 451
+match
+rate 0.694013
+input sequence 452
+match
+rate 0.69469
+input sequence 453
+input sequence 454
+match
+rate 0.693833
+input sequence 455
+input sequence 456
+match
+rate 0.692982
+input sequence 457
+match
+rate 0.693654
+input sequence 458
+match
+rate 0.694323
+input sequence 459
+input sequence 460
+input sequence 461
+match
+rate 0.691974
+input sequence 462
+match
+rate 0.692641
+input sequence 463
+input sequence 464
+match
+rate 0.69181
+input sequence 465
+input sequence 466
+match
+rate 0.690987
+input sequence 467
+match
+rate 0.691649
+input sequence 468
+match
+rate 0.692308
+input sequence 469
+input sequence 470
+input sequence 471
+match
+rate 0.690021
+input sequence 472
+match
+rate 0.690678
+input sequence 473
+input sequence 474
+input sequence 475
+match
+rate 0.688421
+input sequence 476
+input sequence 477
+match
+rate 0.687631
+input sequence 478
+match
+rate 0.688285
+input sequence 479
+match
+rate 0.688935
+input sequence 480
+match
+rate 0.689583
+input sequence 481
+match
+rate 0.690229
+input sequence 482
+match
+rate 0.690871
+input sequence 483
+match
+rate 0.691511
+input sequence 484
+match
+rate 0.692149
+input sequence 485
+match
+rate 0.692784
+input sequence 486
+input sequence 487
+input sequence 488
+input sequence 489
+input sequence 490
+match
+rate 0.687755
+input sequence 491
+match
+rate 0.688391
+input sequence 492
+match
+rate 0.689024
+input sequence 493
+match
+rate 0.689655
+input sequence 494
+input sequence 495
+match
+rate 0.688889
+input sequence 496
+input sequence 497
+match
+rate 0.688129
+input sequence 498
+match
+rate 0.688755
+input sequence 499
+match
+rate 0.689379
+input sequence 500
+match
+rate 0.69
+input sequence 501
+match
+rate 0.690619
+input sequence 502
+match
+rate 0.691235
+input sequence 503
+input sequence 504
+match
+rate 0.690476
+input sequence 505
+match
+rate 0.691089
+input sequence 506
+input sequence 507
+match
+rate 0.690335
+input sequence 508
+match
+rate 0.690945
+input sequence 509
+input sequence 510
+input sequence 511
+match
+rate 0.688845
+input sequence 512
+match
+rate 0.689453
+input sequence 513
+input sequence 514
+match
+rate 0.688716
+input sequence 515
+input sequence 516
+input sequence 517
+match
+rate 0.686654
+input sequence 518
+match
+rate 0.687259
+input sequence 519
+match
+rate 0.687861
+input sequence 520
+match
+rate 0.688462
+input sequence 521
+match
+rate 0.689059
+input sequence 522
+match
+rate 0.689655
+input sequence 523
+match
+rate 0.690249
+input sequence 524
+match
+rate 0.69084
+input sequence 525
+input sequence 526
+match
+rate 0.690114
+input sequence 527
+match
+rate 0.690702
+input sequence 528
+input sequence 529
+match
+rate 0.689981
+input sequence 530
+match
+rate 0.690566
+input sequence 531
+match
+rate 0.691149
+input sequence 532
+match
+rate 0.691729
+input sequence 533
+input sequence 534
+match
+rate 0.691011
+input sequence 535
+match
+rate 0.691589
+input sequence 536
+input sequence 537
+input sequence 538
+match
+rate 0.689591
+input sequence 539
+match
+rate 0.690167
+input sequence 540
+match
+rate 0.690741
+input sequence 541
+match
+rate 0.691312
+input sequence 542
+match
+rate 0.691882
+input sequence 543
+input sequence 544
+input sequence 545
+match
+rate 0.689908
+input sequence 546
+match
+rate 0.690476
+input sequence 547
+match
+rate 0.691042
+input sequence 548
+match
+rate 0.691606
+input sequence 549
+input sequence 550
+match
+rate 0.690909
+input sequence 551
+input sequence 552
+match
+rate 0.690217
+input sequence 553
+match
+rate 0.690778
+input sequence 554
+input sequence 555
+match
+rate 0.69009
+input sequence 556
+match
+rate 0.690647
+input sequence 557
+match
+rate 0.691203
+input sequence 558
+match
+rate 0.691756
+input sequence 559
+match
+rate 0.692308
+input sequence 560
+input sequence 561
+input sequence 562
+match
+rate 0.690391
+input sequence 563
+match
+rate 0.690941
+input sequence 564
+match
+rate 0.691489
+input sequence 565
+input sequence 566
+match
+rate 0.690813
+input sequence 567
+match
+rate 0.691358
+input sequence 568
+input sequence 569
+input sequence 570
+match
+rate 0.689474
+input sequence 571
+input sequence 572
+input sequence 573
+match
+rate 0.687609
+input sequence 574
+match
+rate 0.688153
+input sequence 575
+input sequence 576
+input sequence 577
+match
+rate 0.686309
+input sequence 578
+input sequence 579
+match
+rate 0.685665
+input sequence 580
+match
+rate 0.686207
+input sequence 581
+match
+rate 0.686747
+input sequence 582
+match
+rate 0.687285
+input sequence 583
+match
+rate 0.687822
+input sequence 584
+input sequence 585
+input sequence 586
+match
+rate 0.686007
+input sequence 587
+match
+rate 0.686542
+input sequence 588
+match
+rate 0.687075
+input sequence 589
+input sequence 590
+input sequence 591
+match
+rate 0.685279
+input sequence 592
+match
+rate 0.685811
+input sequence 593
+match
+rate 0.686341
+input sequence 594
+input sequence 595
+match
+rate 0.685714
+input sequence 596
+match
+rate 0.686242
+input sequence 597
+match
+rate 0.686767
+input sequence 598
+match
+rate 0.687291
+input sequence 599
+match
+rate 0.687813
+input sequence 600
+match
+rate 0.688333
+input sequence 601
+match
+rate 0.688852
+input sequence 602
+match
+rate 0.689369
+input sequence 603
+match
+rate 0.689884
+input sequence 604
+match
+rate 0.690397
+input sequence 605
+input sequence 606
+input sequence 607
+input sequence 608
+match
+rate 0.6875
+input sequence 609
+match
+rate 0.688013
+input sequence 610
+input sequence 611
+match
+rate 0.687398
+input sequence 612
+match
+rate 0.687908
+input sequence 613
+match
+rate 0.688418
+input sequence 614
+match
+rate 0.688925
+input sequence 615
+match
+rate 0.689431
+input sequence 616
+input sequence 617
+match
+rate 0.688817
+input sequence 618
+match
+rate 0.68932
+input sequence 619
+match
+rate 0.689822
+input sequence 620
+input sequence 621
+input sequence 622
+input sequence 623
+match
+rate 0.686998
+input sequence 624
+match
+rate 0.6875
+input sequence 625
+match
+rate 0.688
+input sequence 626
+input sequence 627
+match
+rate 0.6874
+input sequence 628
+match
+rate 0.687898
+input sequence 629
+match
+rate 0.688394
+input sequence 630
+match
+rate 0.688889
+input sequence 631
+input sequence 632
+match
+rate 0.688291
+input sequence 633
+input sequence 634
+match
+rate 0.687697
+input sequence 635
+match
+rate 0.688189
+input sequence 636
+match
+rate 0.688679
+input sequence 637
+input sequence 638
+input sequence 639
+match
+rate 0.687011
+input sequence 640
+match
+rate 0.6875
+input sequence 641
+match
+rate 0.687988
+input sequence 642
+match
+rate 0.688474
+input sequence 643
+input sequence 644
+input sequence 645
+match
+rate 0.686822
+input sequence 646
+match
+rate 0.687307
+input sequence 647
+input sequence 648
+match
+rate 0.686728
+input sequence 649
+match
+rate 0.687211
+input sequence 650
+match
+rate 0.687692
+input sequence 651
+match
+rate 0.688172
+input sequence 652
+match
+rate 0.68865
+input sequence 653
+input sequence 654
+match
+rate 0.688073
+input sequence 655
+input sequence 656
+match
+rate 0.6875
+input sequence 657
+match
+rate 0.687976
+input sequence 658
+match
+rate 0.68845
+input sequence 659
+match
+rate 0.688923
+input sequence 660
+input sequence 661
+match
+rate 0.688351
+input sequence 662
+match
+rate 0.688822
+input sequence 663
+input sequence 664
+match
+rate 0.688253
+input sequence 665
+match
+rate 0.688722
+input sequence 666
+match
+rate 0.689189
+input sequence 667
+input sequence 668
+input sequence 669
+match
+rate 0.687593
+input sequence 670
+input sequence 671
+match
+rate 0.687034
+input sequence 672
+input sequence 673
+match
+rate 0.686478
+input sequence 674
+match
+rate 0.686944
+input sequence 675
+input sequence 676
+match
+rate 0.686391
+input sequence 677
+match
+rate 0.686854
+input sequence 678
+input sequence 679
+match
+rate 0.686303
+input sequence 680
+match
+rate 0.686765
+input sequence 681
+match
+rate 0.687225
+input sequence 682
+match
+rate 0.687683
+input sequence 683
+match
+rate 0.688141
+input sequence 684
+match
+rate 0.688596
+input sequence 685
+input sequence 686
+match
+rate 0.688047
+input sequence 687
+match
+rate 0.688501
+input sequence 688
+match
+rate 0.688953
+input sequence 689
+match
+rate 0.689405
+input sequence 690
+match
+rate 0.689855
+input sequence 691
+match
+rate 0.690304
+input sequence 692
+input sequence 693
+match
+rate 0.689755
+input sequence 694
+match
+rate 0.690202
+input sequence 695
+input sequence 696
+match
+rate 0.689655
+input sequence 697
+match
+rate 0.6901
+input sequence 698
+match
+rate 0.690544
+input sequence 699
+match
+rate 0.690987
+input sequence 700
+input sequence 701
+input sequence 702
+match
+rate 0.689459
+input sequence 703
+match
+rate 0.6899
+input sequence 704
+match
+rate 0.690341
+input sequence 705
+match
+rate 0.69078
+input sequence 706
+match
+rate 0.691218
+input sequence 707
+match
+rate 0.691655
+input sequence 708
+input sequence 709
+input sequence 710
+input sequence 711
+match
+rate 0.68917
+input sequence 712
+match
+rate 0.689607
+input sequence 713
+match
+rate 0.690042
+input sequence 714
+match
+rate 0.690476
+input sequence 715
+match
+rate 0.690909
+input sequence 716
+input sequence 717
+match
+rate 0.690377
+input sequence 718
+match
+rate 0.690808
+input sequence 719
+match
+rate 0.691238
+input sequence 720
+match
+rate 0.691667
+input sequence 721
+match
+rate 0.692094
+input sequence 722
+match
+rate 0.692521
+input sequence 723
+match
+rate 0.692946
+input sequence 724
+match
+rate 0.69337
+input sequence 725
+match
+rate 0.693793
+input sequence 726
+match
+rate 0.694215
+input sequence 727
+input sequence 728
+match
+rate 0.693681
+input sequence 729
+input sequence 730
+input sequence 731
+match
+rate 0.692202
+input sequence 732
+input sequence 733
+input sequence 734
+match
+rate 0.690736
+input sequence 735
+match
+rate 0.691156
+input sequence 736
+input sequence 737
+match
+rate 0.690638
+input sequence 738
+match
+rate 0.691057
+input sequence 739
+input sequence 740
+match
+rate 0.690541
+input sequence 741
+match
+rate 0.690958
+input sequence 742
+match
+rate 0.691375
+input sequence 743
+input sequence 744
+match
+rate 0.69086
+input sequence 745
+match
+rate 0.691275
+input sequence 746
+match
+rate 0.691689
+input sequence 747
+match
+rate 0.692102
+input sequence 748
+match
+rate 0.692513
+input sequence 749
+input sequence 750
+match
+rate 0.692
+input sequence 751
+match
+rate 0.69241
+input sequence 752
+match
+rate 0.692819
+input sequence 753
+input sequence 754
+match
+rate 0.692308
+input sequence 755
+match
+rate 0.692715
+input sequence 756
+input sequence 757
+match
+rate 0.692206
+input sequence 758
+input sequence 759
+match
+rate 0.6917
+input sequence 760
+match
+rate 0.692105
+input sequence 761
+input sequence 762
+input sequence 763
+match
+rate 0.690695
+input sequence 764
+input sequence 765
+match
+rate 0.690196
+input sequence 766
+match
+rate 0.690601
+input sequence 767
+match
+rate 0.691004
+input sequence 768
+match
+rate 0.691406
+input sequence 769
+match
+rate 0.691808
+input sequence 770
+input sequence 771
+match
+rate 0.69131
+input sequence 772
+match
+rate 0.69171
+input sequence 773
+match
+rate 0.692109
+input sequence 774
+input sequence 775
+input sequence 776
+input sequence 777
+match
+rate 0.689833
+input sequence 778
+input sequence 779
+input sequence 780
+match
+rate 0.688462
+input sequence 781
+match
+rate 0.68886
+input sequence 782
+match
+rate 0.689258
+input sequence 783
+match
+rate 0.689655
+input sequence 784
+match
+rate 0.690051
+input sequence 785
+match
+rate 0.690446
+input sequence 786
+input sequence 787
+match
+rate 0.689962
+input sequence 788
+match
+rate 0.690355
+input sequence 789
+input sequence 790
+match
+rate 0.689873
+input sequence 791
+match
+rate 0.690265
+input sequence 792
+match
+rate 0.690657
+input sequence 793
+input sequence 794
+match
+rate 0.690176
+input sequence 795
+match
+rate 0.690566
+input sequence 796
+match
+rate 0.690955
+input sequence 797
+input sequence 798
+match
+rate 0.690476
+input sequence 799
+match
+rate 0.690864
+input sequence 800
+input sequence 801
+match
+rate 0.690387
+input sequence 802
+match
+rate 0.690773
+input sequence 803
+input sequence 804
+match
+rate 0.690298
+input sequence 805
+match
+rate 0.690683
+input sequence 806
+match
+rate 0.691067
+input sequence 807
+input sequence 808
+match
+rate 0.690594
+input sequence 809
+match
+rate 0.690977
+input sequence 810
+match
+rate 0.691358
+input sequence 811
+match
+rate 0.691739
+input sequence 812
+input sequence 813
+match
+rate 0.691267
+input sequence 814
+match
+rate 0.691646
+input sequence 815
+match
+rate 0.692025
+input sequence 816
+match
+rate 0.692402
+input sequence 817
+input sequence 818
+match
+rate 0.691932
+input sequence 819
+match
+rate 0.692308
+input sequence 820
+input sequence 821
+match
+rate 0.691839
+input sequence 822
+match
+rate 0.692214
+input sequence 823
+match
+rate 0.692588
+input sequence 824
+match
+rate 0.692961
+input sequence 825
+input sequence 826
+match
+rate 0.692494
+input sequence 827
+match
+rate 0.692866
+input sequence 828
+match
+rate 0.693237
+input sequence 829
+match
+rate 0.693607
+input sequence 830
+match
+rate 0.693976
+input sequence 831
+match
+rate 0.694344
+input sequence 832
+match
+rate 0.694712
+input sequence 833
+match
+rate 0.695078
+input sequence 834
+match
+rate 0.695444
+input sequence 835
+match
+rate 0.695808
+input sequence 836
+match
+rate 0.696172
+input sequence 837
+match
+rate 0.696535
+input sequence 838
+match
+rate 0.696897
+input sequence 839
+input sequence 840
+match
+rate 0.696429
+input sequence 841
+match
+rate 0.69679
+input sequence 842
+match
+rate 0.69715
+input sequence 843
+match
+rate 0.697509
+input sequence 844
+input sequence 845
+input sequence 846
+input sequence 847
+match
+rate 0.695396
+input sequence 848
+input sequence 849
+match
+rate 0.694935
+input sequence 850
+match
+rate 0.695294
+input sequence 851
+input sequence 852
+match
+rate 0.694836
+input sequence 853
+match
+rate 0.695193
+input sequence 854
+match
+rate 0.69555
+input sequence 855
+input sequence 856
+input sequence 857
+match
+rate 0.694282
+input sequence 858
+input sequence 859
+input sequence 860
+match
+rate 0.693023
+input sequence 861
+match
+rate 0.69338
+input sequence 862
+match
+rate 0.693735
+input sequence 863
+match
+rate 0.69409
+input sequence 864
+input sequence 865
+match
+rate 0.693642
+input sequence 866
+input sequence 867
+match
+rate 0.693195
+input sequence 868
+input sequence 869
+input sequence 870
+match
+rate 0.691954
+input sequence 871
+input sequence 872
+match
+rate 0.691514
+input sequence 873
+match
+rate 0.691867
+input sequence 874
+match
+rate 0.69222
+input sequence 875
+input sequence 876
+input sequence 877
+match
+rate 0.690992
+input sequence 878
+input sequence 879
+match
+rate 0.690557
+input sequence 880
+match
+rate 0.690909
+input sequence 881
+input sequence 882
+match
+rate 0.690476
+input sequence 883
+match
+rate 0.690827
+input sequence 884
+match
+rate 0.691176
+input sequence 885
+match
+rate 0.691525
+input sequence 886
+match
+rate 0.691874
+input sequence 887
+match
+rate 0.692221
+input sequence 888
+match
+rate 0.692568
+input sequence 889
+input sequence 890
+match
+rate 0.692135
+input sequence 891
+match
+rate 0.69248
+input sequence 892
+input sequence 893
+input sequence 894
+input sequence 895
+match
+rate 0.690503
+input sequence 896
+match
+rate 0.690848
+input sequence 897
+match
+rate 0.691193
+input sequence 898
+input sequence 899
+match
+rate 0.690768
+input sequence 900
+match
+rate 0.691111
+input sequence 901
+match
+rate 0.691454
+input sequence 902
+input sequence 903
+match
+rate 0.69103
+input sequence 904
+match
+rate 0.691372
+input sequence 905
+match
+rate 0.691713
+input sequence 906
+match
+rate 0.692053
+input sequence 907
+input sequence 908
+match
+rate 0.69163
+input sequence 909
+match
+rate 0.691969
+input sequence 910
+input sequence 911
+match
+rate 0.691548
+input sequence 912
+input sequence 913
+match
+rate 0.691128
+input sequence 914
+match
+rate 0.691466
+input sequence 915
+input sequence 916
+input sequence 917
+match
+rate 0.690294
+input sequence 918
+match
+rate 0.690632
+input sequence 919
+match
+rate 0.690968
+input sequence 920
+match
+rate 0.691304
+input sequence 921
+match
+rate 0.69164
+input sequence 922
+match
+rate 0.691974
+input sequence 923
+match
+rate 0.692308
+input sequence 924
+match
+rate 0.692641
+input sequence 925
+match
+rate 0.692973
+input sequence 926
+match
+rate 0.693305
+input sequence 927
+input sequence 928
+match
+rate 0.692888
+input sequence 929
+input sequence 930
+match
+rate 0.692473
+input sequence 931
+input sequence 932
+input sequence 933
+match
+rate 0.691318
+input sequence 934
+match
+rate 0.691649
+input sequence 935
+match
+rate 0.691979
+input sequence 936
+input sequence 937
+input sequence 938
+input sequence 939
+match
+rate 0.690096
+input sequence 940
+match
+rate 0.690426
+input sequence 941
+match
+rate 0.690755
+input sequence 942
+match
+rate 0.691083
+input sequence 943
+input sequence 944
+match
+rate 0.690678
+input sequence 945
+input sequence 946
+match
+rate 0.690275
+input sequence 947
+input sequence 948
+input sequence 949
+match
+rate 0.689146
+input sequence 950
+match
+rate 0.689474
+input sequence 951
+match
+rate 0.6898
+input sequence 952
+match
+rate 0.690126
+input sequence 953
+input sequence 954
+match
+rate 0.689727
+input sequence 955
+input sequence 956
+match
+rate 0.689331
+input sequence 957
+input sequence 958
+match
+rate 0.688935
+input sequence 959
+input sequence 960
+match
+rate 0.688542
+input sequence 961
+match
+rate 0.688866
+input sequence 962
+match
+rate 0.689189
+input sequence 963
+match
+rate 0.689512
+input sequence 964
+input sequence 965
+match
+rate 0.689119
+input sequence 966
+input sequence 967
+input sequence 968
+match
+rate 0.688017
+input sequence 969
+match
+rate 0.688339
+input sequence 970
+match
+rate 0.68866
+input sequence 971
+match
+rate 0.68898
+input sequence 972
+match
+rate 0.6893
+input sequence 973
+input sequence 974
+match
+rate 0.688912
+input sequence 975
+match
+rate 0.689231
+input sequence 976
+input sequence 977
+input sequence 978
+match
+rate 0.688139
+input sequence 979
+input sequence 980
+input sequence 981
+match
+rate 0.687054
+input sequence 982
+match
+rate 0.687373
+input sequence 983
+match
+rate 0.687691
+input sequence 984
+match
+rate 0.688008
+input sequence 985
+input sequence 986
+match
+rate 0.687627
+input sequence 987
+input sequence 988
+match
+rate 0.687247
+input sequence 989
+match
+rate 0.687563
+input sequence 990
+input sequence 991
+match
+rate 0.687185
+input sequence 992
+input sequence 993
+match
+rate 0.686808
+input sequence 994
+match
+rate 0.687123
+input sequence 995
+input sequence 996
+input sequence 997
+match
+rate 0.686058
+input sequence 998
+match
+rate 0.686373
+input sequence 999
+match
+rate 0.686687
+input sequence 1000
+match
+rate 0.687
+input sequence 1001
+input sequence 1002
+match
+rate 0.686627
+input sequence 1003
+input sequence 1004
+input sequence 1005
+match
+rate 0.685572
+input sequence 1006
+match
+rate 0.685885
+input sequence 1007
+match
+rate 0.686197
+input sequence 1008
+match
+rate 0.686508
+input sequence 1009
+input sequence 1010
+match
+rate 0.686139
+input sequence 1011
+match
+rate 0.686449
+input sequence 1012
+match
+rate 0.686759
+input sequence 1013
+match
+rate 0.687068
+input sequence 1014
+match
+rate 0.687377
+input sequence 1015
+match
+rate 0.687685
+input sequence 1016
+match
+rate 0.687992
+input sequence 1017
+match
+rate 0.688299
+input sequence 1018
+match
+rate 0.688605
+input sequence 1019
+match
+rate 0.688911
+input sequence 1020
+input sequence 1021
+match
+rate 0.688541
+input sequence 1022
+match
+rate 0.688845
+input sequence 1023
+match
+rate 0.68915
+input sequence 1024
+match
+rate 0.689453
+input sequence 1025
+match
+rate 0.689756
+input sequence 1026
+match
+rate 0.690058
+input sequence 1027
+match
+rate 0.69036
+input sequence 1028
+match
+rate 0.690661
+input sequence 1029
+match
+rate 0.690962
+input sequence 1030
+input sequence 1031
+match
+rate 0.690592
+input sequence 1032
+match
+rate 0.690891
+input sequence 1033
+match
+rate 0.691191
+input sequence 1034
+match
+rate 0.691489
+input sequence 1035
+match
+rate 0.691787
+input sequence 1036
+match
+rate 0.692085
+input sequence 1037
+input sequence 1038
+match
+rate 0.691715
+input sequence 1039
+match
+rate 0.692012
+input sequence 1040
+match
+rate 0.692308
+input sequence 1041
+match
+rate 0.692603
+input sequence 1042
+match
+rate 0.692898
+input sequence 1043
+match
+rate 0.693193
+input sequence 1044
+match
+rate 0.693487
+input sequence 1045
+match
+rate 0.69378
+input sequence 1046
+match
+rate 0.694073
+input sequence 1047
+match
+rate 0.694365
+input sequence 1048
+input sequence 1049
+input sequence 1050
+match
+rate 0.693333
+input sequence 1051
+match
+rate 0.693625
+input sequence 1052
+match
+rate 0.693916
+input sequence 1053
+match
+rate 0.694207
+input sequence 1054
+match
+rate 0.694497
+input sequence 1055
+input sequence 1056
+match
+rate 0.694129
+input sequence 1057
+match
+rate 0.694418
+input sequence 1058
+input sequence 1059
+match
+rate 0.694051
+input sequence 1060
+match
+rate 0.69434
+input sequence 1061
+match
+rate 0.694628
+input sequence 1062
+match
+rate 0.694915
+input sequence 1063
+input sequence 1064
+match
+rate 0.694549
+input sequence 1065
+input sequence 1066
+match
+rate 0.694184
+input sequence 1067
+match
+rate 0.69447
+input sequence 1068
+match
+rate 0.694757
+input sequence 1069
+input sequence 1070
+match
+rate 0.694393
+input sequence 1071
+input sequence 1072
+match
+rate 0.69403
+input sequence 1073
+match
+rate 0.694315
+input sequence 1074
+match
+rate 0.6946
+input sequence 1075
+match
+rate 0.694884
+input sequence 1076
+match
+rate 0.695167
+input sequence 1077
+input sequence 1078
+input sequence 1079
+match
+rate 0.694161
+input sequence 1080
+match
+rate 0.694444
+input sequence 1081
+match
+rate 0.694727
+input sequence 1082
+match
+rate 0.695009
+input sequence 1083
+match
+rate 0.695291
+input sequence 1084
+match
+rate 0.695572
+input sequence 1085
+match
+rate 0.695853
+input sequence 1086
+input sequence 1087
+match
+rate 0.695492
+input sequence 1088
+match
+rate 0.695772
+input sequence 1089
+match
+rate 0.696051
+input sequence 1090
+match
+rate 0.69633
+input sequence 1091
+match
+rate 0.696609
+input sequence 1092
+match
+rate 0.696886
+input sequence 1093
+input sequence 1094
+input sequence 1095
+match
+rate 0.69589
+input sequence 1096
+input sequence 1097
+input sequence 1098
+match
+rate 0.6949
+input sequence 1099
+match
+rate 0.695177
+input sequence 1100
+match
+rate 0.695455
+input sequence 1101
+match
+rate 0.695731
+input sequence 1102
+match
+rate 0.696007
+input sequence 1103
+match
+rate 0.696283
+input sequence 1104
+match
+rate 0.696558
+input sequence 1105
+input sequence 1106
+match
+rate 0.696203
+input sequence 1107
+input sequence 1108
+input sequence 1109
+match
+rate 0.695221
+input sequence 1110
+match
+rate 0.695495
+input sequence 1111
+match
+rate 0.69577
+input sequence 1112
+match
+rate 0.696043
+input sequence 1113
+input sequence 1114
+match
+rate 0.695691
+input sequence 1115
+match
+rate 0.695964
+input sequence 1116
+match
+rate 0.696237
+input sequence 1117
+match
+rate 0.696509
+input sequence 1118
+input sequence 1119
+match
+rate 0.696157
+input sequence 1120
+match
+rate 0.696429
+input sequence 1121
+match
+rate 0.696699
+input sequence 1122
+match
+rate 0.69697
+input sequence 1123
+input sequence 1124
+match
+rate 0.696619
+input sequence 1125
+match
+rate 0.696889
+input sequence 1126
+match
+rate 0.697158
+input sequence 1127
+match
+rate 0.697427
+input sequence 1128
+input sequence 1129
+match
+rate 0.697077
+input sequence 1130
+match
+rate 0.697345
+input sequence 1131
+match
+rate 0.697613
+input sequence 1132
+input sequence 1133
+match
+rate 0.697264
+input sequence 1134
+match
+rate 0.697531
+input sequence 1135
+match
+rate 0.697797
+input sequence 1136
+input sequence 1137
+match
+rate 0.697449
+input sequence 1138
+match
+rate 0.697715
+input sequence 1139
+match
+rate 0.697981
+input sequence 1140
+match
+rate 0.698246
+input sequence 1141
+match
+rate 0.69851
+input sequence 1142
+input sequence 1143
+match
+rate 0.698163
+input sequence 1144
+match
+rate 0.698427
+input sequence 1145
+match
+rate 0.69869
+input sequence 1146
+match
+rate 0.698953
+input sequence 1147
+match
+rate 0.699215
+input sequence 1148
+input sequence 1149
+match
+rate 0.698869
+input sequence 1150
+match
+rate 0.69913
+input sequence 1151
+match
+rate 0.699392
+input sequence 1152
+match
+rate 0.699653
+input sequence 1153
+match
+rate 0.699913
+input sequence 1154
+match
+rate 0.700173
+input sequence 1155
+match
+rate 0.700433
+input sequence 1156
+input sequence 1157
+match
+rate 0.700086
+input sequence 1158
+match
+rate 0.700345
+input sequence 1159
+match
+rate 0.700604
+input sequence 1160
+match
+rate 0.700862
+input sequence 1161
+match
+rate 0.70112
+input sequence 1162
+match
+rate 0.701377
+input sequence 1163
+match
+rate 0.701634
+input sequence 1164
+match
+rate 0.70189
+input sequence 1165
+match
+rate 0.702146
+input sequence 1166
+match
+rate 0.702401
+input sequence 1167
+match
+rate 0.702656
+input sequence 1168
+match
+rate 0.702911
+input sequence 1169
+match
+rate 0.703165
+input sequence 1170
+input sequence 1171
+match
+rate 0.702818
+input sequence 1172
+input sequence 1173
+match
+rate 0.702472
+input sequence 1174
+input sequence 1175
+match
+rate 0.702128
+input sequence 1176
+match
+rate 0.702381
+input sequence 1177
+match
+rate 0.702634
+input sequence 1178
+match
+rate 0.702886
+input sequence 1179
+match
+rate 0.703138
+input sequence 1180
+match
+rate 0.70339
+input sequence 1181
+match
+rate 0.703641
+input sequence 1182
+match
+rate 0.703892
+input sequence 1183
+match
+rate 0.704142
+input sequence 1184
+match
+rate 0.704392
+input sequence 1185
+match
+rate 0.704641
+input sequence 1186
+match
+rate 0.70489
+input sequence 1187
+match
+rate 0.705139
+input sequence 1188
+match
+rate 0.705387
+input sequence 1189
+input sequence 1190
+match
+rate 0.705042
+input sequence 1191
+match
+rate 0.70529
+input sequence 1192
+input sequence 1193
+match
+rate 0.704946
+input sequence 1194
+match
+rate 0.705193
+input sequence 1195
+input sequence 1196
+match
+rate 0.704849
+input sequence 1197
+input sequence 1198
+match
+rate 0.704508
+input sequence 1199
+match
+rate 0.704754
+input sequence 1200
+input sequence 1201
+match
+rate 0.704413
+input sequence 1202
+input sequence 1203
+match
+rate 0.704073
+input sequence 1204
+match
+rate 0.704319
+input sequence 1205
+match
+rate 0.704564
+input sequence 1206
+match
+rate 0.704809
+input sequence 1207
+match
+rate 0.705054
+input sequence 1208
+input sequence 1209
+match
+rate 0.704715
+input sequence 1210
+match
+rate 0.704959
+input sequence 1211
+match
+rate 0.705202
+input sequence 1212
+match
+rate 0.705446
+input sequence 1213
+match
+rate 0.705688
+input sequence 1214
+match
+rate 0.705931
+input sequence 1215
+match
+rate 0.706173
+input sequence 1216
+match
+rate 0.706414
+input sequence 1217
+match
+rate 0.706656
+input sequence 1218
+input sequence 1219
+match
+rate 0.706317
+input sequence 1220
+match
+rate 0.706557
+input sequence 1221
+match
+rate 0.706798
+input sequence 1222
+match
+rate 0.707038
+input sequence 1223
+match
+rate 0.707277
+input sequence 1224
+input sequence 1225
+match
+rate 0.706939
+input sequence 1226
+match
+rate 0.707178
+input sequence 1227
+match
+rate 0.707416
+input sequence 1228
+match
+rate 0.707655
+input sequence 1229
+match
+rate 0.707893
+input sequence 1230
+match
+rate 0.70813
+input sequence 1231
+input sequence 1232
+match
+rate 0.707792
+input sequence 1233
+match
+rate 0.708029
+input sequence 1234
+match
+rate 0.708266
+input sequence 1235
+input sequence 1236
+match
+rate 0.707929
+input sequence 1237
+match
+rate 0.708165
+input sequence 1238
+match
+rate 0.708401
+input sequence 1239
+input sequence 1240
+input sequence 1241
+input sequence 1242
+input sequence 1243
+match
+rate 0.706356
+input sequence 1244
+match
+rate 0.706592
+input sequence 1245
+match
+rate 0.706827
+input sequence 1246
+match
+rate 0.707063
+input sequence 1247
+match
+rate 0.707298
+input sequence 1248
+match
+rate 0.707532
+input sequence 1249
+match
+rate 0.707766
+input sequence 1250
+match
+rate 0.708
+input sequence 1251
+match
+rate 0.708233
+input sequence 1252
+match
+rate 0.708466
+input sequence 1253
+match
+rate 0.708699
+input sequence 1254
+match
+rate 0.708931
+input sequence 1255
+input sequence 1256
+match
+rate 0.708599
+input sequence 1257
+match
+rate 0.708831
+input sequence 1258
+input sequence 1259
+match
+rate 0.708499
+input sequence 1260
+input sequence 1261
+match
+rate 0.708168
+input sequence 1262
+match
+rate 0.708399
+input sequence 1263
+match
+rate 0.70863
+input sequence 1264
+match
+rate 0.708861
+input sequence 1265
+match
+rate 0.709091
+input sequence 1266
+input sequence 1267
+match
+rate 0.708761
+input sequence 1268
+match
+rate 0.708991
+input sequence 1269
+match
+rate 0.70922
+input sequence 1270
+match
+rate 0.709449
+input sequence 1271
+match
+rate 0.709677
+input sequence 1272
+match
+rate 0.709906
+input sequence 1273
+input sequence 1274
+match
+rate 0.709576
+input sequence 1275
+match
+rate 0.709804
+input sequence 1276
+match
+rate 0.710031
+input sequence 1277
+input sequence 1278
+match
+rate 0.709703
+input sequence 1279
+match
+rate 0.70993
+input sequence 1280
+input sequence 1281
+match
+rate 0.709602
+input sequence 1282
+match
+rate 0.709828
+input sequence 1283
+match
+rate 0.710055
+input sequence 1284
+match
+rate 0.71028
+input sequence 1285
+match
+rate 0.710506
+input sequence 1286
+match
+rate 0.710731
+input sequence 1287
+match
+rate 0.710956
+input sequence 1288
+match
+rate 0.71118
+input sequence 1289
+match
+rate 0.711404
+input sequence 1290
+match
+rate 0.711628
+input sequence 1291
+match
+rate 0.711851
+input sequence 1292
+input sequence 1293
+match
+rate 0.711524
+input sequence 1294
+match
+rate 0.711747
+input sequence 1295
+input sequence 1296
+match
+rate 0.71142
+input sequence 1297
+input sequence 1298
+input sequence 1299
+match
+rate 0.710547
+input sequence 1300
+match
+rate 0.710769
+input sequence 1301
+match
+rate 0.710992
+input sequence 1302
+input sequence 1303
+match
+rate 0.710668
+input sequence 1304
+input sequence 1305
+match
+rate 0.710345
+input sequence 1306
+match
+rate 0.710567
+input sequence 1307
+match
+rate 0.710788
+input sequence 1308
+input sequence 1309
+match
+rate 0.710466
+input sequence 1310
+match
+rate 0.710687
+input sequence 1311
+match
+rate 0.710908
+input sequence 1312
+match
+rate 0.711128
+input sequence 1313
+match
+rate 0.711348
+input sequence 1314
+input sequence 1315
+match
+rate 0.711027
+input sequence 1316
+input sequence 1317
+match
+rate 0.710706
+input sequence 1318
+match
+rate 0.710926
+input sequence 1319
+match
+rate 0.711145
+input sequence 1320
+input sequence 1321
+match
+rate 0.710825
+input sequence 1322
+input sequence 1323
+input sequence 1324
+match
+rate 0.70997
+input sequence 1325
+match
+rate 0.710189
+input sequence 1326
+input sequence 1327
+match
+rate 0.709872
+input sequence 1328
+match
+rate 0.71009
+input sequence 1329
+match
+rate 0.710308
+input sequence 1330
+match
+rate 0.710526
+input sequence 1331
+match
+rate 0.710744
+input sequence 1332
+match
+rate 0.710961
+input sequence 1333
+match
+rate 0.711178
+input sequence 1334
+match
+rate 0.711394
+input sequence 1335
+input sequence 1336
+match
+rate 0.711078
+input sequence 1337
+input sequence 1338
+match
+rate 0.710762
+input sequence 1339
+match
+rate 0.710978
+input sequence 1340
+input sequence 1341
+match
+rate 0.710664
+input sequence 1342
+match
+rate 0.710879
+input sequence 1343
+match
+rate 0.711095
+input sequence 1344
+match
+rate 0.71131
+input sequence 1345
+input sequence 1346
+match
+rate 0.710996
+input sequence 1347
+input sequence 1348
+match
+rate 0.710683
+input sequence 1349
+match
+rate 0.710897
+input sequence 1350
+match
+rate 0.711111
+input sequence 1351
+input sequence 1352
+match
+rate 0.710799
+input sequence 1353
+match
+rate 0.711013
+input sequence 1354
+input sequence 1355
+match
+rate 0.710701
+input sequence 1356
+match
+rate 0.710914
+input sequence 1357
+match
+rate 0.711127
+input sequence 1358
+match
+rate 0.71134
+input sequence 1359
+match
+rate 0.711553
+input sequence 1360
+input sequence 1361
+match
+rate 0.711242
+input sequence 1362
+input sequence 1363
+match
+rate 0.710932
+input sequence 1364
+input sequence 1365
+input sequence 1366
+match
+rate 0.710102
+input sequence 1367
+input sequence 1368
+match
+rate 0.709795
+input sequence 1369
+input sequence 1370
+input sequence 1371
+match
+rate 0.708972
+input sequence 1372
+match
+rate 0.709184
+input sequence 1373
+match
+rate 0.709395
+input sequence 1374
+match
+rate 0.709607
+input sequence 1375
+match
+rate 0.709818
+input sequence 1376
+input sequence 1377
+input sequence 1378
+match
+rate 0.708999
+input sequence 1379
+match
+rate 0.70921
+input sequence 1380
+input sequence 1381
+input sequence 1382
+input sequence 1383
+match
+rate 0.707881
+input sequence 1384
+match
+rate 0.708093
+input sequence 1385
+input sequence 1386
+input sequence 1387
+match
+rate 0.707282
+input sequence 1388
+match
+rate 0.707493
+input sequence 1389
+match
+rate 0.707703
+input sequence 1390
+match
+rate 0.707914
+input sequence 1391
+input sequence 1392
+match
+rate 0.707615
+input sequence 1393
+match
+rate 0.707825
+input sequence 1394
+match
+rate 0.708034
+input sequence 1395
+input sequence 1396
+match
+rate 0.707736
+input sequence 1397
+match
+rate 0.707946
+input sequence 1398
+match
+rate 0.708154
+input sequence 1399
+match
+rate 0.708363
+input sequence 1400
+match
+rate 0.708571
+input sequence 1401
+match
+rate 0.708779
+input sequence 1402
+match
+rate 0.708987
+input sequence 1403
+match
+rate 0.709195
+input sequence 1404
+match
+rate 0.709402
+input sequence 1405
+input sequence 1406
+match
+rate 0.709104
+input sequence 1407
+match
+rate 0.709311
+input sequence 1408
+match
+rate 0.709517
+input sequence 1409
+input sequence 1410
+match
+rate 0.70922
+input sequence 1411
+match
+rate 0.709426
+input sequence 1412
+match
+rate 0.709632
+input sequence 1413
+match
+rate 0.709837
+input sequence 1414
+input sequence 1415
+match
+rate 0.709541
+input sequence 1416
+match
+rate 0.709746
+input sequence 1417
+match
+rate 0.709951
+input sequence 1418
+match
+rate 0.710155
+input sequence 1419
+match
+rate 0.710359
+input sequence 1420
+match
+rate 0.710563
+input sequence 1421
+input sequence 1422
+match
+rate 0.710267
+input sequence 1423
+match
+rate 0.710471
+input sequence 1424
+match
+rate 0.710674
+input sequence 1425
+input sequence 1426
+match
+rate 0.710379
+input sequence 1427
+input sequence 1428
+match
+rate 0.710084
+input sequence 1429
+match
+rate 0.710287
+input sequence 1430
+match
+rate 0.71049
+input sequence 1431
+match
+rate 0.710692
+input sequence 1432
+match
+rate 0.710894
+input sequence 1433
+match
+rate 0.711096
+input sequence 1434
+match
+rate 0.711297
+input sequence 1435
+match
+rate 0.711498
+input sequence 1436
+match
+rate 0.711699
+input sequence 1437
+match
+rate 0.7119
+input sequence 1438
+input sequence 1439
+match
+rate 0.711605
+input sequence 1440
+input sequence 1441
+input sequence 1442
+input sequence 1443
+match
+rate 0.710326
+input sequence 1444
+match
+rate 0.710526
+input sequence 1445
+match
+rate 0.710727
+input sequence 1446
+match
+rate 0.710927
+input sequence 1447
+match
+rate 0.711126
+input sequence 1448
+match
+rate 0.711326
+input sequence 1449
+match
+rate 0.711525
+input sequence 1450
+match
+rate 0.711724
+input sequence 1451
+match
+rate 0.711923
+input sequence 1452
+input sequence 1453
+input sequence 1454
+match
+rate 0.711142
+input sequence 1455
+match
+rate 0.71134
+input sequence 1456
+match
+rate 0.711538
+input sequence 1457
+input sequence 1458
+match
+rate 0.711248
+input sequence 1459
+match
+rate 0.711446
+input sequence 1460
+match
+rate 0.711644
+input sequence 1461
+match
+rate 0.711841
+input sequence 1462
+input sequence 1463
+input sequence 1464
+match
+rate 0.711066
+input sequence 1465
+match
+rate 0.711263
+input sequence 1466
+input sequence 1467
+match
+rate 0.710975
+input sequence 1468
+match
+rate 0.711172
+input sequence 1469
+input sequence 1470
+match
+rate 0.710884
+input sequence 1471
+match
+rate 0.711081
+input sequence 1472
+input sequence 1473
+input sequence 1474
+match
+rate 0.710312
+input sequence 1475
+match
+rate 0.710508
+input sequence 1476
+match
+rate 0.710705
+input sequence 1477
+input sequence 1478
+match
+rate 0.710419
+input sequence 1479
+match
+rate 0.710615
+input sequence 1480
+match
+rate 0.710811
+input sequence 1481
+match
+rate 0.711006
+input sequence 1482
+input sequence 1483
+match
+rate 0.710721
+input sequence 1484
+match
+rate 0.710916
+input sequence 1485
+match
+rate 0.711111
+input sequence 1486
+match
+rate 0.711305
+input sequence 1487
+match
+rate 0.7115
+input sequence 1488
+match
+rate 0.711694
+input sequence 1489
+match
+rate 0.711887
+input sequence 1490
+match
+rate 0.712081
+input sequence 1491
+match
+rate 0.712274
+input sequence 1492
+match
+rate 0.712466
+input sequence 1493
+match
+rate 0.712659
+input sequence 1494
+match
+rate 0.712851
+input sequence 1495
+match
+rate 0.713043
+input sequence 1496
+match
+rate 0.713235
+input sequence 1497
+input sequence 1498
+input sequence 1499
+match
+rate 0.712475
+input sequence 1500
+input sequence 1501
+match
+rate 0.712192
+input sequence 1502
+match
+rate 0.712384
+input sequence 1503
+input sequence 1504
+match
+rate 0.712101
+input sequence 1505
+match
+rate 0.712292
+input sequence 1506
+match
+rate 0.712483
+input sequence 1507
+match
+rate 0.712674
+input sequence 1508
+match
+rate 0.712865
+input sequence 1509
+input sequence 1510
+input sequence 1511
+match
+rate 0.712111
+input sequence 1512
+input sequence 1513
+match
+rate 0.711831
+input sequence 1514
+match
+rate 0.712021
+input sequence 1515
+match
+rate 0.712211
+input sequence 1516
+match
+rate 0.712401
+input sequence 1517
+match
+rate 0.712591
+input sequence 1518
+input sequence 1519
+match
+rate 0.712311
+input sequence 1520
+match
+rate 0.7125
+input sequence 1521
+match
+rate 0.712689
+input sequence 1522
+match
+rate 0.712878
+input sequence 1523
+match
+rate 0.713066
+input sequence 1524
+match
+rate 0.713255
+input sequence 1525
+input sequence 1526
+match
+rate 0.712975
+input sequence 1527
+match
+rate 0.713163
+input sequence 1528
+input sequence 1529
+input sequence 1530
+match
+rate 0.712418
+input sequence 1531
+match
+rate 0.712606
+input sequence 1532
+input sequence 1533
+match
+rate 0.712329
+input sequence 1534
+match
+rate 0.712516
+input sequence 1535
+input sequence 1536
+input sequence 1537
+match
+rate 0.711776
+input sequence 1538
+match
+rate 0.711964
+input sequence 1539
+match
+rate 0.712151
+input sequence 1540
+match
+rate 0.712338
+input sequence 1541
+match
+rate 0.712524
+input sequence 1542
+input sequence 1543
+match
+rate 0.712249
+input sequence 1544
+match
+rate 0.712435
+input sequence 1545
+input sequence 1546
+match
+rate 0.71216
+input sequence 1547
+match
+rate 0.712346
+input sequence 1548
+input sequence 1549
+match
+rate 0.712072
+input sequence 1550
+match
+rate 0.712258
+input sequence 1551
+input sequence 1552
+match
+rate 0.711985
+input sequence 1553
+match
+rate 0.71217
+input sequence 1554
+input sequence 1555
+input sequence 1556
+input sequence 1557
+match
+rate 0.710983
+input sequence 1558
+match
+rate 0.711168
+input sequence 1559
+match
+rate 0.711353
+input sequence 1560
+input sequence 1561
+match
+rate 0.711083
+input sequence 1562
+input sequence 1563
+input sequence 1564
+match
+rate 0.710358
+input sequence 1565
+match
+rate 0.710543
+input sequence 1566
+match
+rate 0.710728
+input sequence 1567
+match
+rate 0.710913
+input sequence 1568
+match
+rate 0.711097
+input sequence 1569
+match
+rate 0.711281
+input sequence 1570
+match
+rate 0.711465
+input sequence 1571
+input sequence 1572
+input sequence 1573
+input sequence 1574
+input sequence 1575
+match
+rate 0.709841
+input sequence 1576
+match
+rate 0.710025
+input sequence 1577
+match
+rate 0.710209
+input sequence 1578
+match
+rate 0.710393
+input sequence 1579
+match
+rate 0.710576
+input sequence 1580
+match
+rate 0.71076
+input sequence 1581
+match
+rate 0.710942
+input sequence 1582
+match
+rate 0.711125
+input sequence 1583
+match
+rate 0.711308
+input sequence 1584
+match
+rate 0.71149
+input sequence 1585
+input sequence 1586
+input sequence 1587
+match
+rate 0.710775
+input sequence 1588
+match
+rate 0.710957
+input sequence 1589
+match
+rate 0.711139
+input sequence 1590
+match
+rate 0.711321
+input sequence 1591
+match
+rate 0.711502
+input sequence 1592
+match
+rate 0.711683
+input sequence 1593
+match
+rate 0.711864
+input sequence 1594
+match
+rate 0.712045
+input sequence 1595
+match
+rate 0.712226
+input sequence 1596
+match
+rate 0.712406
+input sequence 1597
+match
+rate 0.712586
+input sequence 1598
+match
+rate 0.712766
+input sequence 1599
+match
+rate 0.712946
+input sequence 1600
+match
+rate 0.713125
+input sequence 1601
+input sequence 1602
+input sequence 1603
+match
+rate 0.712414
+input sequence 1604
+match
+rate 0.712593
+input sequence 1605
+input sequence 1606
+input sequence 1607
+match
+rate 0.711886
+input sequence 1608
+match
+rate 0.712065
+input sequence 1609
+input sequence 1610
+input sequence 1611
+match
+rate 0.711359
+input sequence 1612
+match
+rate 0.711538
+input sequence 1613
+match
+rate 0.711717
+input sequence 1614
+match
+rate 0.711896
+input sequence 1615
+input sequence 1616
+input sequence 1617
+input sequence 1618
+match
+rate 0.710754
+input sequence 1619
+match
+rate 0.710933
+input sequence 1620
+match
+rate 0.711111
+input sequence 1621
+match
+rate 0.711289
+input sequence 1622
+match
+rate 0.711467
+input sequence 1623
+match
+rate 0.711645
+input sequence 1624
+match
+rate 0.711823
+input sequence 1625
+match
+rate 0.712
+input sequence 1626
+match
+rate 0.712177
+input sequence 1627
+input sequence 1628
+input sequence 1629
+input sequence 1630
+input sequence 1631
+match
+rate 0.710607
+input sequence 1632
+match
+rate 0.710784
+input sequence 1633
+match
+rate 0.710961
+input sequence 1634
+match
+rate 0.711138
+input sequence 1635
+match
+rate 0.711315
+input sequence 1636
+match
+rate 0.711491
+input sequence 1637
+input sequence 1638
+match
+rate 0.711233
+input sequence 1639
+match
+rate 0.711409
+input sequence 1640
+match
+rate 0.711585
+input sequence 1641
+match
+rate 0.711761
+input sequence 1642
+match
+rate 0.711937
+input sequence 1643
+match
+rate 0.712112
+input sequence 1644
+match
+rate 0.712287
+input sequence 1645
+match
+rate 0.712462
+input sequence 1646
+input sequence 1647
+match
+rate 0.712204
+input sequence 1648
+input sequence 1649
+match
+rate 0.711947
+input sequence 1650
+match
+rate 0.712121
+input sequence 1651
+match
+rate 0.712296
+input sequence 1652
+match
+rate 0.71247
+input sequence 1653
+match
+rate 0.712644
+input sequence 1654
+match
+rate 0.712817
+input sequence 1655
+match
+rate 0.712991
+input sequence 1656
+match
+rate 0.713164
+input sequence 1657
+input sequence 1658
+match
+rate 0.712907
+input sequence 1659
+match
+rate 0.71308
+input sequence 1660
+match
+rate 0.713253
+input sequence 1661
+input sequence 1662
+match
+rate 0.712996
+input sequence 1663
+match
+rate 0.713169
+input sequence 1664
+input sequence 1665
+input sequence 1666
+input sequence 1667
+input sequence 1668
+match
+rate 0.711631
+input sequence 1669
+match
+rate 0.711803
+input sequence 1670
+match
+rate 0.711976
+input sequence 1671
+match
+rate 0.712148
+input sequence 1672
+match
+rate 0.712321
+input sequence 1673
+input sequence 1674
+match
+rate 0.712067
+input sequence 1675
+input sequence 1676
+input sequence 1677
+match
+rate 0.711389
+input sequence 1678
+match
+rate 0.711561
+input sequence 1679
+input sequence 1680
+match
+rate 0.71131
+input sequence 1681
+match
+rate 0.711481
+input sequence 1682
+input sequence 1683
+input sequence 1684
+match
+rate 0.710808
+input sequence 1685
+input sequence 1686
+match
+rate 0.710558
+input sequence 1687
+match
+rate 0.710729
+input sequence 1688
+match
+rate 0.7109
+input sequence 1689
+match
+rate 0.711072
+input sequence 1690
+input sequence 1691
+match
+rate 0.710822
+input sequence 1692
+input sequence 1693
+match
+rate 0.710573
+input sequence 1694
+match
+rate 0.710744
+input sequence 1695
+match
+rate 0.710914
+input sequence 1696
+input sequence 1697
+input sequence 1698
+match
+rate 0.710247
+input sequence 1699
+match
+rate 0.710418
+input sequence 1700
+match
+rate 0.710588
+input sequence 1701
+input sequence 1702
+input sequence 1703
+match
+rate 0.709924
+input sequence 1704
+input sequence 1705
+input sequence 1706
+match
+rate 0.709261
+input sequence 1707
+match
+rate 0.709432
+input sequence 1708
+match
+rate 0.709602
+input sequence 1709
+match
+rate 0.709772
+input sequence 1710
+match
+rate 0.709942
+input sequence 1711
+input sequence 1712
+match
+rate 0.709696
+input sequence 1713
+input sequence 1714
+input sequence 1715
+match
+rate 0.709038
+input sequence 1716
+match
+rate 0.709207
+input sequence 1717
+match
+rate 0.709377
+input sequence 1718
+match
+rate 0.709546
+input sequence 1719
+match
+rate 0.709715
+input sequence 1720
+match
+rate 0.709884
+input sequence 1721
+match
+rate 0.710052
+input sequence 1722
+input sequence 1723
+input sequence 1724
+match
+rate 0.709397
+input sequence 1725
+match
+rate 0.709565
+input sequence 1726
+match
+rate 0.709733
+input sequence 1727
+match
+rate 0.709902
+input sequence 1728
+match
+rate 0.710069
+input sequence 1729
+match
+rate 0.710237
+input sequence 1730
+input sequence 1731
+match
+rate 0.709994
+input sequence 1732
+match
+rate 0.710162
+input sequence 1733
+input sequence 1734
+input sequence 1735
+input sequence 1736
+input sequence 1737
+match
+rate 0.708693
+input sequence 1738
+input sequence 1739
+input sequence 1740
+match
+rate 0.708046
+input sequence 1741
+input sequence 1742
+match
+rate 0.707807
+input sequence 1743
+match
+rate 0.707975
+input sequence 1744
+match
+rate 0.708142
+input sequence 1745
+match
+rate 0.708309
+input sequence 1746
+match
+rate 0.708477
+input sequence 1747
+match
+rate 0.708643
+input sequence 1748
+match
+rate 0.70881
+input sequence 1749
+match
+rate 0.708977
+input sequence 1750
+input sequence 1751
+match
+rate 0.708738
+input sequence 1752
+input sequence 1753
+match
+rate 0.7085
+input sequence 1754
+input sequence 1755
+input sequence 1756
+input sequence 1757
+match
+rate 0.707456
+input sequence 1758
+match
+rate 0.707622
+input sequence 1759
+match
+rate 0.707789
+input sequence 1760
+match
+rate 0.707955
+input sequence 1761
+match
+rate 0.70812
+input sequence 1762
+match
+rate 0.708286
+input sequence 1763
+input sequence 1764
+input sequence 1765
+match
+rate 0.707649
+input sequence 1766
+match
+rate 0.707814
+input sequence 1767
+match
+rate 0.70798
+input sequence 1768
+match
+rate 0.708145
+input sequence 1769
+match
+rate 0.70831
+input sequence 1770
+match
+rate 0.708475
+input sequence 1771
+match
+rate 0.708639
+input sequence 1772
+match
+rate 0.708804
+input sequence 1773
+match
+rate 0.708968
+input sequence 1774
+match
+rate 0.709132
+input sequence 1775
+match
+rate 0.709296
+input sequence 1776
+match
+rate 0.709459
+input sequence 1777
+match
+rate 0.709623
+input sequence 1778
+match
+rate 0.709786
+input sequence 1779
+input sequence 1780
+input sequence 1781
+input sequence 1782
+match
+rate 0.708754
+input sequence 1783
+input sequence 1784
+match
+rate 0.70852
+input sequence 1785
+match
+rate 0.708683
+input sequence 1786
+match
+rate 0.708847
+input sequence 1787
+input sequence 1788
+match
+rate 0.708613
+input sequence 1789
+match
+rate 0.708776
+input sequence 1790
+match
+rate 0.708939
+input sequence 1791
+input sequence 1792
+input sequence 1793
+match
+rate 0.70831
+input sequence 1794
+match
+rate 0.708473
+input sequence 1795
+input sequence 1796
+input sequence 1797
+match
+rate 0.707846
+input sequence 1798
+match
+rate 0.708009
+input sequence 1799
+input sequence 1800
+match
+rate 0.707778
+input sequence 1801
+input sequence 1802
+match
+rate 0.707547
+input sequence 1803
+input sequence 1804
+match
+rate 0.707317
+input sequence 1805
+match
+rate 0.707479
+input sequence 1806
+match
+rate 0.707641
+input sequence 1807
+match
+rate 0.707803
+input sequence 1808
+match
+rate 0.707965
+input sequence 1809
+input sequence 1810
+match
+rate 0.707735
+input sequence 1811
+match
+rate 0.707896
+input sequence 1812
+match
+rate 0.708057
+input sequence 1813
+match
+rate 0.708218
+input sequence 1814
+match
+rate 0.708379
+input sequence 1815
+match
+rate 0.70854
+input sequence 1816
+match
+rate 0.7087
+input sequence 1817
+match
+rate 0.708861
+input sequence 1818
+match
+rate 0.709021
+input sequence 1819
+match
+rate 0.709181
+input sequence 1820
+input sequence 1821
+input sequence 1822
+match
+rate 0.708562
+input sequence 1823
+match
+rate 0.708722
+input sequence 1824
+input sequence 1825
+input sequence 1826
+input sequence 1827
+input sequence 1828
+match
+rate 0.70733
+input sequence 1829
+match
+rate 0.70749
+input sequence 1830
+match
+rate 0.70765
+input sequence 1831
+match
+rate 0.70781
+input sequence 1832
+input sequence 1833
+match
+rate 0.707583
+input sequence 1834
+match
+rate 0.707743
+input sequence 1835
+input sequence 1836
+match
+rate 0.707516
+input sequence 1837
+match
+rate 0.707676
+input sequence 1838
+match
+rate 0.707835
+input sequence 1839
+match
+rate 0.707993
+input sequence 1840
+match
+rate 0.708152
+input sequence 1841
+input sequence 1842
+match
+rate 0.707926
+input sequence 1843
+match
+rate 0.708085
+input sequence 1844
+match
+rate 0.708243
+input sequence 1845
+input sequence 1846
+match
+rate 0.708017
+input sequence 1847
+match
+rate 0.708175
+input sequence 1848
+match
+rate 0.708333
+input sequence 1849
+match
+rate 0.708491
+input sequence 1850
+input sequence 1851
+match
+rate 0.708266
+input sequence 1852
+match
+rate 0.708423
+input sequence 1853
+match
+rate 0.708581
+input sequence 1854
+match
+rate 0.708738
+input sequence 1855
+match
+rate 0.708895
+input sequence 1856
+match
+rate 0.709052
+input sequence 1857
+match
+rate 0.709208
+input sequence 1858
+match
+rate 0.709365
+input sequence 1859
+match
+rate 0.709521
+input sequence 1860
+match
+rate 0.709677
+input sequence 1861
+match
+rate 0.709833
+input sequence 1862
+match
+rate 0.709989
+input sequence 1863
+match
+rate 0.710145
+input sequence 1864
+match
+rate 0.7103
+input sequence 1865
+input sequence 1866
+match
+rate 0.710075
+input sequence 1867
+match
+rate 0.71023
+input sequence 1868
+match
+rate 0.710385
+input sequence 1869
+match
+rate 0.71054
+input sequence 1870
+match
+rate 0.710695
+input sequence 1871
+input sequence 1872
+input sequence 1873
+match
+rate 0.710091
+input sequence 1874
+match
+rate 0.710245
+input sequence 1875
+match
+rate 0.7104
+input sequence 1876
+match
+rate 0.710554
+input sequence 1877
+match
+rate 0.710709
+input sequence 1878
+match
+rate 0.710863
+input sequence 1879
+match
+rate 0.711016
+input sequence 1880
+match
+rate 0.71117
+input sequence 1881
+match
+rate 0.711324
+input sequence 1882
+match
+rate 0.711477
+input sequence 1883
+match
+rate 0.71163
+input sequence 1884
+match
+rate 0.711783
+input sequence 1885
+match
+rate 0.711936
+input sequence 1886
+match
+rate 0.712089
+input sequence 1887
+input sequence 1888
+match
+rate 0.711864
+input sequence 1889
+match
+rate 0.712017
+input sequence 1890
+match
+rate 0.712169
+input sequence 1891
+match
+rate 0.712322
+input sequence 1892
+match
+rate 0.712474
+input sequence 1893
+match
+rate 0.712625
+input sequence 1894
+match
+rate 0.712777
+input sequence 1895
+match
+rate 0.712929
+input sequence 1896
+match
+rate 0.71308
+input sequence 1897
+match
+rate 0.713231
+input sequence 1898
+match
+rate 0.713382
+input sequence 1899
+match
+rate 0.713533
+input sequence 1900
+match
+rate 0.713684
+input sequence 1901
+match
+rate 0.713835
+input sequence 1902
+input sequence 1903
+match
+rate 0.71361
+input sequence 1904
+match
+rate 0.71376
+input sequence 1905
+match
+rate 0.713911
+input sequence 1906
+input sequence 1907
+match
+rate 0.713686
+input sequence 1908
+match
+rate 0.713836
+input sequence 1909
+match
+rate 0.713986
+input sequence 1910
+input sequence 1911
+match
+rate 0.713762
+input sequence 1912
+input sequence 1913
+match
+rate 0.713539
+input sequence 1914
+match
+rate 0.713689
+input sequence 1915
+match
+rate 0.713838
+input sequence 1916
+match
+rate 0.713987
+input sequence 1917
+match
+rate 0.714137
+input sequence 1918
+match
+rate 0.714286
+input sequence 1919
+match
+rate 0.714435
+input sequence 1920
+input sequence 1921
+match
+rate 0.714211
+input sequence 1922
+input sequence 1923
+match
+rate 0.713989
+input sequence 1924
+match
+rate 0.714137
+input sequence 1925
+match
+rate 0.714286
+input sequence 1926
+match
+rate 0.714434
+input sequence 1927
+match
+rate 0.714582
+input sequence 1928
+match
+rate 0.71473
+input sequence 1929
+match
+rate 0.714878
+input sequence 1930
+match
+rate 0.715026
+input sequence 1931
+input sequence 1932
+match
+rate 0.714803
+input sequence 1933
+match
+rate 0.714951
+input sequence 1934
+match
+rate 0.715098
+input sequence 1935
+input sequence 1936
+match
+rate 0.714876
+input sequence 1937
+input sequence 1938
+match
+rate 0.714654
+input sequence 1939
+input sequence 1940
+match
+rate 0.714433
+input sequence 1941
+match
+rate 0.71458
+input sequence 1942
+match
+rate 0.714727
+input sequence 1943
+input sequence 1944
+match
+rate 0.714506
+input sequence 1945
+match
+rate 0.714653
+input sequence 1946
+match
+rate 0.7148
+input sequence 1947
+match
+rate 0.714946
+input sequence 1948
+match
+rate 0.715092
+input sequence 1949
+match
+rate 0.715239
+input sequence 1950
+match
+rate 0.715385
+input sequence 1951
+match
+rate 0.715531
+input sequence 1952
+input sequence 1953
+input sequence 1954
+match
+rate 0.714944
+input sequence 1955
+match
+rate 0.715089
+input sequence 1956
+match
+rate 0.715235
+input sequence 1957
+match
+rate 0.715381
+input sequence 1958
+match
+rate 0.715526
+input sequence 1959
+input sequence 1960
+match
+rate 0.715306
+input sequence 1961
+match
+rate 0.715451
+input sequence 1962
+match
+rate 0.715596
+input sequence 1963
+input sequence 1964
+input sequence 1965
+match
+rate 0.715013
+input sequence 1966
+match
+rate 0.715158
+input sequence 1967
+match
+rate 0.715302
+input sequence 1968
+input sequence 1969
+match
+rate 0.715084
+input sequence 1970
+input sequence 1971
+match
+rate 0.714866
+input sequence 1972
+match
+rate 0.71501
+input sequence 1973
+match
+rate 0.715155
+input sequence 1974
+match
+rate 0.715299
+input sequence 1975
+match
+rate 0.715443
+input sequence 1976
+input sequence 1977
+match
+rate 0.715225
+input sequence 1978
+match
+rate 0.715369
+input sequence 1979
+match
+rate 0.715513
+input sequence 1980
+match
+rate 0.715657
+input sequence 1981
+input sequence 1982
+input sequence 1983
+match
+rate 0.715078
+input sequence 1984
+input sequence 1985
+match
+rate 0.714861
+input sequence 1986
+input sequence 1987
+match
+rate 0.714645
+input sequence 1988
+input sequence 1989
+input sequence 1990
+input sequence 1991
+input sequence 1992
+input sequence 1993
+match
+rate 0.712995
+input sequence 1994
+input sequence 1995
+input sequence 1996
+match
+rate 0.712425
+input sequence 1997
+match
+rate 0.712569
+input sequence 1998
+match
+rate 0.712713
+input sequence 1999
+match
+rate 0.712856
+input sequence 2000
+match
+rate 0.713
+input sequence 2001
+match
+rate 0.713143
+input sequence 2002
+match
+rate 0.713287
+input sequence 2003
+match
+rate 0.71343
+input sequence 2004
+match
+rate 0.713573
+input sequence 2005
+match
+rate 0.713716
+input sequence 2006
+input sequence 2007
+match
+rate 0.713503
+input sequence 2008
+match
+rate 0.713645
+input sequence 2009
+match
+rate 0.713788
+input sequence 2010
+input sequence 2011
+match
+rate 0.713575
+input sequence 2012
+match
+rate 0.713718
+input sequence 2013
+input sequence 2014
+input sequence 2015
+input sequence 2016
+match
+rate 0.712798
+input sequence 2017
+match
+rate 0.71294
+input sequence 2018
+input sequence 2019
+input sequence 2020
+match
+rate 0.712376
+input sequence 2021
+match
+rate 0.712519
+input sequence 2022
+input sequence 2023
+input sequence 2024
+match
+rate 0.711957
+input sequence 2025
+match
+rate 0.712099
+input sequence 2026
+match
+rate 0.712241
+input sequence 2027
+input sequence 2028
+match
+rate 0.712032
+input sequence 2029
+match
+rate 0.712173
+input sequence 2030
+match
+rate 0.712315
+input sequence 2031
+match
+rate 0.712457
+input sequence 2032
+input sequence 2033
+input sequence 2034
+match
+rate 0.711898
+input sequence 2035
+match
+rate 0.712039
+input sequence 2036
+input sequence 2037
+input sequence 2038
+input sequence 2039
+match
+rate 0.711133
+input sequence 2040
+match
+rate 0.711275
+input sequence 2041
+match
+rate 0.711416
+input sequence 2042
+match
+rate 0.711557
+input sequence 2043
+match
+rate 0.711698
+input sequence 2044
+match
+rate 0.71184
+input sequence 2045
+match
+rate 0.71198
+input sequence 2046
+match
+rate 0.712121
+input sequence 2047
+match
+rate 0.712262
+input sequence 2048
+match
+rate 0.712402
+input sequence 2049
+match
+rate 0.712543
+input sequence 2050
+match
+rate 0.712683
+input sequence 2051
+match
+rate 0.712823
+input sequence 2052
+match
+rate 0.712963
+input sequence 2053
+match
+rate 0.713103
+input sequence 2054
+match
+rate 0.713242
+input sequence 2055
+input sequence 2056
+match
+rate 0.713035
+input sequence 2057
+match
+rate 0.713175
+input sequence 2058
+match
+rate 0.713314
+input sequence 2059
+match
+rate 0.713453
+input sequence 2060
+match
+rate 0.713592
+input sequence 2061
+input sequence 2062
+match
+rate 0.713385
+input sequence 2063
+match
+rate 0.713524
+input sequence 2064
+match
+rate 0.713663
+input sequence 2065
+input sequence 2066
+match
+rate 0.713456
+input sequence 2067
+match
+rate 0.713595
+input sequence 2068
+match
+rate 0.713733
+input sequence 2069
+match
+rate 0.713871
+input sequence 2070
+match
+rate 0.71401
+input sequence 2071
+match
+rate 0.714148
+input sequence 2072
+input sequence 2073
+match
+rate 0.713941
+input sequence 2074
+input sequence 2075
+match
+rate 0.713735
+input sequence 2076
+match
+rate 0.713873
+input sequence 2077
+match
+rate 0.714011
+input sequence 2078
+match
+rate 0.714148
+input sequence 2079
+input sequence 2080
+input sequence 2081
+match
+rate 0.713599
+input sequence 2082
+match
+rate 0.713737
+input sequence 2083
+match
+rate 0.713874
+input sequence 2084
+match
+rate 0.714011
+input sequence 2085
+match
+rate 0.714149
+input sequence 2086
+match
+rate 0.714286
+input sequence 2087
+match
+rate 0.714423
+input sequence 2088
+input sequence 2089
+match
+rate 0.714217
+input sequence 2090
+input sequence 2091
+match
+rate 0.714012
+input sequence 2092
+match
+rate 0.714149
+input sequence 2093
+input sequence 2094
+match
+rate 0.713945
+input sequence 2095
+input sequence 2096
+input sequence 2097
+match
+rate 0.7134
+input sequence 2098
+match
+rate 0.713537
+input sequence 2099
+match
+rate 0.713673
+input sequence 2100
+match
+rate 0.71381
+input sequence 2101
+match
+rate 0.713946
+input sequence 2102
+match
+rate 0.714082
+input sequence 2103
+input sequence 2104
+input sequence 2105
+match
+rate 0.713539
+input sequence 2106
+match
+rate 0.713675
+input sequence 2107
+match
+rate 0.713811
+input sequence 2108
+input sequence 2109
+match
+rate 0.713608
+input sequence 2110
+input sequence 2111
+match
+rate 0.713406
+input sequence 2112
+input sequence 2113
+match
+rate 0.713204
+input sequence 2114
+match
+rate 0.71334
+input sequence 2115
+input sequence 2116
+match
+rate 0.713138
+input sequence 2117
+match
+rate 0.713274
+input sequence 2118
+input sequence 2119
+match
+rate 0.713072
+input sequence 2120
+match
+rate 0.713208
+input sequence 2121
+match
+rate 0.713343
+input sequence 2122
+input sequence 2123
+match
+rate 0.713142
+input sequence 2124
+match
+rate 0.713277
+input sequence 2125
+match
+rate 0.713412
+input sequence 2126
+input sequence 2127
+match
+rate 0.713211
+input sequence 2128
+match
+rate 0.713346
+input sequence 2129
+input sequence 2130
+match
+rate 0.713146
+input sequence 2131
+match
+rate 0.71328
+input sequence 2132
+match
+rate 0.713415
+input sequence 2133
+match
+rate 0.713549
+input sequence 2134
+input sequence 2135
+match
+rate 0.713349
+input sequence 2136
+match
+rate 0.713483
+input sequence 2137
+match
+rate 0.713617
+input sequence 2138
+input sequence 2139
+match
+rate 0.713417
+input sequence 2140
+match
+rate 0.713551
+input sequence 2141
+match
+rate 0.713685
+input sequence 2142
+match
+rate 0.713819
+input sequence 2143
+match
+rate 0.713952
+input sequence 2144
+match
+rate 0.714086
+input sequence 2145
+input sequence 2146
+match
+rate 0.713886
+input sequence 2147
+match
+rate 0.71402
+input sequence 2148
+match
+rate 0.714153
+input sequence 2149
+match
+rate 0.714286
+input sequence 2150
+match
+rate 0.714419
+input sequence 2151
+match
+rate 0.714551
+input sequence 2152
+match
+rate 0.714684
+input sequence 2153
+match
+rate 0.714817
+input sequence 2154
+match
+rate 0.714949
+input sequence 2155
+match
+rate 0.715081
+input sequence 2156
+input sequence 2157
+match
+rate 0.714882
+input sequence 2158
+match
+rate 0.715014
+input sequence 2159
+match
+rate 0.715146
+input sequence 2160
+match
+rate 0.715278
+input sequence 2161
+match
+rate 0.71541
+input sequence 2162
+match
+rate 0.715541
+input sequence 2163
+input sequence 2164
+match
+rate 0.715342
+input sequence 2165
+match
+rate 0.715473
+input sequence 2166
+match
+rate 0.715605
+input sequence 2167
+input sequence 2168
+match
+rate 0.715406
+input sequence 2169
+match
+rate 0.715537
+input sequence 2170
+match
+rate 0.715668
+input sequence 2171
+input sequence 2172
+match
+rate 0.71547
+input sequence 2173
+match
+rate 0.715601
+input sequence 2174
+match
+rate 0.715731
+input sequence 2175
+match
+rate 0.715862
+input sequence 2176
+match
+rate 0.715993
+input sequence 2177
+match
+rate 0.716123
+input sequence 2178
+match
+rate 0.716253
+input sequence 2179
+match
+rate 0.716384
+input sequence 2180
+match
+rate 0.716514
+input sequence 2181
+match
+rate 0.716644
+input sequence 2182
+match
+rate 0.716774
+input sequence 2183
+input sequence 2184
+input sequence 2185
+input sequence 2186
+match
+rate 0.715919
+input sequence 2187
+match
+rate 0.716049
+input sequence 2188
+input sequence 2189
+match
+rate 0.715852
+input sequence 2190
+input sequence 2191
+match
+rate 0.715655
+input sequence 2192
+match
+rate 0.715785
+input sequence 2193
+match
+rate 0.715914
+input sequence 2194
+match
+rate 0.716044
+input sequence 2195
+match
+rate 0.716173
+input sequence 2196
+match
+rate 0.716302
+input sequence 2197
+input sequence 2198
+input sequence 2199
+match
+rate 0.71578
+input sequence 2200
+input sequence 2201
+input sequence 2202
+match
+rate 0.715259
+input sequence 2203
+input sequence 2204
+match
+rate 0.715064
+input sequence 2205
+match
+rate 0.715193
+input sequence 2206
+match
+rate 0.715322
+input sequence 2207
+input sequence 2208
+match
+rate 0.715127
+input sequence 2209
+match
+rate 0.715256
+input sequence 2210
+match
+rate 0.715385
+input sequence 2211
+match
+rate 0.715513
+input sequence 2212
+input sequence 2213
+match
+rate 0.715319
+input sequence 2214
+match
+rate 0.715447
+input sequence 2215
+match
+rate 0.715576
+input sequence 2216
+match
+rate 0.715704
+input sequence 2217
+input sequence 2218
+match
+rate 0.715509
+input sequence 2219
+match
+rate 0.715638
+input sequence 2220
+match
+rate 0.715766
+input sequence 2221
+input sequence 2222
+match
+rate 0.715572
+input sequence 2223
+match
+rate 0.715699
+input sequence 2224
+input sequence 2225
+match
+rate 0.715506
+input sequence 2226
+match
+rate 0.715633
+input sequence 2227
+match
+rate 0.715761
+input sequence 2228
+match
+rate 0.715889
+input sequence 2229
+input sequence 2230
+match
+rate 0.715695
+input sequence 2231
+match
+rate 0.715823
+input sequence 2232
+input sequence 2233
+match
+rate 0.715629
+input sequence 2234
+match
+rate 0.715756
+input sequence 2235
+input sequence 2236
+input sequence 2237
+match
+rate 0.715244
+input sequence 2238
+match
+rate 0.715371
+input sequence 2239
+match
+rate 0.715498
+input sequence 2240
+match
+rate 0.715625
+input sequence 2241
+input sequence 2242
+match
+rate 0.715433
+input sequence 2243
+input sequence 2244
+input sequence 2245
+match
+rate 0.714922
+input sequence 2246
+input sequence 2247
+input sequence 2248
+match
+rate 0.714413
+input sequence 2249
+match
+rate 0.71454
+input sequence 2250
+match
+rate 0.714667
+input sequence 2251
+input sequence 2252
+match
+rate 0.714476
+input sequence 2253
+input sequence 2254
+match
+rate 0.714286
+input sequence 2255
+match
+rate 0.714412
+input sequence 2256
+match
+rate 0.714539
+input sequence 2257
+match
+rate 0.714665
+input sequence 2258
+match
+rate 0.714792
+input sequence 2259
+match
+rate 0.714918
+input sequence 2260
+match
+rate 0.715044
+input sequence 2261
+match
+rate 0.71517
+input sequence 2262
+match
+rate 0.715296
+input sequence 2263
+match
+rate 0.715422
+input sequence 2264
+input sequence 2265
+match
+rate 0.715232
+input sequence 2266
+match
+rate 0.715357
+input sequence 2267
+match
+rate 0.715483
+input sequence 2268
+match
+rate 0.715608
+input sequence 2269
+match
+rate 0.715734
+input sequence 2270
+match
+rate 0.715859
+input sequence 2271
+match
+rate 0.715984
+input sequence 2272
+match
+rate 0.716109
+input sequence 2273
+match
+rate 0.716234
+input sequence 2274
+match
+rate 0.716359
+input sequence 2275
+match
+rate 0.716484
+input sequence 2276
+match
+rate 0.716608
+input sequence 2277
+match
+rate 0.716733
+input sequence 2278
+match
+rate 0.716857
+input sequence 2279
+match
+rate 0.716981
+input sequence 2280
+input sequence 2281
+match
+rate 0.716791
+input sequence 2282
+match
+rate 0.716915
+input sequence 2283
+match
+rate 0.717039
+input sequence 2284
+match
+rate 0.717163
+input sequence 2285
+match
+rate 0.717287
+input sequence 2286
+input sequence 2287
+match
+rate 0.717097
+input sequence 2288
+match
+rate 0.71722
+input sequence 2289
+match
+rate 0.717344
+input sequence 2290
+input sequence 2291
+match
+rate 0.717154
+input sequence 2292
+match
+rate 0.717277
+input sequence 2293
+match
+rate 0.717401
+input sequence 2294
+input sequence 2295
+match
+rate 0.717211
+input sequence 2296
+match
+rate 0.717335
+input sequence 2297
+match
+rate 0.717458
+input sequence 2298
+match
+rate 0.71758
+input sequence 2299
+match
+rate 0.717703
+input sequence 2300
+match
+rate 0.717826
+input sequence 2301
+match
+rate 0.717949
+input sequence 2302
+input sequence 2303
+match
+rate 0.717759
+input sequence 2304
+match
+rate 0.717882
+input sequence 2305
+match
+rate 0.718004
+input sequence 2306
+match
+rate 0.718127
+input sequence 2307
+match
+rate 0.718249
+input sequence 2308
+input sequence 2309
+input sequence 2310
+match
+rate 0.717749
+input sequence 2311
+match
+rate 0.717871
+input sequence 2312
+input sequence 2313
+match
+rate 0.717683
+input sequence 2314
+match
+rate 0.717805
+input sequence 2315
+match
+rate 0.717927
+input sequence 2316
+match
+rate 0.718048
+input sequence 2317
+match
+rate 0.71817
+input sequence 2318
+match
+rate 0.718292
+input sequence 2319
+match
+rate 0.718413
+input sequence 2320
+match
+rate 0.718534
+input sequence 2321
+match
+rate 0.718656
+input sequence 2322
+match
+rate 0.718777
+input sequence 2323
+match
+rate 0.718898
+input sequence 2324
+input sequence 2325
+input sequence 2326
+input sequence 2327
+match
+rate 0.718092
+input sequence 2328
+match
+rate 0.718213
+input sequence 2329
+match
+rate 0.718334
+input sequence 2330
+input sequence 2331
+input sequence 2332
+match
+rate 0.717839
+input sequence 2333
+input sequence 2334
+input sequence 2335
+match
+rate 0.717345
+input sequence 2336
+match
+rate 0.717466
+input sequence 2337
+match
+rate 0.717587
+input sequence 2338
+match
+rate 0.717707
+input sequence 2339
+input sequence 2340
+match
+rate 0.717521
+input sequence 2341
+match
+rate 0.717642
+input sequence 2342
+match
+rate 0.717763
+input sequence 2343
+input sequence 2344
+input sequence 2345
+match
+rate 0.717271
+input sequence 2346
+input sequence 2347
+match
+rate 0.717086
+input sequence 2348
+match
+rate 0.717206
+input sequence 2349
+match
+rate 0.717327
+input sequence 2350
+match
+rate 0.717447
+input sequence 2351
+match
+rate 0.717567
+input sequence 2352
+match
+rate 0.717687
+input sequence 2353
+input sequence 2354
+match
+rate 0.717502
+input sequence 2355
+match
+rate 0.717622
+input sequence 2356
+match
+rate 0.717742
+input sequence 2357
+match
+rate 0.717862
+input sequence 2358
+match
+rate 0.717981
+input sequence 2359
+input sequence 2360
+match
+rate 0.717797
+input sequence 2361
+match
+rate 0.717916
+input sequence 2362
+match
+rate 0.718036
+input sequence 2363
+match
+rate 0.718155
+input sequence 2364
+match
+rate 0.718274
+input sequence 2365
+match
+rate 0.718393
+input sequence 2366
+input sequence 2367
+match
+rate 0.718209
+input sequence 2368
+match
+rate 0.718328
+input sequence 2369
+input sequence 2370
+match
+rate 0.718143
+input sequence 2371
+match
+rate 0.718262
+input sequence 2372
+input sequence 2373
+input sequence 2374
+match
+rate 0.717776
+input sequence 2375
+match
+rate 0.717895
+input sequence 2376
+match
+rate 0.718013
+input sequence 2377
+match
+rate 0.718132
+input sequence 2378
+input sequence 2379
+match
+rate 0.717949
+input sequence 2380
+match
+rate 0.718067
+input sequence 2381
+input sequence 2382
+input sequence 2383
+input sequence 2384
+input sequence 2385
+match
+rate 0.716981
+input sequence 2386
+match
+rate 0.7171
+input sequence 2387
+match
+rate 0.717218
+input sequence 2388
+match
+rate 0.717337
+input sequence 2389
+input sequence 2390
+match
+rate 0.717155
+input sequence 2391
+match
+rate 0.717273
+input sequence 2392
+match
+rate 0.717391
+input sequence 2393
+match
+rate 0.717509
+input sequence 2394
+match
+rate 0.717627
+input sequence 2395
+match
+rate 0.717745
+input sequence 2396
+match
+rate 0.717863
+input sequence 2397
+match
+rate 0.717981
+input sequence 2398
+match
+rate 0.718098
+input sequence 2399
+match
+rate 0.718216
+input sequence 2400
+match
+rate 0.718333
+input sequence 2401
+match
+rate 0.718451
+input sequence 2402
+match
+rate 0.718568
+input sequence 2403
+match
+rate 0.718685
+input sequence 2404
+match
+rate 0.718802
+input sequence 2405
+match
+rate 0.718919
+input sequence 2406
+input sequence 2407
+input sequence 2408
+match
+rate 0.718439
+input sequence 2409
+match
+rate 0.718555
+input sequence 2410
+match
+rate 0.718672
+input sequence 2411
+match
+rate 0.718789
+input sequence 2412
+match
+rate 0.718905
+input sequence 2413
+match
+rate 0.719022
+input sequence 2414
+match
+rate 0.719138
+input sequence 2415
+input sequence 2416
+match
+rate 0.718957
+input sequence 2417
+input sequence 2418
+input sequence 2419
+match
+rate 0.718479
+input sequence 2420
+match
+rate 0.718595
+input sequence 2421
+match
+rate 0.718711
+input sequence 2422
+match
+rate 0.718827
+input sequence 2423
+match
+rate 0.718943
+input sequence 2424
+input sequence 2425
+match
+rate 0.718763
+input sequence 2426
+match
+rate 0.718879
+input sequence 2427
+match
+rate 0.718995
+input sequence 2428
+match
+rate 0.71911
+input sequence 2429
+match
+rate 0.719226
+input sequence 2430
+match
+rate 0.719342
+input sequence 2431
+input sequence 2432
+input sequence 2433
+match
+rate 0.718866
+input sequence 2434
+match
+rate 0.718981
+input sequence 2435
+input sequence 2436
+match
+rate 0.718801
+input sequence 2437
+match
+rate 0.718917
+input sequence 2438
+match
+rate 0.719032
+input sequence 2439
+match
+rate 0.719147
+input sequence 2440
+match
+rate 0.719262
+input sequence 2441
+input sequence 2442
+match
+rate 0.719083
+input sequence 2443
+match
+rate 0.719198
+input sequence 2444
+input sequence 2445
+input sequence 2446
+input sequence 2447
+match
+rate 0.718431
+input sequence 2448
+match
+rate 0.718546
+input sequence 2449
+match
+rate 0.718661
+input sequence 2450
+input sequence 2451
+match
+rate 0.718482
+input sequence 2452
+match
+rate 0.718597
+input sequence 2453
+input sequence 2454
+match
+rate 0.718419
+input sequence 2455
+match
+rate 0.718534
+input sequence 2456
+match
+rate 0.718648
+input sequence 2457
+match
+rate 0.718763
+input sequence 2458
+match
+rate 0.718877
+input sequence 2459
+match
+rate 0.718991
+input sequence 2460
+match
+rate 0.719106
+input sequence 2461
+match
+rate 0.71922
+input sequence 2462
+match
+rate 0.719334
+input sequence 2463
+match
+rate 0.719448
+input sequence 2464
+match
+rate 0.719562
+input sequence 2465
+match
+rate 0.719675
+input sequence 2466
+match
+rate 0.719789
+input sequence 2467
+match
+rate 0.719903
+input sequence 2468
+match
+rate 0.720016
+input sequence 2469
+match
+rate 0.72013
+input sequence 2470
+match
+rate 0.720243
+input sequence 2471
+match
+rate 0.720356
+input sequence 2472
+input sequence 2473
+match
+rate 0.720178
+input sequence 2474
+match
+rate 0.720291
+input sequence 2475
+match
+rate 0.720404
+input sequence 2476
+match
+rate 0.720517
+input sequence 2477
+match
+rate 0.72063
+input sequence 2478
+input sequence 2479
+match
+rate 0.720452
+input sequence 2480
+match
+rate 0.720565
+input sequence 2481
+match
+rate 0.720677
+input sequence 2482
+match
+rate 0.72079
+input sequence 2483
+match
+rate 0.720902
+input sequence 2484
+input sequence 2485
+input sequence 2486
+match
+rate 0.720434
+input sequence 2487
+match
+rate 0.720547
+input sequence 2488
+input sequence 2489
+input sequence 2490
+input sequence 2491
+input sequence 2492
+input sequence 2493
+match
+rate 0.719214
+input sequence 2494
+match
+rate 0.719326
+input sequence 2495
+match
+rate 0.719439
+input sequence 2496
+match
+rate 0.719551
+input sequence 2497
+match
+rate 0.719664
+input sequence 2498
+match
+rate 0.719776
+input sequence 2499
+match
+rate 0.719888
+input sequence 2500
+match
+rate 0.72
+input sequence 2501
+match
+rate 0.720112
+input sequence 2502
+match
+rate 0.720224
+input sequence 2503
+match
+rate 0.720336
+input sequence 2504
+input sequence 2505
+match
+rate 0.72016
+input sequence 2506
+match
+rate 0.720271
+input sequence 2507
+match
+rate 0.720383
+input sequence 2508
+match
+rate 0.720494
+input sequence 2509
+input sequence 2510
+match
+rate 0.720319
+input sequence 2511
+match
+rate 0.72043
+input sequence 2512
+match
+rate 0.720541
+input sequence 2513
+match
+rate 0.720653
+input sequence 2514
+input sequence 2515
+match
+rate 0.720477
+input sequence 2516
+match
+rate 0.720588
+input sequence 2517
+input sequence 2518
+match
+rate 0.720413
+input sequence 2519
+match
+rate 0.720524
+input sequence 2520
+match
+rate 0.720635
+input sequence 2521
+input sequence 2522
+input sequence 2523
+input sequence 2524
+match
+rate 0.719889
+input sequence 2525
+match
+rate 0.72
+input sequence 2526
+match
+rate 0.720111
+input sequence 2527
+input sequence 2528
+match
+rate 0.719937
+input sequence 2529
+match
+rate 0.720047
+input sequence 2530
+input sequence 2531
+match
+rate 0.719874
+input sequence 2532
+input sequence 2533
+match
+rate 0.7197
+input sequence 2534
+match
+rate 0.719811
+input sequence 2535
+match
+rate 0.719921
+input sequence 2536
+match
+rate 0.720032
+input sequence 2537
+match
+rate 0.720142
+input sequence 2538
+match
+rate 0.720252
+input sequence 2539
+match
+rate 0.720362
+input sequence 2540
+match
+rate 0.720472
+input sequence 2541
+match
+rate 0.720582
+input sequence 2542
+match
+rate 0.720692
+input sequence 2543
+match
+rate 0.720802
+input sequence 2544
+match
+rate 0.720912
+input sequence 2545
+match
+rate 0.721022
+input sequence 2546
+input sequence 2547
+match
+rate 0.720848
+input sequence 2548
+match
+rate 0.720958
+input sequence 2549
+match
+rate 0.721067
+input sequence 2550
+match
+rate 0.721176
+input sequence 2551
+match
+rate 0.721286
+input sequence 2552
+input sequence 2553
+input sequence 2554
+match
+rate 0.72083
+input sequence 2555
+match
+rate 0.720939
+input sequence 2556
+match
+rate 0.721049
+input sequence 2557
+match
+rate 0.721158
+input sequence 2558
+match
+rate 0.721267
+input sequence 2559
+match
+rate 0.721376
+input sequence 2560
+input sequence 2561
+match
+rate 0.721203
+input sequence 2562
+match
+rate 0.721311
+input sequence 2563
+match
+rate 0.72142
+input sequence 2564
+input sequence 2565
+match
+rate 0.721248
+input sequence 2566
+match
+rate 0.721356
+input sequence 2567
+match
+rate 0.721465
+input sequence 2568
+match
+rate 0.721573
+input sequence 2569
+match
+rate 0.721682
+input sequence 2570
+input sequence 2571
+match
+rate 0.721509
+input sequence 2572
+match
+rate 0.721617
+input sequence 2573
+input sequence 2574
+input sequence 2575
+match
+rate 0.721165
+input sequence 2576
+match
+rate 0.721273
+input sequence 2577
+match
+rate 0.721381
+input sequence 2578
+input sequence 2579
+match
+rate 0.72121
+input sequence 2580
+match
+rate 0.721318
+input sequence 2581
+match
+rate 0.721426
+input sequence 2582
+match
+rate 0.721534
+input sequence 2583
+match
+rate 0.721641
+input sequence 2584
+input sequence 2585
+input sequence 2586
+match
+rate 0.721191
+input sequence 2587
+match
+rate 0.721299
+input sequence 2588
+match
+rate 0.721407
+input sequence 2589
+match
+rate 0.721514
+input sequence 2590
+input sequence 2591
+input sequence 2592
+match
+rate 0.721065
+input sequence 2593
+match
+rate 0.721172
+input sequence 2594
+input sequence 2595
+input sequence 2596
+match
+rate 0.720724
+input sequence 2597
+match
+rate 0.720832
+input sequence 2598
+match
+rate 0.720939
+input sequence 2599
+input sequence 2600
+match
+rate 0.720769
+input sequence 2601
+match
+rate 0.720877
+input sequence 2602
+match
+rate 0.720984
+input sequence 2603
+match
+rate 0.721091
+input sequence 2604
+match
+rate 0.721198
+input sequence 2605
+match
+rate 0.721305
+input sequence 2606
+match
+rate 0.721412
+input sequence 2607
+match
+rate 0.721519
+input sequence 2608
+input sequence 2609
+match
+rate 0.721349
+input sequence 2610
+match
+rate 0.721456
+input sequence 2611
+input sequence 2612
+input sequence 2613
+match
+rate 0.72101
+input sequence 2614
+match
+rate 0.721117
+input sequence 2615
+input sequence 2616
+match
+rate 0.720948
+input sequence 2617
+match
+rate 0.721055
+input sequence 2618
+match
+rate 0.721161
+input sequence 2619
+input sequence 2620
+match
+rate 0.720992
+input sequence 2621
+input sequence 2622
+match
+rate 0.720824
+input sequence 2623
+match
+rate 0.72093
+input sequence 2624
+match
+rate 0.721037
+input sequence 2625
+match
+rate 0.721143
+input sequence 2626
+match
+rate 0.721249
+input sequence 2627
+match
+rate 0.721355
+input sequence 2628
+match
+rate 0.721461
+input sequence 2629
+match
+rate 0.721567
+input sequence 2630
+match
+rate 0.721673
+input sequence 2631
+input sequence 2632
+match
+rate 0.721505
+input sequence 2633
+match
+rate 0.72161
+input sequence 2634
+match
+rate 0.721716
+input sequence 2635
+input sequence 2636
+match
+rate 0.721548
+input sequence 2637
+input sequence 2638
+input sequence 2639
+input sequence 2640
+input sequence 2641
+input sequence 2642
+match
+rate 0.720288
+input sequence 2643
+match
+rate 0.720393
+input sequence 2644
+match
+rate 0.720499
+input sequence 2645
+match
+rate 0.720605
+input sequence 2646
+match
+rate 0.720711
+input sequence 2647
+match
+rate 0.720816
+input sequence 2648
+match
+rate 0.720921
+input sequence 2649
+match
+rate 0.721027
+input sequence 2650
+match
+rate 0.721132
+input sequence 2651
+match
+rate 0.721237
+input sequence 2652
+match
+rate 0.721342
+input sequence 2653
+match
+rate 0.721447
+input sequence 2654
+input sequence 2655
+match
+rate 0.721281
+input sequence 2656
+match
+rate 0.721386
+input sequence 2657
+match
+rate 0.72149
+input sequence 2658
+match
+rate 0.721595
+input sequence 2659
+match
+rate 0.7217
+input sequence 2660
+match
+rate 0.721804
+input sequence 2661
+match
+rate 0.721909
+input sequence 2662
+input sequence 2663
+input sequence 2664
+match
+rate 0.721471
+input sequence 2665
+input sequence 2666
+match
+rate 0.721305
+input sequence 2667
+match
+rate 0.72141
+input sequence 2668
+input sequence 2669
+input sequence 2670
+match
+rate 0.720974
+input sequence 2671
+match
+rate 0.721078
+input sequence 2672
+match
+rate 0.721183
+input sequence 2673
+match
+rate 0.721287
+input sequence 2674
+match
+rate 0.721391
+input sequence 2675
+match
+rate 0.721495
+input sequence 2676
+input sequence 2677
+input sequence 2678
+match
+rate 0.721061
+input sequence 2679
+match
+rate 0.721165
+input sequence 2680
+match
+rate 0.721269
+input sequence 2681
+match
+rate 0.721373
+input sequence 2682
+match
+rate 0.721476
+input sequence 2683
+match
+rate 0.72158
+input sequence 2684
+input sequence 2685
+input sequence 2686
+match
+rate 0.721147
+input sequence 2687
+match
+rate 0.72125
+input sequence 2688
+input sequence 2689
+match
+rate 0.721086
+input sequence 2690
+match
+rate 0.72119
+input sequence 2691
+input sequence 2692
+match
+rate 0.721025
+input sequence 2693
+match
+rate 0.721129
+input sequence 2694
+match
+rate 0.721232
+input sequence 2695
+input sequence 2696
+match
+rate 0.721068
+input sequence 2697
+input sequence 2698
+match
+rate 0.720904
+input sequence 2699
+input sequence 2700
+match
+rate 0.720741
+input sequence 2701
+match
+rate 0.720844
+input sequence 2702
+match
+rate 0.720947
+input sequence 2703
+match
+rate 0.721051
+input sequence 2704
+match
+rate 0.721154
+input sequence 2705
+input sequence 2706
+match
+rate 0.72099
+input sequence 2707
+match
+rate 0.721093
+input sequence 2708
+match
+rate 0.721196
+input sequence 2709
+match
+rate 0.721299
+input sequence 2710
+match
+rate 0.721402
+input sequence 2711
+input sequence 2712
+input sequence 2713
+match
+rate 0.720973
+input sequence 2714
+input sequence 2715
+match
+rate 0.72081
+input sequence 2716
+match
+rate 0.720913
+input sequence 2717
+input sequence 2718
+match
+rate 0.720751
+input sequence 2719
+match
+rate 0.720853
+input sequence 2720
+input sequence 2721
+match
+rate 0.720691
+input sequence 2722
+match
+rate 0.720794
+input sequence 2723
+match
+rate 0.720896
+input sequence 2724
+match
+rate 0.720999
+input sequence 2725
+match
+rate 0.721101
+input sequence 2726
+match
+rate 0.721203
+input sequence 2727
+match
+rate 0.721305
+input sequence 2728
+input sequence 2729
+match
+rate 0.721143
+input sequence 2730
+match
+rate 0.721245
+input sequence 2731
+match
+rate 0.721348
+input sequence 2732
+match
+rate 0.721449
+input sequence 2733
+match
+rate 0.721551
+input sequence 2734
+match
+rate 0.721653
+input sequence 2735
+match
+rate 0.721755
+input sequence 2736
+input sequence 2737
+match
+rate 0.721593
+input sequence 2738
+match
+rate 0.721695
+input sequence 2739
+input sequence 2740
+match
+rate 0.721533
+input sequence 2741
+input sequence 2742
+input sequence 2743
+input sequence 2744
+match
+rate 0.720845
+input sequence 2745
+input sequence 2746
+match
+rate 0.720685
+input sequence 2747
+match
+rate 0.720786
+input sequence 2748
+match
+rate 0.720888
+input sequence 2749
+input sequence 2750
+match
+rate 0.720727
+input sequence 2751
+match
+rate 0.720829
+input sequence 2752
+match
+rate 0.72093
+input sequence 2753
+match
+rate 0.721032
+input sequence 2754
+match
+rate 0.721133
+input sequence 2755
+input sequence 2756
+input sequence 2757
+match
+rate 0.720711
+input sequence 2758
+match
+rate 0.720812
+input sequence 2759
+match
+rate 0.720913
+input sequence 2760
+match
+rate 0.721014
+input sequence 2761
+match
+rate 0.721116
+input sequence 2762
+match
+rate 0.721216
+input sequence 2763
+match
+rate 0.721317
+input sequence 2764
+match
+rate 0.721418
+input sequence 2765
+match
+rate 0.721519
+input sequence 2766
+match
+rate 0.72162
+input sequence 2767
+match
+rate 0.72172
+input sequence 2768
+input sequence 2769
+match
+rate 0.72156
+input sequence 2770
+match
+rate 0.721661
+input sequence 2771
+match
+rate 0.721761
+input sequence 2772
+input sequence 2773
+match
+rate 0.721601
+input sequence 2774
+match
+rate 0.721702
+input sequence 2775
+match
+rate 0.721802
+input sequence 2776
+match
+rate 0.721902
+input sequence 2777
+input sequence 2778
+match
+rate 0.721742
+input sequence 2779
+match
+rate 0.721842
+input sequence 2780
+input sequence 2781
+match
+rate 0.721683
+input sequence 2782
+match
+rate 0.721783
+input sequence 2783
+input sequence 2784
+match
+rate 0.721624
+input sequence 2785
+match
+rate 0.721723
+input sequence 2786
+match
+rate 0.721823
+input sequence 2787
+match
+rate 0.721923
+input sequence 2788
+input sequence 2789
+match
+rate 0.721764
+input sequence 2790
+match
+rate 0.721864
+input sequence 2791
+input sequence 2792
+match
+rate 0.721705
+input sequence 2793
+match
+rate 0.721804
+input sequence 2794
+match
+rate 0.721904
+input sequence 2795
+match
+rate 0.722004
+input sequence 2796
+input sequence 2797
+match
+rate 0.721845
+input sequence 2798
+match
+rate 0.721944
+input sequence 2799
+match
+rate 0.722044
+input sequence 2800
+input sequence 2801
+match
+rate 0.721885
+input sequence 2802
+match
+rate 0.721984
+input sequence 2803
+input sequence 2804
+match
+rate 0.721826
+input sequence 2805
+match
+rate 0.721925
+input sequence 2806
+input sequence 2807
+match
+rate 0.721767
+input sequence 2808
+match
+rate 0.721866
+input sequence 2809
+match
+rate 0.721965
+input sequence 2810
+match
+rate 0.722064
+input sequence 2811
+match
+rate 0.722163
+input sequence 2812
+match
+rate 0.722262
+input sequence 2813
+match
+rate 0.72236
+input sequence 2814
+input sequence 2815
+input sequence 2816
+input sequence 2817
+match
+rate 0.72169
+input sequence 2818
+match
+rate 0.721789
+input sequence 2819
+match
+rate 0.721887
+input sequence 2820
+input sequence 2821
+input sequence 2822
+input sequence 2823
+input sequence 2824
+match
+rate 0.720963
+input sequence 2825
+match
+rate 0.721062
+input sequence 2826
+match
+rate 0.721161
+input sequence 2827
+input sequence 2828
+input sequence 2829
+match
+rate 0.720749
+input sequence 2830
+input sequence 2831
+match
+rate 0.720593
+input sequence 2832
+match
+rate 0.720692
+input sequence 2833
+match
+rate 0.720791
+input sequence 2834
+match
+rate 0.720889
+input sequence 2835
+input sequence 2836
+match
+rate 0.720733
+input sequence 2837
+input sequence 2838
+match
+rate 0.720578
+input sequence 2839
+match
+rate 0.720676
+input sequence 2840
+match
+rate 0.720775
+input sequence 2841
+match
+rate 0.720873
+input sequence 2842
+match
+rate 0.720971
+input sequence 2843
+input sequence 2844
+match
+rate 0.720816
+input sequence 2845
+input sequence 2846
+match
+rate 0.720661
+input sequence 2847
+match
+rate 0.720759
+input sequence 2848
+match
+rate 0.720857
+input sequence 2849
+input sequence 2850
+input sequence 2851
+match
+rate 0.720449
+input sequence 2852
+match
+rate 0.720547
+input sequence 2853
+match
+rate 0.720645
+input sequence 2854
+input sequence 2855
+match
+rate 0.72049
+input sequence 2856
+input sequence 2857
+match
+rate 0.720336
+input sequence 2858
+match
+rate 0.720434
+input sequence 2859
+input sequence 2860
+match
+rate 0.72028
+input sequence 2861
+match
+rate 0.720378
+input sequence 2862
+match
+rate 0.720475
+input sequence 2863
+match
+rate 0.720573
+input sequence 2864
+match
+rate 0.72067
+input sequence 2865
+match
+rate 0.720768
+input sequence 2866
+match
+rate 0.720865
+input sequence 2867
+match
+rate 0.720963
+input sequence 2868
+match
+rate 0.72106
+input sequence 2869
+input sequence 2870
+match
+rate 0.720906
+input sequence 2871
+match
+rate 0.721003
+input sequence 2872
+match
+rate 0.7211
+input sequence 2873
+match
+rate 0.721197
+input sequence 2874
+input sequence 2875
+match
+rate 0.721043
+input sequence 2876
+match
+rate 0.72114
+input sequence 2877
+input sequence 2878
+match
+rate 0.720987
+input sequence 2879
+input sequence 2880
+match
+rate 0.720833
+input sequence 2881
+match
+rate 0.72093
+input sequence 2882
+match
+rate 0.721027
+input sequence 2883
+match
+rate 0.721124
+input sequence 2884
+match
+rate 0.721221
+input sequence 2885
+input sequence 2886
+input sequence 2887
+match
+rate 0.720817
+input sequence 2888
+input sequence 2889
+match
+rate 0.720665
+input sequence 2890
+input sequence 2891
+input sequence 2892
+match
+rate 0.720263
+input sequence 2893
+match
+rate 0.72036
+input sequence 2894
+input sequence 2895
+match
+rate 0.720207
+input sequence 2896
+input sequence 2897
+match
+rate 0.720055
+input sequence 2898
+match
+rate 0.720152
+input sequence 2899
+match
+rate 0.720248
+input sequence 2900
+input sequence 2901
+match
+rate 0.720097
+input sequence 2902
+input sequence 2903
+match
+rate 0.719945
+input sequence 2904
+match
+rate 0.720041
+input sequence 2905
+match
+rate 0.720138
+input sequence 2906
+input sequence 2907
+match
+rate 0.719986
+input sequence 2908
+input sequence 2909
+match
+rate 0.719835
+input sequence 2910
+match
+rate 0.719931
+input sequence 2911
+match
+rate 0.720028
+input sequence 2912
+input sequence 2913
+match
+rate 0.719876
+input sequence 2914
+match
+rate 0.719973
+input sequence 2915
+match
+rate 0.720069
+input sequence 2916
+match
+rate 0.720165
+input sequence 2917
+match
+rate 0.720261
+input sequence 2918
+match
+rate 0.720356
+input sequence 2919
+match
+rate 0.720452
+input sequence 2920
+match
+rate 0.720548
+input sequence 2921
+input sequence 2922
+input sequence 2923
+input sequence 2924
+input sequence 2925
+match
+rate 0.719658
+input sequence 2926
+match
+rate 0.719754
+input sequence 2927
+input sequence 2928
+match
+rate 0.719604
+input sequence 2929
+match
+rate 0.7197
+input sequence 2930
+input sequence 2931
+match
+rate 0.71955
+input sequence 2932
+match
+rate 0.719645
+input sequence 2933
+match
+rate 0.719741
+input sequence 2934
+match
+rate 0.719836
+input sequence 2935
+match
+rate 0.719932
+input sequence 2936
+match
+rate 0.720027
+input sequence 2937
+match
+rate 0.720123
+input sequence 2938
+match
+rate 0.720218
+input sequence 2939
+match
+rate 0.720313
+input sequence 2940
+match
+rate 0.720408
+input sequence 2941
+match
+rate 0.720503
+input sequence 2942
+match
+rate 0.720598
+input sequence 2943
+match
+rate 0.720693
+input sequence 2944
+match
+rate 0.720788
+input sequence 2945
+input sequence 2946
+match
+rate 0.720638
+input sequence 2947
+match
+rate 0.720733
+input sequence 2948
+match
+rate 0.720828
+input sequence 2949
+match
+rate 0.720922
+input sequence 2950
+input sequence 2951
+match
+rate 0.720773
+input sequence 2952
+input sequence 2953
+match
+rate 0.720623
+input sequence 2954
+input sequence 2955
+match
+rate 0.720474
+input sequence 2956
+match
+rate 0.720568
+input sequence 2957
+match
+rate 0.720663
+input sequence 2958
+match
+rate 0.720757
+input sequence 2959
+input sequence 2960
+match
+rate 0.720608
+input sequence 2961
+match
+rate 0.720702
+input sequence 2962
+match
+rate 0.720797
+input sequence 2963
+match
+rate 0.720891
+input sequence 2964
+match
+rate 0.720985
+input sequence 2965
+match
+rate 0.721079
+input sequence 2966
+match
+rate 0.721173
+input sequence 2967
+match
+rate 0.721267
+input sequence 2968
+input sequence 2969
+input sequence 2970
+match
+rate 0.720875
+input sequence 2971
+match
+rate 0.720969
+input sequence 2972
+input sequence 2973
+match
+rate 0.720821
+input sequence 2974
+match
+rate 0.720915
+input sequence 2975
+match
+rate 0.721008
+input sequence 2976
+match
+rate 0.721102
+input sequence 2977
+input sequence 2978
+input sequence 2979
+match
+rate 0.720712
+input sequence 2980
+match
+rate 0.720805
+input sequence 2981
+match
+rate 0.720899
+input sequence 2982
+match
+rate 0.720993
+input sequence 2983
+input sequence 2984
+match
+rate 0.720845
+input sequence 2985
+match
+rate 0.720938
+input sequence 2986
+input sequence 2987
+match
+rate 0.72079
+input sequence 2988
+match
+rate 0.720884
+input sequence 2989
+match
+rate 0.720977
+input sequence 2990
+match
+rate 0.72107
+input sequence 2991
+match
+rate 0.721164
+input sequence 2992
+input sequence 2993
+match
+rate 0.721016
+input sequence 2994
+input sequence 2995
+match
+rate 0.720868
+input sequence 2996
+match
+rate 0.720961
+input sequence 2997
+match
+rate 0.721054
+input sequence 2998
+match
+rate 0.721147
+input sequence 2999
+match
+rate 0.72124
+input sequence 3000
+match
+rate 0.721333
+input sequence 3001
+match
+rate 0.721426
+input sequence 3002
+match
+rate 0.721519
+input sequence 3003
+match
+rate 0.721612
+input sequence 3004
+match
+rate 0.721704
+input sequence 3005
+match
+rate 0.721797
+input sequence 3006
+match
+rate 0.72189
+input sequence 3007
+match
+rate 0.721982
+input sequence 3008
+input sequence 3009
+match
+rate 0.721834
+input sequence 3010
+match
+rate 0.721927
+input sequence 3011
+match
+rate 0.722019
+input sequence 3012
+match
+rate 0.722112
+input sequence 3013
+match
+rate 0.722204
+input sequence 3014
+match
+rate 0.722296
+input sequence 3015
+match
+rate 0.722388
+input sequence 3016
+input sequence 3017
+match
+rate 0.722241
+input sequence 3018
+match
+rate 0.722333
+input sequence 3019
+match
+rate 0.722425
+input sequence 3020
+match
+rate 0.722517
+input sequence 3021
+match
+rate 0.722608
+input sequence 3022
+input sequence 3023
+input sequence 3024
+match
+rate 0.722222
+input sequence 3025
+match
+rate 0.722314
+input sequence 3026
+match
+rate 0.722406
+input sequence 3027
+input sequence 3028
+match
+rate 0.722259
+input sequence 3029
+input sequence 3030
+match
+rate 0.722112
+input sequence 3031
+match
+rate 0.722204
+input sequence 3032
+input sequence 3033
+match
+rate 0.722057
+input sequence 3034
+match
+rate 0.722149
+input sequence 3035
+match
+rate 0.722241
+input sequence 3036
+match
+rate 0.722332
+input sequence 3037
+match
+rate 0.722423
+input sequence 3038
+match
+rate 0.722515
+input sequence 3039
+match
+rate 0.722606
+input sequence 3040
+input sequence 3041
+input sequence 3042
+match
+rate 0.722222
+input sequence 3043
+match
+rate 0.722314
+input sequence 3044
+match
+rate 0.722405
+input sequence 3045
+match
+rate 0.722496
+input sequence 3046
+match
+rate 0.722587
+input sequence 3047
+match
+rate 0.722678
+input sequence 3048
+match
+rate 0.722769
+input sequence 3049
+match
+rate 0.72286
+input sequence 3050
+match
+rate 0.722951
+input sequence 3051
+match
+rate 0.723042
+input sequence 3052
+match
+rate 0.723132
+input sequence 3053
+input sequence 3054
+match
+rate 0.722986
+input sequence 3055
+match
+rate 0.723077
+input sequence 3056
+match
+rate 0.723168
+input sequence 3057
+match
+rate 0.723258
+input sequence 3058
+input sequence 3059
+match
+rate 0.723112
+input sequence 3060
+match
+rate 0.723203
+input sequence 3061
+match
+rate 0.723293
+input sequence 3062
+match
+rate 0.723383
+input sequence 3063
+match
+rate 0.723474
+input sequence 3064
+match
+rate 0.723564
+input sequence 3065
+match
+rate 0.723654
+input sequence 3066
+match
+rate 0.723744
+input sequence 3067
+match
+rate 0.723834
+input sequence 3068
+match
+rate 0.723924
+input sequence 3069
+match
+rate 0.724014
+input sequence 3070
+match
+rate 0.724104
+input sequence 3071
+match
+rate 0.724194
+input sequence 3072
+input sequence 3073
+match
+rate 0.724048
+input sequence 3074
+match
+rate 0.724138
+input sequence 3075
+match
+rate 0.724228
+input sequence 3076
+match
+rate 0.724317
+input sequence 3077
+match
+rate 0.724407
+input sequence 3078
+match
+rate 0.724496
+input sequence 3079
+match
+rate 0.724586
+input sequence 3080
+match
+rate 0.724675
+input sequence 3081
+match
+rate 0.724765
+input sequence 3082
+match
+rate 0.724854
+input sequence 3083
+match
+rate 0.724943
+input sequence 3084
+match
+rate 0.725032
+input sequence 3085
+match
+rate 0.725122
+input sequence 3086
+match
+rate 0.725211
+input sequence 3087
+input sequence 3088
+match
+rate 0.725065
+input sequence 3089
+match
+rate 0.725154
+input sequence 3090
+match
+rate 0.725243
+input sequence 3091
+match
+rate 0.725332
+input sequence 3092
+match
+rate 0.72542
+input sequence 3093
+input sequence 3094
+match
+rate 0.725275
+input sequence 3095
+match
+rate 0.725363
+input sequence 3096
+input sequence 3097
+match
+rate 0.725218
+input sequence 3098
+match
+rate 0.725307
+input sequence 3099
+input sequence 3100
+match
+rate 0.725161
+input sequence 3101
+match
+rate 0.72525
+input sequence 3102
+match
+rate 0.725339
+input sequence 3103
+match
+rate 0.725427
+input sequence 3104
+match
+rate 0.725515
+input sequence 3105
+input sequence 3106
+match
+rate 0.72537
+input sequence 3107
+match
+rate 0.725459
+input sequence 3108
+match
+rate 0.725547
+input sequence 3109
+match
+rate 0.725635
+input sequence 3110
+match
+rate 0.725723
+input sequence 3111
+match
+rate 0.725812
+input sequence 3112
+input sequence 3113
+match
+rate 0.725667
+input sequence 3114
+match
+rate 0.725755
+input sequence 3115
+match
+rate 0.725843
+input sequence 3116
+input sequence 3117
+match
+rate 0.725698
+input sequence 3118
+match
+rate 0.725786
+input sequence 3119
+match
+rate 0.725874
+input sequence 3120
+match
+rate 0.725962
+input sequence 3121
+match
+rate 0.726049
+input sequence 3122
+input sequence 3123
+input sequence 3124
+match
+rate 0.725672
+input sequence 3125
+match
+rate 0.72576
+input sequence 3126
+match
+rate 0.725848
+input sequence 3127
+match
+rate 0.725935
+input sequence 3128
+match
+rate 0.726023
+input sequence 3129
+match
+rate 0.726111
+input sequence 3130
+match
+rate 0.726198
+input sequence 3131
+match
+rate 0.726286
+input sequence 3132
+match
+rate 0.726373
+input sequence 3133
+input sequence 3134
+match
+rate 0.726228
+input sequence 3135
+match
+rate 0.726316
+input sequence 3136
+match
+rate 0.726403
+input sequence 3137
+input sequence 3138
+match
+rate 0.726259
+input sequence 3139
+match
+rate 0.726346
+input sequence 3140
+match
+rate 0.726433
+input sequence 3141
+match
+rate 0.72652
+input sequence 3142
+input sequence 3143
+match
+rate 0.726376
+input sequence 3144
+match
+rate 0.726463
+input sequence 3145
+match
+rate 0.72655
+input sequence 3146
+match
+rate 0.726637
+input sequence 3147
+match
+rate 0.726724
+input sequence 3148
+match
+rate 0.726811
+input sequence 3149
+match
+rate 0.726897
+input sequence 3150
+input sequence 3151
+match
+rate 0.726753
+input sequence 3152
+match
+rate 0.72684
+input sequence 3153
+input sequence 3154
+input sequence 3155
+match
+rate 0.726466
+input sequence 3156
+input sequence 3157
+match
+rate 0.726322
+input sequence 3158
+match
+rate 0.726409
+input sequence 3159
+input sequence 3160
+match
+rate 0.726266
+input sequence 3161
+input sequence 3162
+input sequence 3163
+match
+rate 0.725893
+input sequence 3164
+input sequence 3165
+match
+rate 0.72575
+input sequence 3166
+match
+rate 0.725837
+input sequence 3167
+input sequence 3168
+match
+rate 0.725694
+input sequence 3169
+input sequence 3170
+match
+rate 0.725552
+input sequence 3171
+match
+rate 0.725639
+input sequence 3172
+match
+rate 0.725725
+input sequence 3173
+match
+rate 0.725812
+input sequence 3174
+match
+rate 0.725898
+input sequence 3175
+match
+rate 0.725984
+input sequence 3176
+match
+rate 0.726071
+input sequence 3177
+match
+rate 0.726157
+input sequence 3178
+match
+rate 0.726243
+input sequence 3179
+input sequence 3180
+match
+rate 0.726101
+input sequence 3181
+match
+rate 0.726187
+input sequence 3182
+input sequence 3183
+match
+rate 0.726045
+input sequence 3184
+input sequence 3185
+input sequence 3186
+match
+rate 0.725675
+input sequence 3187
+match
+rate 0.725761
+input sequence 3188
+match
+rate 0.725847
+input sequence 3189
+input sequence 3190
+input sequence 3191
+input sequence 3192
+match
+rate 0.725251
+input sequence 3193
+match
+rate 0.725337
+input sequence 3194
+match
+rate 0.725423
+input sequence 3195
+input sequence 3196
+match
+rate 0.725282
+input sequence 3197
+match
+rate 0.725368
+input sequence 3198
+match
+rate 0.725453
+input sequence 3199
+match
+rate 0.725539
+input sequence 3200
+match
+rate 0.725625
+input sequence 3201
+match
+rate 0.725711
+input sequence 3202
+match
+rate 0.725796
+input sequence 3203
+match
+rate 0.725882
+input sequence 3204
+input sequence 3205
+match
+rate 0.725741
+input sequence 3206
+match
+rate 0.725827
+input sequence 3207
+input sequence 3208
+match
+rate 0.725686
+input sequence 3209
+match
+rate 0.725771
+input sequence 3210
+match
+rate 0.725857
+input sequence 3211
+match
+rate 0.725942
+input sequence 3212
+match
+rate 0.726027
+input sequence 3213
+match
+rate 0.726113
+input sequence 3214
+input sequence 3215
+input sequence 3216
+match
+rate 0.725746
+input sequence 3217
+match
+rate 0.725832
+input sequence 3218
+input sequence 3219
+match
+rate 0.725691
+input sequence 3220
+match
+rate 0.725776
+input sequence 3221
+match
+rate 0.725862
+input sequence 3222
+match
+rate 0.725947
+input sequence 3223
+match
+rate 0.726032
+input sequence 3224
+input sequence 3225
+match
+rate 0.725891
+input sequence 3226
+match
+rate 0.725976
+input sequence 3227
+match
+rate 0.726061
+input sequence 3228
+match
+rate 0.726146
+input sequence 3229
+match
+rate 0.726231
+input sequence 3230
+input sequence 3231
+input sequence 3232
+match
+rate 0.725866
+input sequence 3233
+match
+rate 0.725951
+input sequence 3234
+input sequence 3235
+match
+rate 0.725811
+input sequence 3236
+input sequence 3237
+match
+rate 0.725672
+input sequence 3238
+match
+rate 0.725757
+input sequence 3239
+input sequence 3240
+match
+rate 0.725617
+input sequence 3241
+match
+rate 0.725702
+input sequence 3242
+input sequence 3243
+input sequence 3244
+match
+rate 0.725339
+input sequence 3245
+match
+rate 0.725424
+input sequence 3246
+input sequence 3247
+input sequence 3248
+match
+rate 0.725062
+input sequence 3249
+match
+rate 0.725146
+input sequence 3250
+input sequence 3251
+match
+rate 0.725008
+input sequence 3252
+match
+rate 0.725092
+input sequence 3253
+match
+rate 0.725177
+input sequence 3254
+match
+rate 0.725261
+input sequence 3255
+match
+rate 0.725346
+input sequence 3256
+match
+rate 0.72543
+input sequence 3257
+match
+rate 0.725514
+input sequence 3258
+match
+rate 0.725599
+input sequence 3259
+match
+rate 0.725683
+input sequence 3260
+match
+rate 0.725767
+input sequence 3261
+match
+rate 0.725851
+input sequence 3262
+match
+rate 0.725935
+input sequence 3263
+match
+rate 0.726019
+input sequence 3264
+match
+rate 0.726103
+input sequence 3265
+match
+rate 0.726187
+input sequence 3266
+match
+rate 0.726271
+input sequence 3267
+match
+rate 0.726354
+input sequence 3268
+match
+rate 0.726438
+input sequence 3269
+match
+rate 0.726522
+input sequence 3270
+match
+rate 0.726605
+input sequence 3271
+match
+rate 0.726689
+input sequence 3272
+match
+rate 0.726773
+input sequence 3273
+match
+rate 0.726856
+input sequence 3274
+input sequence 3275
+input sequence 3276
+input sequence 3277
+input sequence 3278
+input sequence 3279
+input sequence 3280
+input sequence 3281
+input sequence 3282
+input sequence 3283
+match
+rate 0.724947
+input sequence 3284
+match
+rate 0.72503
+input sequence 3285
+match
+rate 0.725114
+input sequence 3286
+match
+rate 0.725198
+input sequence 3287
+match
+rate 0.725281
+input sequence 3288
+match
+rate 0.725365
+input sequence 3289
+input sequence 3290
+match
+rate 0.725228
+input sequence 3291
+match
+rate 0.725311
+input sequence 3292
+match
+rate 0.725395
+input sequence 3293
+match
+rate 0.725478
+input sequence 3294
+match
+rate 0.725562
+input sequence 3295
+input sequence 3296
+input sequence 3297
+match
+rate 0.725205
+input sequence 3298
+match
+rate 0.725288
+input sequence 3299
+match
+rate 0.725371
+input sequence 3300
+match
+rate 0.725455
+input sequence 3301
+input sequence 3302
+input sequence 3303
+match
+rate 0.725098
+input sequence 3304
+match
+rate 0.725182
+input sequence 3305
+input sequence 3306
+match
+rate 0.725045
+input sequence 3307
+match
+rate 0.725129
+input sequence 3308
+match
+rate 0.725212
+input sequence 3309
+match
+rate 0.725295
+input sequence 3310
+input sequence 3311
+match
+rate 0.725159
+input sequence 3312
+match
+rate 0.725242
+input sequence 3313
+input sequence 3314
+input sequence 3315
+match
+rate 0.724887
+input sequence 3316
+match
+rate 0.72497
+input sequence 3317
+match
+rate 0.725053
+input sequence 3318
+match
+rate 0.725136
+input sequence 3319
+match
+rate 0.725218
+input sequence 3320
+match
+rate 0.725301
+input sequence 3321
+match
+rate 0.725384
+input sequence 3322
+input sequence 3323
+match
+rate 0.725248
+input sequence 3324
+match
+rate 0.725331
+input sequence 3325
+match
+rate 0.725414
+input sequence 3326
+input sequence 3327
+input sequence 3328
+match
+rate 0.72506
+input sequence 3329
+match
+rate 0.725143
+input sequence 3330
+input sequence 3331
+match
+rate 0.725008
+input sequence 3332
+match
+rate 0.72509
+input sequence 3333
+match
+rate 0.725173
+input sequence 3334
+input sequence 3335
+match
+rate 0.725037
+input sequence 3336
+match
+rate 0.72512
+input sequence 3337
+match
+rate 0.725202
+input sequence 3338
+match
+rate 0.725285
+input sequence 3339
+match
+rate 0.725367
+input sequence 3340
+match
+rate 0.725449
+input sequence 3341
+match
+rate 0.725531
+input sequence 3342
+match
+rate 0.725613
+input sequence 3343
+match
+rate 0.725695
+input sequence 3344
+match
+rate 0.725778
+input sequence 3345
+match
+rate 0.725859
+input sequence 3346
+match
+rate 0.725941
+input sequence 3347
+input sequence 3348
+input sequence 3349
+input sequence 3350
+match
+rate 0.725373
+input sequence 3351
+match
+rate 0.725455
+input sequence 3352
+match
+rate 0.725537
+input sequence 3353
+match
+rate 0.725619
+input sequence 3354
+match
+rate 0.725701
+input sequence 3355
+match
+rate 0.725782
+input sequence 3356
+match
+rate 0.725864
+input sequence 3357
+match
+rate 0.725946
+input sequence 3358
+match
+rate 0.726027
+input sequence 3359
+match
+rate 0.726109
+input sequence 3360
+match
+rate 0.72619
+input sequence 3361
+match
+rate 0.726272
+input sequence 3362
+match
+rate 0.726353
+input sequence 3363
+match
+rate 0.726435
+input sequence 3364
+match
+rate 0.726516
+input sequence 3365
+input sequence 3366
+match
+rate 0.726381
+input sequence 3367
+input sequence 3368
+match
+rate 0.726247
+input sequence 3369
+match
+rate 0.726328
+input sequence 3370
+match
+rate 0.726409
+input sequence 3371
+match
+rate 0.726491
+input sequence 3372
+input sequence 3373
+match
+rate 0.726356
+input sequence 3374
+match
+rate 0.726437
+input sequence 3375
+match
+rate 0.726519
+input sequence 3376
+match
+rate 0.7266
+input sequence 3377
+match
+rate 0.72668
+input sequence 3378
+match
+rate 0.726761
+input sequence 3379
+input sequence 3380
+match
+rate 0.726627
+input sequence 3381
+match
+rate 0.726708
+input sequence 3382
+match
+rate 0.726789
+input sequence 3383
+input sequence 3384
+match
+rate 0.726655
+input sequence 3385
+input sequence 3386
+input sequence 3387
+match
+rate 0.726306
+input sequence 3388
+input sequence 3389
+input sequence 3390
+match
+rate 0.725959
+input sequence 3391
+match
+rate 0.72604
+input sequence 3392
+match
+rate 0.72612
+input sequence 3393
+match
+rate 0.726201
+input sequence 3394
+match
+rate 0.726282
+input sequence 3395
+match
+rate 0.726362
+input sequence 3396
+match
+rate 0.726443
+input sequence 3397
+input sequence 3398
+input sequence 3399
+match
+rate 0.726096
+input sequence 3400
+match
+rate 0.726177
+input sequence 3401
+match
+rate 0.726257
+input sequence 3402
+input sequence 3403
+input sequence 3404
+input sequence 3405
+match
+rate 0.725698
+input sequence 3406
+input sequence 3407
+input sequence 3408
+input sequence 3409
+input sequence 3410
+match
+rate 0.724927
+input sequence 3411
+match
+rate 0.725007
+input sequence 3412
+match
+rate 0.725088
+input sequence 3413
+match
+rate 0.725168
+input sequence 3414
+match
+rate 0.725249
+input sequence 3415
+match
+rate 0.725329
+input sequence 3416
+match
+rate 0.72541
+input sequence 3417
+match
+rate 0.72549
+input sequence 3418
+match
+rate 0.72557
+input sequence 3419
+input sequence 3420
+match
+rate 0.725439
+input sequence 3421
+input sequence 3422
+match
+rate 0.725307
+input sequence 3423
+match
+rate 0.725387
+input sequence 3424
+match
+rate 0.725467
+input sequence 3425
+match
+rate 0.725547
+input sequence 3426
+match
+rate 0.725628
+input sequence 3427
+match
+rate 0.725708
+input sequence 3428
+match
+rate 0.725788
+input sequence 3429
+match
+rate 0.725868
+input sequence 3430
+match
+rate 0.725947
+input sequence 3431
+input sequence 3432
+match
+rate 0.725816
+input sequence 3433
+match
+rate 0.725896
+input sequence 3434
+match
+rate 0.725976
+input sequence 3435
+input sequence 3436
+match
+rate 0.725844
+input sequence 3437
+match
+rate 0.725924
+input sequence 3438
+input sequence 3439
+match
+rate 0.725792
+input sequence 3440
+match
+rate 0.725872
+input sequence 3441
+input sequence 3442
+match
+rate 0.725741
+input sequence 3443
+match
+rate 0.72582
+input sequence 3444
+input sequence 3445
+match
+rate 0.725689
+input sequence 3446
+input sequence 3447
+match
+rate 0.725558
+input sequence 3448
+match
+rate 0.725638
+input sequence 3449
+input sequence 3450
+match
+rate 0.725507
+input sequence 3451
+input sequence 3452
+match
+rate 0.725377
+input sequence 3453
+match
+rate 0.725456
+input sequence 3454
+match
+rate 0.725536
+input sequence 3455
+match
+rate 0.725615
+input sequence 3456
+match
+rate 0.725694
+input sequence 3457
+match
+rate 0.725774
+input sequence 3458
+match
+rate 0.725853
+input sequence 3459
+input sequence 3460
+match
+rate 0.725723
+input sequence 3461
+input sequence 3462
+match
+rate 0.725592
+input sequence 3463
+match
+rate 0.725671
+input sequence 3464
+match
+rate 0.725751
+input sequence 3465
+input sequence 3466
+match
+rate 0.72562
+input sequence 3467
+match
+rate 0.725699
+input sequence 3468
+match
+rate 0.725779
+input sequence 3469
+match
+rate 0.725858
+input sequence 3470
+match
+rate 0.725937
+input sequence 3471
+match
+rate 0.726016
+input sequence 3472
+match
+rate 0.726094
+input sequence 3473
+input sequence 3474
+input sequence 3475
+input sequence 3476
+match
+rate 0.725547
+input sequence 3477
+match
+rate 0.725626
+input sequence 3478
+match
+rate 0.725704
+input sequence 3479
+match
+rate 0.725783
+input sequence 3480
+input sequence 3481
+match
+rate 0.725654
+input sequence 3482
+match
+rate 0.725732
+input sequence 3483
+input sequence 3484
+input sequence 3485
+input sequence 3486
+match
+rate 0.725186
+input sequence 3487
+input sequence 3488
+match
+rate 0.725057
+input sequence 3489
+input sequence 3490
+input sequence 3491
+input sequence 3492
+match
+rate 0.724513
+input sequence 3493
+match
+rate 0.724592
+input sequence 3494
+match
+rate 0.724671
+input sequence 3495
+input sequence 3496
+match
+rate 0.724542
+input sequence 3497
+input sequence 3498
+match
+rate 0.724414
+input sequence 3499
+match
+rate 0.724493
+input sequence 3500
+input sequence 3501
+match
+rate 0.724364
+input sequence 3502
+input sequence 3503
+match
+rate 0.724236
+input sequence 3504
+match
+rate 0.724315
+input sequence 3505
+match
+rate 0.724394
+input sequence 3506
+input sequence 3507
+input sequence 3508
+input sequence 3509
+match
+rate 0.723853
+input sequence 3510
+match
+rate 0.723932
+input sequence 3511
+match
+rate 0.72401
+input sequence 3512
+match
+rate 0.724089
+input sequence 3513
+match
+rate 0.724167
+input sequence 3514
+match
+rate 0.724246
+input sequence 3515
+input sequence 3516
+match
+rate 0.724118
+input sequence 3517
+match
+rate 0.724197
+input sequence 3518
+input sequence 3519
+match
+rate 0.724069
+input sequence 3520
+match
+rate 0.724148
+input sequence 3521
+input sequence 3522
+match
+rate 0.72402
+input sequence 3523
+match
+rate 0.724099
+input sequence 3524
+match
+rate 0.724177
+input sequence 3525
+match
+rate 0.724255
+input sequence 3526
+input sequence 3527
+match
+rate 0.724128
+input sequence 3528
+match
+rate 0.724206
+input sequence 3529
+match
+rate 0.724284
+input sequence 3530
+match
+rate 0.724363
+input sequence 3531
+match
+rate 0.724441
+input sequence 3532
+match
+rate 0.724519
+input sequence 3533
+match
+rate 0.724597
+input sequence 3534
+match
+rate 0.724675
+input sequence 3535
+input sequence 3536
+match
+rate 0.724548
+input sequence 3537
+input sequence 3538
+match
+rate 0.724421
+input sequence 3539
+input sequence 3540
+match
+rate 0.724294
+input sequence 3541
+match
+rate 0.724372
+input sequence 3542
+match
+rate 0.724449
+input sequence 3543
+match
+rate 0.724527
+input sequence 3544
+match
+rate 0.724605
+input sequence 3545
+input sequence 3546
+match
+rate 0.724478
+input sequence 3547
+match
+rate 0.724556
+input sequence 3548
+match
+rate 0.724634
+input sequence 3549
+match
+rate 0.724711
+input sequence 3550
+match
+rate 0.724789
+input sequence 3551
+match
+rate 0.724866
+input sequence 3552
+match
+rate 0.724944
+input sequence 3553
+input sequence 3554
+input sequence 3555
+match
+rate 0.724613
+input sequence 3556
+match
+rate 0.724691
+input sequence 3557
+input sequence 3558
+input sequence 3559
+match
+rate 0.724361
+input sequence 3560
+match
+rate 0.724438
+input sequence 3561
+match
+rate 0.724516
+input sequence 3562
+match
+rate 0.724593
+input sequence 3563
+match
+rate 0.72467
+input sequence 3564
+match
+rate 0.724747
+input sequence 3565
+match
+rate 0.724825
+input sequence 3566
+input sequence 3567
+match
+rate 0.724699
+input sequence 3568
+match
+rate 0.724776
+input sequence 3569
+match
+rate 0.724853
+input sequence 3570
+input sequence 3571
+match
+rate 0.724727
+input sequence 3572
+match
+rate 0.724804
+input sequence 3573
+match
+rate 0.724881
+input sequence 3574
+match
+rate 0.724958
+input sequence 3575
+match
+rate 0.725035
+input sequence 3576
+match
+rate 0.725112
+input sequence 3577
+input sequence 3578
+input sequence 3579
+match
+rate 0.724783
+input sequence 3580
+match
+rate 0.72486
+input sequence 3581
+input sequence 3582
+input sequence 3583
+match
+rate 0.724532
+input sequence 3584
+match
+rate 0.724609
+input sequence 3585
+match
+rate 0.724686
+input sequence 3586
+input sequence 3587
+input sequence 3588
+match
+rate 0.724359
+input sequence 3589
+input sequence 3590
+match
+rate 0.724234
+input sequence 3591
+match
+rate 0.724311
+input sequence 3592
+input sequence 3593
+match
+rate 0.724186
+input sequence 3594
+match
+rate 0.724263
+input sequence 3595
+match
+rate 0.724339
+input sequence 3596
+match
+rate 0.724416
+input sequence 3597
+match
+rate 0.724493
+input sequence 3598
+input sequence 3599
+match
+rate 0.724368
+input sequence 3600
+match
+rate 0.724444
+input sequence 3601
+match
+rate 0.724521
+input sequence 3602
+match
+rate 0.724597
+input sequence 3603
+match
+rate 0.724674
+input sequence 3604
+match
+rate 0.72475
+input sequence 3605
+match
+rate 0.724827
+input sequence 3606
+input sequence 3607
+match
+rate 0.724702
+input sequence 3608
+input sequence 3609
+input sequence 3610
+match
+rate 0.724377
+input sequence 3611
+match
+rate 0.724453
+input sequence 3612
+match
+rate 0.724529
+input sequence 3613
+input sequence 3614
+match
+rate 0.724405
+input sequence 3615
+match
+rate 0.724481
+input sequence 3616
+match
+rate 0.724558
+input sequence 3617
+match
+rate 0.724634
+input sequence 3618
+input sequence 3619
+match
+rate 0.72451
+input sequence 3620
+match
+rate 0.724586
+input sequence 3621
+match
+rate 0.724662
+input sequence 3622
+input sequence 3623
+match
+rate 0.724538
+input sequence 3624
+match
+rate 0.724614
+input sequence 3625
+input sequence 3626
+match
+rate 0.72449
+input sequence 3627
+match
+rate 0.724566
+input sequence 3628
+match
+rate 0.724642
+input sequence 3629
+match
+rate 0.724718
+input sequence 3630
+input sequence 3631
+input sequence 3632
+match
+rate 0.724394
+input sequence 3633
+match
+rate 0.72447
+input sequence 3634
+input sequence 3635
+match
+rate 0.724347
+input sequence 3636
+match
+rate 0.724422
+input sequence 3637
+match
+rate 0.724498
+input sequence 3638
+input sequence 3639
+match
+rate 0.724375
+input sequence 3640
+input sequence 3641
+match
+rate 0.724252
+input sequence 3642
+match
+rate 0.724327
+input sequence 3643
+match
+rate 0.724403
+input sequence 3644
+input sequence 3645
+match
+rate 0.72428
+input sequence 3646
+match
+rate 0.724355
+input sequence 3647
+match
+rate 0.724431
+input sequence 3648
+match
+rate 0.724507
+input sequence 3649
+match
+rate 0.724582
+input sequence 3650
+input sequence 3651
+match
+rate 0.724459
+input sequence 3652
+match
+rate 0.724535
+input sequence 3653
+match
+rate 0.72461
+input sequence 3654
+input sequence 3655
+match
+rate 0.724487
+input sequence 3656
+match
+rate 0.724562
+input sequence 3657
+match
+rate 0.724638
+input sequence 3658
+match
+rate 0.724713
+input sequence 3659
+match
+rate 0.724788
+input sequence 3660
+input sequence 3661
+match
+rate 0.724665
+input sequence 3662
+input sequence 3663
+match
+rate 0.724543
+input sequence 3664
+input sequence 3665
+match
+rate 0.72442
+input sequence 3666
+match
+rate 0.724495
+input sequence 3667
+match
+rate 0.724571
+input sequence 3668
+match
+rate 0.724646
+input sequence 3669
+match
+rate 0.724721
+input sequence 3670
+match
+rate 0.724796
+input sequence 3671
+input sequence 3672
+match
+rate 0.724673
+input sequence 3673
+input sequence 3674
+match
+rate 0.724551
+input sequence 3675
+match
+rate 0.724626
+input sequence 3676
+match
+rate 0.724701
+input sequence 3677
+match
+rate 0.724776
+input sequence 3678
+input sequence 3679
+match
+rate 0.724653
+input sequence 3680
+match
+rate 0.724728
+input sequence 3681
+input sequence 3682
+input sequence 3683
+match
+rate 0.724409
+input sequence 3684
+match
+rate 0.724484
+input sequence 3685
+input sequence 3686
+match
+rate 0.724362
+input sequence 3687
+match
+rate 0.724437
+input sequence 3688
+match
+rate 0.724512
+input sequence 3689
+input sequence 3690
+match
+rate 0.72439
+input sequence 3691
+match
+rate 0.724465
+input sequence 3692
+match
+rate 0.72454
+input sequence 3693
+match
+rate 0.724614
+input sequence 3694
+input sequence 3695
+input sequence 3696
+input sequence 3697
+input sequence 3698
+match
+rate 0.723905
+input sequence 3699
+input sequence 3700
+match
+rate 0.723784
+input sequence 3701
+match
+rate 0.723858
+input sequence 3702
+match
+rate 0.723933
+input sequence 3703
+input sequence 3704
+match
+rate 0.723812
+input sequence 3705
+match
+rate 0.723887
+input sequence 3706
+match
+rate 0.723961
+input sequence 3707
+match
+rate 0.724036
+input sequence 3708
+match
+rate 0.72411
+input sequence 3709
+match
+rate 0.724184
+input sequence 3710
+match
+rate 0.724259
+input sequence 3711
+match
+rate 0.724333
+input sequence 3712
+match
+rate 0.724407
+input sequence 3713
+match
+rate 0.724482
+input sequence 3714
+match
+rate 0.724556
+input sequence 3715
+match
+rate 0.72463
+input sequence 3716
+match
+rate 0.724704
+input sequence 3717
+match
+rate 0.724778
+input sequence 3718
+match
+rate 0.724852
+input sequence 3719
+match
+rate 0.724926
+input sequence 3720
+match
+rate 0.725
+input sequence 3721
+match
+rate 0.725074
+input sequence 3722
+match
+rate 0.725148
+input sequence 3723
+match
+rate 0.725222
+input sequence 3724
+match
+rate 0.725295
+input sequence 3725
+match
+rate 0.725369
+input sequence 3726
+match
+rate 0.725443
+input sequence 3727
+match
+rate 0.725516
+input sequence 3728
+match
+rate 0.72559
+input sequence 3729
+match
+rate 0.725664
+input sequence 3730
+match
+rate 0.725737
+input sequence 3731
+input sequence 3732
+input sequence 3733
+input sequence 3734
+match
+rate 0.725228
+input sequence 3735
+input sequence 3736
+match
+rate 0.725107
+input sequence 3737
+match
+rate 0.725181
+input sequence 3738
+match
+rate 0.725254
+input sequence 3739
+match
+rate 0.725328
+input sequence 3740
+match
+rate 0.725401
+input sequence 3741
+match
+rate 0.725474
+input sequence 3742
+match
+rate 0.725548
+input sequence 3743
+input sequence 3744
+match
+rate 0.725427
+input sequence 3745
+input sequence 3746
+match
+rate 0.725307
+input sequence 3747
+input sequence 3748
+match
+rate 0.725187
+input sequence 3749
+input sequence 3750
+match
+rate 0.725067
+input sequence 3751
+input sequence 3752
+match
+rate 0.724947
+input sequence 3753
+match
+rate 0.72502
+input sequence 3754
+match
+rate 0.725093
+input sequence 3755
+match
+rate 0.725166
+input sequence 3756
+input sequence 3757
+match
+rate 0.725047
+input sequence 3758
+match
+rate 0.72512
+input sequence 3759
+match
+rate 0.725193
+input sequence 3760
+input sequence 3761
+match
+rate 0.725073
+input sequence 3762
+match
+rate 0.725146
+input sequence 3763
+match
+rate 0.725219
+input sequence 3764
+match
+rate 0.725292
+input sequence 3765
+match
+rate 0.725365
+input sequence 3766
+match
+rate 0.725438
+input sequence 3767
+match
+rate 0.725511
+input sequence 3768
+match
+rate 0.725584
+input sequence 3769
+match
+rate 0.725657
+input sequence 3770
+match
+rate 0.725729
+input sequence 3771
+match
+rate 0.725802
+input sequence 3772
+match
+rate 0.725875
+input sequence 3773
+match
+rate 0.725947
+input sequence 3774
+match
+rate 0.72602
+input sequence 3775
+match
+rate 0.726093
+input sequence 3776
+match
+rate 0.726165
+input sequence 3777
+match
+rate 0.726238
+input sequence 3778
+match
+rate 0.72631
+input sequence 3779
+match
+rate 0.726383
+input sequence 3780
+match
+rate 0.726455
+input sequence 3781
+match
+rate 0.726527
+input sequence 3782
+match
+rate 0.7266
+input sequence 3783
+match
+rate 0.726672
+input sequence 3784
+match
+rate 0.726744
+input sequence 3785
+match
+rate 0.726816
+input sequence 3786
+match
+rate 0.726889
+input sequence 3787
+match
+rate 0.726961
+input sequence 3788
+match
+rate 0.727033
+input sequence 3789
+match
+rate 0.727105
+input sequence 3790
+match
+rate 0.727177
+input sequence 3791
+match
+rate 0.727249
+input sequence 3792
+match
+rate 0.727321
+input sequence 3793
+match
+rate 0.727393
+input sequence 3794
+match
+rate 0.727464
+input sequence 3795
+match
+rate 0.727536
+input sequence 3796
+input sequence 3797
+input sequence 3798
+match
+rate 0.727225
+input sequence 3799
+match
+rate 0.727297
+input sequence 3800
+match
+rate 0.727368
+input sequence 3801
+match
+rate 0.72744
+input sequence 3802
+match
+rate 0.727512
+input sequence 3803
+match
+rate 0.727583
+input sequence 3804
+input sequence 3805
+input sequence 3806
+match
+rate 0.727273
+input sequence 3807
+match
+rate 0.727344
+input sequence 3808
+match
+rate 0.727416
+input sequence 3809
+match
+rate 0.727488
+input sequence 3810
+input sequence 3811
+match
+rate 0.727368
+input sequence 3812
+match
+rate 0.72744
+input sequence 3813
+match
+rate 0.727511
+input sequence 3814
+input sequence 3815
+match
+rate 0.727392
+input sequence 3816
+match
+rate 0.727463
+input sequence 3817
+match
+rate 0.727535
+input sequence 3818
+match
+rate 0.727606
+input sequence 3819
+match
+rate 0.727677
+input sequence 3820
+match
+rate 0.727749
+input sequence 3821
+input sequence 3822
+match
+rate 0.72763
+input sequence 3823
+input sequence 3824
+match
+rate 0.72751
+input sequence 3825
+input sequence 3826
+input sequence 3827
+input sequence 3828
+input sequence 3829
+match
+rate 0.726822
+input sequence 3830
+match
+rate 0.726893
+input sequence 3831
+match
+rate 0.726964
+input sequence 3832
+match
+rate 0.727035
+input sequence 3833
+match
+rate 0.727107
+input sequence 3834
+match
+rate 0.727178
+input sequence 3835
+input sequence 3836
+match
+rate 0.727059
+input sequence 3837
+match
+rate 0.727131
+input sequence 3838
+match
+rate 0.727202
+input sequence 3839
+match
+rate 0.727273
+input sequence 3840
+match
+rate 0.727344
+input sequence 3841
+match
+rate 0.727415
+input sequence 3842
+match
+rate 0.727486
+input sequence 3843
+match
+rate 0.727557
+input sequence 3844
+input sequence 3845
+match
+rate 0.727438
+input sequence 3846
+match
+rate 0.727509
+input sequence 3847
+match
+rate 0.72758
+input sequence 3848
+match
+rate 0.727651
+input sequence 3849
+match
+rate 0.727722
+input sequence 3850
+match
+rate 0.727792
+input sequence 3851
+input sequence 3852
+match
+rate 0.727674
+input sequence 3853
+match
+rate 0.727745
+input sequence 3854
+match
+rate 0.727815
+input sequence 3855
+input sequence 3856
+input sequence 3857
+match
+rate 0.727508
+input sequence 3858
+match
+rate 0.727579
+input sequence 3859
+input sequence 3860
+match
+rate 0.727461
+input sequence 3861
+match
+rate 0.727532
+input sequence 3862
+match
+rate 0.727602
+input sequence 3863
+input sequence 3864
+input sequence 3865
+match
+rate 0.727296
+input sequence 3866
+input sequence 3867
+match
+rate 0.727179
+input sequence 3868
+match
+rate 0.727249
+input sequence 3869
+input sequence 3870
+match
+rate 0.727132
+input sequence 3871
+match
+rate 0.727202
+input sequence 3872
+match
+rate 0.727273
+input sequence 3873
+match
+rate 0.727343
+input sequence 3874
+match
+rate 0.727414
+input sequence 3875
+match
+rate 0.727484
+input sequence 3876
+input sequence 3877
+match
+rate 0.727367
+input sequence 3878
+match
+rate 0.727437
+input sequence 3879
+match
+rate 0.727507
+input sequence 3880
+match
+rate 0.727577
+input sequence 3881
+match
+rate 0.727648
+input sequence 3882
+match
+rate 0.727718
+input sequence 3883
+input sequence 3884
+match
+rate 0.7276
+input sequence 3885
+match
+rate 0.727671
+input sequence 3886
+input sequence 3887
+match
+rate 0.727553
+input sequence 3888
+match
+rate 0.727623
+input sequence 3889
+match
+rate 0.727693
+input sequence 3890
+input sequence 3891
+match
+rate 0.727576
+input sequence 3892
+match
+rate 0.727646
+input sequence 3893
+match
+rate 0.727716
+input sequence 3894
+match
+rate 0.727786
+input sequence 3895
+input sequence 3896
+match
+rate 0.727669
+input sequence 3897
+match
+rate 0.727739
+input sequence 3898
+match
+rate 0.727809
+input sequence 3899
+input sequence 3900
+match
+rate 0.727692
+input sequence 3901
+input sequence 3902
+match
+rate 0.727576
+input sequence 3903
+match
+rate 0.727645
+input sequence 3904
+match
+rate 0.727715
+input sequence 3905
+match
+rate 0.727785
+input sequence 3906
+match
+rate 0.727855
+input sequence 3907
+match
+rate 0.727924
+input sequence 3908
+match
+rate 0.727994
+input sequence 3909
+match
+rate 0.728063
+input sequence 3910
+match
+rate 0.728133
+input sequence 3911
+match
+rate 0.728203
+input sequence 3912
+match
+rate 0.728272
+input sequence 3913
+match
+rate 0.728341
+input sequence 3914
+match
+rate 0.728411
+input sequence 3915
+match
+rate 0.72848
+input sequence 3916
+match
+rate 0.72855
+input sequence 3917
+match
+rate 0.728619
+input sequence 3918
+match
+rate 0.728688
+input sequence 3919
+match
+rate 0.728757
+input sequence 3920
+match
+rate 0.728827
+input sequence 3921
+input sequence 3922
+match
+rate 0.72871
+input sequence 3923
+input sequence 3924
+match
+rate 0.728593
+input sequence 3925
+match
+rate 0.728662
+input sequence 3926
+match
+rate 0.728732
+input sequence 3927
+match
+rate 0.728801
+input sequence 3928
+match
+rate 0.72887
+input sequence 3929
+match
+rate 0.728939
+input sequence 3930
+match
+rate 0.729008
+input sequence 3931
+match
+rate 0.729077
+input sequence 3932
+match
+rate 0.729145
+input sequence 3933
+match
+rate 0.729214
+input sequence 3934
+match
+rate 0.729283
+input sequence 3935
+match
+rate 0.729352
+input sequence 3936
+match
+rate 0.729421
+input sequence 3937
+match
+rate 0.729489
+input sequence 3938
+match
+rate 0.729558
+input sequence 3939
+match
+rate 0.729627
+input sequence 3940
+match
+rate 0.729695
+input sequence 3941
+input sequence 3942
+match
+rate 0.729579
+input sequence 3943
+match
+rate 0.729647
+input sequence 3944
+match
+rate 0.729716
+input sequence 3945
+input sequence 3946
+match
+rate 0.7296
+input sequence 3947
+match
+rate 0.729668
+input sequence 3948
+match
+rate 0.729737
+input sequence 3949
+match
+rate 0.729805
+input sequence 3950
+match
+rate 0.729873
+input sequence 3951
+match
+rate 0.729942
+input sequence 3952
+input sequence 3953
+match
+rate 0.729825
+input sequence 3954
+input sequence 3955
+match
+rate 0.729709
+input sequence 3956
+match
+rate 0.729778
+input sequence 3957
+match
+rate 0.729846
+input sequence 3958
+input sequence 3959
+match
+rate 0.72973
+input sequence 3960
+match
+rate 0.729798
+input sequence 3961
+match
+rate 0.729866
+input sequence 3962
+match
+rate 0.729934
+input sequence 3963
+match
+rate 0.730003
+input sequence 3964
+match
+rate 0.730071
+input sequence 3965
+input sequence 3966
+match
+rate 0.729955
+input sequence 3967
+match
+rate 0.730023
+input sequence 3968
+match
+rate 0.730091
+input sequence 3969
+match
+rate 0.730159
+input sequence 3970
+match
+rate 0.730227
+input sequence 3971
+match
+rate 0.730295
+input sequence 3972
+match
+rate 0.730363
+input sequence 3973
+match
+rate 0.73043
+input sequence 3974
+match
+rate 0.730498
+input sequence 3975
+match
+rate 0.730566
+input sequence 3976
+match
+rate 0.730634
+input sequence 3977
+input sequence 3978
+input sequence 3979
+match
+rate 0.730334
+input sequence 3980
+match
+rate 0.730402
+input sequence 3981
+match
+rate 0.73047
+input sequence 3982
+match
+rate 0.730537
+input sequence 3983
+match
+rate 0.730605
+input sequence 3984
+input sequence 3985
+match
+rate 0.730489
+input sequence 3986
+match
+rate 0.730557
+input sequence 3987
+match
+rate 0.730625
+input sequence 3988
+match
+rate 0.730692
+input sequence 3989
+match
+rate 0.73076
+input sequence 3990
+input sequence 3991
+match
+rate 0.730644
+input sequence 3992
+input sequence 3993
+input sequence 3994
+match
+rate 0.730346
+input sequence 3995
+match
+rate 0.730413
+input sequence 3996
+input sequence 3997
+match
+rate 0.730298
+input sequence 3998
+match
+rate 0.730365
+input sequence 3999
+match
+rate 0.730433
+input sequence 4000
+match
+rate 0.7305
+input sequence 4001
+input sequence 4002
+match
+rate 0.730385
+input sequence 4003
+match
+rate 0.730452
+input sequence 4004
+match
+rate 0.730519
+input sequence 4005
+match
+rate 0.730587
+input sequence 4006
+input sequence 4007
+input sequence 4008
+match
+rate 0.730289
+input sequence 4009
+match
+rate 0.730357
+input sequence 4010
+match
+rate 0.730424
+input sequence 4011
+match
+rate 0.730491
+input sequence 4012
+match
+rate 0.730558
+input sequence 4013
+match
+rate 0.730625
+input sequence 4014
+match
+rate 0.730693
+input sequence 4015
+match
+rate 0.73076
+input sequence 4016
+match
+rate 0.730827
+input sequence 4017
+input sequence 4018
+match
+rate 0.730712
+input sequence 4019
+match
+rate 0.730779
+input sequence 4020
+match
+rate 0.730846
+input sequence 4021
+match
+rate 0.730913
+input sequence 4022
+input sequence 4023
+match
+rate 0.730798
+input sequence 4024
+match
+rate 0.730865
+input sequence 4025
+input sequence 4026
+match
+rate 0.73075
+input sequence 4027
+match
+rate 0.730817
+input sequence 4028
+match
+rate 0.730884
+input sequence 4029
+match
+rate 0.730951
+input sequence 4030
+match
+rate 0.731017
+input sequence 4031
+match
+rate 0.731084
+input sequence 4032
+input sequence 4033
+input sequence 4034
+match
+rate 0.730788
+input sequence 4035
+match
+rate 0.730855
+input sequence 4036
+input sequence 4037
+match
+rate 0.730741
+input sequence 4038
+match
+rate 0.730807
+input sequence 4039
+match
+rate 0.730874
+input sequence 4040
+match
+rate 0.730941
+input sequence 4041
+match
+rate 0.731007
+input sequence 4042
+match
+rate 0.731074
+input sequence 4043
+match
+rate 0.73114
+input sequence 4044
+match
+rate 0.731207
+input sequence 4045
+match
+rate 0.731273
+input sequence 4046
+match
+rate 0.73134
+input sequence 4047
+match
+rate 0.731406
+input sequence 4048
+match
+rate 0.731472
+input sequence 4049
+input sequence 4050
+match
+rate 0.731358
+input sequence 4051
+match
+rate 0.731424
+input sequence 4052
+match
+rate 0.731491
+input sequence 4053
+match
+rate 0.731557
+input sequence 4054
+match
+rate 0.731623
+input sequence 4055
+match
+rate 0.731689
+input sequence 4056
+input sequence 4057
+match
+rate 0.731575
+input sequence 4058
+match
+rate 0.731641
+input sequence 4059
+match
+rate 0.731707
+input sequence 4060
+match
+rate 0.731773
+input sequence 4061
+match
+rate 0.731839
+input sequence 4062
+match
+rate 0.731905
+input sequence 4063
+match
+rate 0.731971
+input sequence 4064
+input sequence 4065
+match
+rate 0.731857
+input sequence 4066
+match
+rate 0.731923
+input sequence 4067
+match
+rate 0.731989
+input sequence 4068
+match
+rate 0.732055
+input sequence 4069
+input sequence 4070
+match
+rate 0.731941
+input sequence 4071
+match
+rate 0.732007
+input sequence 4072
+match
+rate 0.732073
+input sequence 4073
+match
+rate 0.732138
+input sequence 4074
+input sequence 4075
+match
+rate 0.732025
+input sequence 4076
+match
+rate 0.73209
+input sequence 4077
+match
+rate 0.732156
+input sequence 4078
+input sequence 4079
+input sequence 4080
+input sequence 4081
+match
+rate 0.731683
+input sequence 4082
+match
+rate 0.731749
+input sequence 4083
+input sequence 4084
+input sequence 4085
+match
+rate 0.731457
+input sequence 4086
+input sequence 4087
+match
+rate 0.731343
+input sequence 4088
+match
+rate 0.731409
+input sequence 4089
+match
+rate 0.731475
+input sequence 4090
+match
+rate 0.73154
+input sequence 4091
+match
+rate 0.731606
+input sequence 4092
+match
+rate 0.731672
+input sequence 4093
+match
+rate 0.731737
+input sequence 4094
+match
+rate 0.731803
+input sequence 4095
+input sequence 4096
+match
+rate 0.731689
+input sequence 4097
+match
+rate 0.731755
+input sequence 4098
+match
+rate 0.73182
+input sequence 4099
+match
+rate 0.731886
+input sequence 4100
+input sequence 4101
+input sequence 4102
+input sequence 4103
+input sequence 4104
+match
+rate 0.731238
+input sequence 4105
+match
+rate 0.731303
+input sequence 4106
+input sequence 4107
+match
+rate 0.731191
+input sequence 4108
+input sequence 4109
+match
+rate 0.731078
+input sequence 4110
+match
+rate 0.731144
+input sequence 4111
+match
+rate 0.731209
+input sequence 4112
+match
+rate 0.731274
+input sequence 4113
+match
+rate 0.73134
+input sequence 4114
+input sequence 4115
+match
+rate 0.731227
+input sequence 4116
+match
+rate 0.731293
+input sequence 4117
+match
+rate 0.731358
+input sequence 4118
+input sequence 4119
+match
+rate 0.731245
+input sequence 4120
+match
+rate 0.731311
+input sequence 4121
+input sequence 4122
+match
+rate 0.731198
+input sequence 4123
+match
+rate 0.731264
+input sequence 4124
+match
+rate 0.731329
+input sequence 4125
+match
+rate 0.731394
+input sequence 4126
+input sequence 4127
+input sequence 4128
+match
+rate 0.731105
+input sequence 4129
+match
+rate 0.73117
+input sequence 4130
+match
+rate 0.731235
+input sequence 4131
+match
+rate 0.7313
+input sequence 4132
+match
+rate 0.731365
+input sequence 4133
+match
+rate 0.73143
+input sequence 4134
+input sequence 4135
+input sequence 4136
+match
+rate 0.731141
+input sequence 4137
+match
+rate 0.731206
+input sequence 4138
+match
+rate 0.731271
+input sequence 4139
+input sequence 4140
+match
+rate 0.731159
+input sequence 4141
+match
+rate 0.731224
+input sequence 4142
+match
+rate 0.731289
+input sequence 4143
+match
+rate 0.731354
+input sequence 4144
+match
+rate 0.731419
+input sequence 4145
+input sequence 4146
+match
+rate 0.731307
+input sequence 4147
+match
+rate 0.731372
+input sequence 4148
+match
+rate 0.731437
+input sequence 4149
+input sequence 4150
+match
+rate 0.731325
+input sequence 4151
+input sequence 4152
+match
+rate 0.731214
+input sequence 4153
+match
+rate 0.731279
+input sequence 4154
+match
+rate 0.731343
+input sequence 4155
+match
+rate 0.731408
+input sequence 4156
+match
+rate 0.731473
+input sequence 4157
+match
+rate 0.731537
+input sequence 4158
+input sequence 4159
+match
+rate 0.731426
+input sequence 4160
+match
+rate 0.73149
+input sequence 4161
+match
+rate 0.731555
+input sequence 4162
+input sequence 4163
+input sequence 4164
+match
+rate 0.731268
+input sequence 4165
+match
+rate 0.731333
+input sequence 4166
+match
+rate 0.731397
+input sequence 4167
+match
+rate 0.731461
+input sequence 4168
+match
+rate 0.731526
+input sequence 4169
+match
+rate 0.73159
+input sequence 4170
+match
+rate 0.731655
+input sequence 4171
+input sequence 4172
+match
+rate 0.731544
+input sequence 4173
+match
+rate 0.731608
+input sequence 4174
+input sequence 4175
+match
+rate 0.731497
+input sequence 4176
+match
+rate 0.731561
+input sequence 4177
+match
+rate 0.731626
+input sequence 4178
+match
+rate 0.73169
+input sequence 4179
+match
+rate 0.731754
+input sequence 4180
+input sequence 4181
+input sequence 4182
+match
+rate 0.731468
+input sequence 4183
+input sequence 4184
+match
+rate 0.731358
+input sequence 4185
+input sequence 4186
+match
+rate 0.731247
+input sequence 4187
+input sequence 4188
+match
+rate 0.731137
+input sequence 4189
+match
+rate 0.731201
+input sequence 4190
+match
+rate 0.731265
+input sequence 4191
+match
+rate 0.731329
+input sequence 4192
+match
+rate 0.731393
+input sequence 4193
+match
+rate 0.731457
+input sequence 4194
+match
+rate 0.731521
+input sequence 4195
+match
+rate 0.731585
+input sequence 4196
+input sequence 4197
+match
+rate 0.731475
+input sequence 4198
+input sequence 4199
+match
+rate 0.731365
+input sequence 4200
+match
+rate 0.731429
+input sequence 4201
+match
+rate 0.731493
+input sequence 4202
+match
+rate 0.731556
+input sequence 4203
+input sequence 4204
+input sequence 4205
+match
+rate 0.731272
+input sequence 4206
+match
+rate 0.731336
+input sequence 4207
+match
+rate 0.7314
+input sequence 4208
+match
+rate 0.731464
+input sequence 4209
+input sequence 4210
+input sequence 4211
+match
+rate 0.73118
+input sequence 4212
+match
+rate 0.731244
+input sequence 4213
+match
+rate 0.731308
+input sequence 4214
+match
+rate 0.731372
+input sequence 4215
+match
+rate 0.731435
+input sequence 4216
+match
+rate 0.731499
+input sequence 4217
+match
+rate 0.731563
+input sequence 4218
+input sequence 4219
+match
+rate 0.731453
+input sequence 4220
+match
+rate 0.731517
+input sequence 4221
+match
+rate 0.73158
+input sequence 4222
+match
+rate 0.731644
+input sequence 4223
+match
+rate 0.731707
+input sequence 4224
+match
+rate 0.731771
+input sequence 4225
+match
+rate 0.731834
+input sequence 4226
+match
+rate 0.731898
+input sequence 4227
+match
+rate 0.731961
+input sequence 4228
+match
+rate 0.732025
+input sequence 4229
+input sequence 4230
+match
+rate 0.731915
+input sequence 4231
+match
+rate 0.731978
+input sequence 4232
+input sequence 4233
+match
+rate 0.731869
+input sequence 4234
+match
+rate 0.731932
+input sequence 4235
+match
+rate 0.731995
+input sequence 4236
+match
+rate 0.732059
+input sequence 4237
+match
+rate 0.732122
+input sequence 4238
+match
+rate 0.732185
+input sequence 4239
+match
+rate 0.732248
+input sequence 4240
+match
+rate 0.732311
+input sequence 4241
+match
+rate 0.732374
+input sequence 4242
+input sequence 4243
+match
+rate 0.732265
+input sequence 4244
+match
+rate 0.732328
+input sequence 4245
+input sequence 4246
+match
+rate 0.732219
+input sequence 4247
+match
+rate 0.732282
+input sequence 4248
+input sequence 4249
+match
+rate 0.732172
+input sequence 4250
+input sequence 4251
+input sequence 4252
+match
+rate 0.731891
+input sequence 4253
+match
+rate 0.731954
+input sequence 4254
+input sequence 4255
+match
+rate 0.731845
+input sequence 4256
+input sequence 4257
+match
+rate 0.731736
+input sequence 4258
+match
+rate 0.731799
+input sequence 4259
+match
+rate 0.731862
+input sequence 4260
+match
+rate 0.731925
+input sequence 4261
+match
+rate 0.731988
+input sequence 4262
+input sequence 4263
+match
+rate 0.731879
+input sequence 4264
+match
+rate 0.731942
+input sequence 4265
+match
+rate 0.732005
+input sequence 4266
+match
+rate 0.732068
+input sequence 4267
+match
+rate 0.73213
+input sequence 4268
+input sequence 4269
+input sequence 4270
+input sequence 4271
+match
+rate 0.731679
+input sequence 4272
+input sequence 4273
+match
+rate 0.73157
+input sequence 4274
+input sequence 4275
+match
+rate 0.731462
+input sequence 4276
+input sequence 4277
+input sequence 4278
+input sequence 4279
+match
+rate 0.731012
+input sequence 4280
+input sequence 4281
+match
+rate 0.730904
+input sequence 4282
+input sequence 4283
+match
+rate 0.730796
+input sequence 4284
+match
+rate 0.730859
+input sequence 4285
+input sequence 4286
+match
+rate 0.730751
+input sequence 4287
+match
+rate 0.730814
+input sequence 4288
+match
+rate 0.730877
+input sequence 4289
+match
+rate 0.73094
+input sequence 4290
+match
+rate 0.731002
+input sequence 4291
+match
+rate 0.731065
+input sequence 4292
+match
+rate 0.731128
+input sequence 4293
+match
+rate 0.73119
+input sequence 4294
+input sequence 4295
+match
+rate 0.731083
+input sequence 4296
+input sequence 4297
+match
+rate 0.730975
+input sequence 4298
+match
+rate 0.731038
+input sequence 4299
+input sequence 4300
+input sequence 4301
+match
+rate 0.73076
+input sequence 4302
+match
+rate 0.730823
+input sequence 4303
+match
+rate 0.730885
+input sequence 4304
+input sequence 4305
+match
+rate 0.730778
+input sequence 4306
+match
+rate 0.730841
+input sequence 4307
+input sequence 4308
+match
+rate 0.730734
+input sequence 4309
+input sequence 4310
+match
+rate 0.730626
+input sequence 4311
+input sequence 4312
+match
+rate 0.730519
+input sequence 4313
+match
+rate 0.730582
+input sequence 4314
+input sequence 4315
+input sequence 4316
+match
+rate 0.730306
+input sequence 4317
+match
+rate 0.730368
+input sequence 4318
+match
+rate 0.730431
+input sequence 4319
+match
+rate 0.730493
+input sequence 4320
+match
+rate 0.730556
+input sequence 4321
+match
+rate 0.730618
+input sequence 4322
+match
+rate 0.73068
+input sequence 4323
+input sequence 4324
+input sequence 4325
+match
+rate 0.730405
+input sequence 4326
+match
+rate 0.730467
+input sequence 4327
+match
+rate 0.730529
+input sequence 4328
+match
+rate 0.730591
+input sequence 4329
+match
+rate 0.730654
+input sequence 4330
+match
+rate 0.730716
+input sequence 4331
+input sequence 4332
+input sequence 4333
+match
+rate 0.730441
+input sequence 4334
+match
+rate 0.730503
+input sequence 4335
+match
+rate 0.730565
+input sequence 4336
+match
+rate 0.730627
+input sequence 4337
+match
+rate 0.730689
+input sequence 4338
+match
+rate 0.730752
+input sequence 4339
+match
+rate 0.730814
+input sequence 4340
+match
+rate 0.730876
+input sequence 4341
+match
+rate 0.730938
+input sequence 4342
+match
+rate 0.731
+input sequence 4343
+match
+rate 0.731061
+input sequence 4344
+match
+rate 0.731123
+input sequence 4345
+match
+rate 0.731185
+input sequence 4346
+match
+rate 0.731247
+input sequence 4347
+match
+rate 0.731309
+input sequence 4348
+match
+rate 0.731371
+input sequence 4349
+match
+rate 0.731432
+input sequence 4350
+match
+rate 0.731494
+input sequence 4351
+match
+rate 0.731556
+input sequence 4352
+match
+rate 0.731618
+input sequence 4353
+match
+rate 0.731679
+input sequence 4354
+match
+rate 0.731741
+input sequence 4355
+match
+rate 0.731803
+input sequence 4356
+input sequence 4357
+match
+rate 0.731696
+input sequence 4358
+match
+rate 0.731758
+input sequence 4359
+input sequence 4360
+match
+rate 0.731651
+input sequence 4361
+match
+rate 0.731713
+input sequence 4362
+input sequence 4363
+input sequence 4364
+match
+rate 0.731439
+input sequence 4365
+match
+rate 0.731501
+input sequence 4366
+match
+rate 0.731562
+input sequence 4367
+match
+rate 0.731624
+input sequence 4368
+input sequence 4369
+input sequence 4370
+match
+rate 0.73135
+input sequence 4371
+match
+rate 0.731412
+input sequence 4372
+match
+rate 0.731473
+input sequence 4373
+match
+rate 0.731534
+input sequence 4374
+match
+rate 0.731596
+input sequence 4375
+match
+rate 0.731657
+input sequence 4376
+match
+rate 0.731718
+input sequence 4377
+match
+rate 0.73178
+input sequence 4378
+match
+rate 0.731841
+input sequence 4379
+match
+rate 0.731902
+input sequence 4380
+match
+rate 0.731963
+input sequence 4381
+match
+rate 0.732025
+input sequence 4382
+match
+rate 0.732086
+input sequence 4383
+match
+rate 0.732147
+input sequence 4384
+match
+rate 0.732208
+input sequence 4385
+match
+rate 0.732269
+input sequence 4386
+input sequence 4387
+match
+rate 0.732163
+input sequence 4388
+match
+rate 0.732224
+input sequence 4389
+input sequence 4390
+match
+rate 0.732118
+input sequence 4391
+match
+rate 0.732179
+input sequence 4392
+input sequence 4393
+match
+rate 0.732074
+input sequence 4394
+match
+rate 0.732135
+input sequence 4395
+match
+rate 0.732196
+input sequence 4396
+match
+rate 0.732257
+input sequence 4397
+match
+rate 0.732318
+input sequence 4398
+match
+rate 0.732378
+input sequence 4399
+input sequence 4400
+match
+rate 0.732273
+input sequence 4401
+match
+rate 0.732334
+input sequence 4402
+match
+rate 0.732394
+input sequence 4403
+input sequence 4404
+input sequence 4405
+match
+rate 0.732123
+input sequence 4406
+match
+rate 0.732183
+input sequence 4407
+input sequence 4408
+match
+rate 0.732078
+input sequence 4409
+match
+rate 0.732139
+input sequence 4410
+match
+rate 0.7322
+input sequence 4411
+input sequence 4412
+match
+rate 0.732094
+input sequence 4413
+match
+rate 0.732155
+input sequence 4414
+match
+rate 0.732216
+input sequence 4415
+input sequence 4416
+input sequence 4417
+match
+rate 0.731945
+input sequence 4418
+match
+rate 0.732005
+input sequence 4419
+input sequence 4420
+match
+rate 0.7319
+input sequence 4421
+match
+rate 0.731961
+input sequence 4422
+input sequence 4423
+input sequence 4424
+match
+rate 0.731691
+input sequence 4425
+match
+rate 0.731751
+input sequence 4426
+match
+rate 0.731812
+input sequence 4427
+input sequence 4428
+match
+rate 0.731707
+input sequence 4429
+input sequence 4430
+match
+rate 0.731603
+input sequence 4431
+match
+rate 0.731663
+input sequence 4432
+match
+rate 0.731724
+input sequence 4433
+input sequence 4434
+match
+rate 0.731619
+input sequence 4435
+match
+rate 0.73168
+input sequence 4436
+match
+rate 0.73174
+input sequence 4437
+match
+rate 0.731801
+input sequence 4438
+match
+rate 0.731861
+input sequence 4439
+match
+rate 0.731922
+input sequence 4440
+match
+rate 0.731982
+input sequence 4441
+input sequence 4442
+match
+rate 0.731878
+input sequence 4443
+input sequence 4444
+input sequence 4445
+match
+rate 0.731609
+input sequence 4446
+match
+rate 0.731669
+input sequence 4447
+match
+rate 0.731729
+input sequence 4448
+match
+rate 0.73179
+input sequence 4449
+match
+rate 0.73185
+input sequence 4450
+match
+rate 0.73191
+input sequence 4451
+match
+rate 0.73197
+input sequence 4452
+match
+rate 0.732031
+input sequence 4453
+match
+rate 0.732091
+input sequence 4454
+match
+rate 0.732151
+input sequence 4455
+match
+rate 0.732211
+input sequence 4456
+input sequence 4457
+match
+rate 0.732107
+input sequence 4458
+match
+rate 0.732167
+input sequence 4459
+input sequence 4460
+match
+rate 0.732063
+input sequence 4461
+match
+rate 0.732123
+input sequence 4462
+match
+rate 0.732183
+input sequence 4463
+input sequence 4464
+match
+rate 0.732079
+input sequence 4465
+match
+rate 0.732139
+input sequence 4466
+match
+rate 0.732199
+input sequence 4467
+input sequence 4468
+match
+rate 0.732095
+input sequence 4469
+match
+rate 0.732155
+input sequence 4470
+input sequence 4471
+match
+rate 0.732051
+input sequence 4472
+input sequence 4473
+input sequence 4474
+match
+rate 0.731784
+input sequence 4475
+input sequence 4476
+input sequence 4477
+match
+rate 0.731517
+input sequence 4478
+match
+rate 0.731577
+input sequence 4479
+input sequence 4480
+match
+rate 0.731473
+input sequence 4481
+match
+rate 0.731533
+input sequence 4482
+input sequence 4483
+input sequence 4484
+match
+rate 0.731267
+input sequence 4485
+input sequence 4486
+match
+rate 0.731164
+input sequence 4487
+match
+rate 0.731224
+input sequence 4488
+match
+rate 0.731283
+input sequence 4489
+input sequence 4490
+match
+rate 0.73118
+input sequence 4491
+input sequence 4492
+match
+rate 0.731077
+input sequence 4493
+match
+rate 0.731137
+input sequence 4494
+match
+rate 0.731197
+input sequence 4495
+match
+rate 0.731257
+input sequence 4496
+match
+rate 0.731317
+input sequence 4497
+match
+rate 0.731376
+input sequence 4498
+input sequence 4499
+match
+rate 0.731274
+input sequence 4500
+input sequence 4501
+match
+rate 0.731171
+input sequence 4502
+match
+rate 0.731231
+input sequence 4503
+input sequence 4504
+input sequence 4505
+input sequence 4506
+input sequence 4507
+match
+rate 0.730641
+input sequence 4508
+match
+rate 0.730701
+input sequence 4509
+input sequence 4510
+match
+rate 0.730599
+input sequence 4511
+input sequence 4512
+match
+rate 0.730496
+input sequence 4513
+match
+rate 0.730556
+input sequence 4514
+match
+rate 0.730616
+input sequence 4515
+input sequence 4516
+match
+rate 0.730514
+input sequence 4517
+input sequence 4518
+input sequence 4519
+match
+rate 0.73025
+input sequence 4520
+input sequence 4521
+match
+rate 0.730148
+input sequence 4522
+input sequence 4523
+match
+rate 0.730046
+input sequence 4524
+match
+rate 0.730106
+input sequence 4525
+match
+rate 0.730166
+input sequence 4526
+match
+rate 0.730225
+input sequence 4527
+match
+rate 0.730285
+input sequence 4528
+match
+rate 0.730345
+input sequence 4529
+match
+rate 0.730404
+input sequence 4530
+match
+rate 0.730464
+input sequence 4531
+match
+rate 0.730523
+input sequence 4532
+input sequence 4533
+match
+rate 0.730421
+input sequence 4534
+match
+rate 0.730481
+input sequence 4535
+match
+rate 0.73054
+input sequence 4536
+input sequence 4537
+input sequence 4538
+input sequence 4539
+input sequence 4540
+match
+rate 0.729956
+input sequence 4541
+match
+rate 0.730015
+input sequence 4542
+match
+rate 0.730075
+input sequence 4543
+match
+rate 0.730134
+input sequence 4544
+input sequence 4545
+match
+rate 0.730033
+input sequence 4546
+match
+rate 0.730092
+input sequence 4547
+match
+rate 0.730152
+input sequence 4548
+match
+rate 0.730211
+input sequence 4549
+match
+rate 0.73027
+input sequence 4550
+match
+rate 0.73033
+input sequence 4551
+match
+rate 0.730389
+input sequence 4552
+match
+rate 0.730448
+input sequence 4553
+match
+rate 0.730507
+input sequence 4554
+match
+rate 0.730567
+input sequence 4555
+input sequence 4556
+match
+rate 0.730465
+input sequence 4557
+match
+rate 0.730524
+input sequence 4558
+match
+rate 0.730584
+input sequence 4559
+match
+rate 0.730643
+input sequence 4560
+input sequence 4561
+match
+rate 0.730542
+input sequence 4562
+match
+rate 0.730601
+input sequence 4563
+match
+rate 0.73066
+input sequence 4564
+match
+rate 0.730719
+input sequence 4565
+match
+rate 0.730778
+input sequence 4566
+match
+rate 0.730837
+input sequence 4567
+match
+rate 0.730896
+input sequence 4568
+match
+rate 0.730954
+input sequence 4569
+input sequence 4570
+match
+rate 0.730853
+input sequence 4571
+match
+rate 0.730912
+input sequence 4572
+input sequence 4573
+input sequence 4574
+match
+rate 0.730651
+input sequence 4575
+match
+rate 0.73071
+input sequence 4576
+input sequence 4577
+match
+rate 0.73061
+input sequence 4578
+match
+rate 0.730668
+input sequence 4579
+input sequence 4580
+match
+rate 0.730568
+input sequence 4581
+match
+rate 0.730627
+input sequence 4582
+input sequence 4583
+match
+rate 0.730526
+input sequence 4584
+match
+rate 0.730585
+input sequence 4585
+match
+rate 0.730643
+input sequence 4586
+match
+rate 0.730702
+input sequence 4587
+match
+rate 0.730761
+input sequence 4588
+match
+rate 0.73082
+input sequence 4589
+match
+rate 0.730878
+input sequence 4590
+match
+rate 0.730937
+input sequence 4591
+input sequence 4592
+match
+rate 0.730836
+input sequence 4593
+match
+rate 0.730895
+input sequence 4594
+input sequence 4595
+match
+rate 0.730794
+input sequence 4596
+input sequence 4597
+match
+rate 0.730694
+input sequence 4598
+input sequence 4599
+match
+rate 0.730594
+input sequence 4600
+match
+rate 0.730652
+input sequence 4601
+input sequence 4602
+match
+rate 0.730552
+input sequence 4603
+match
+rate 0.73061
+input sequence 4604
+match
+rate 0.730669
+input sequence 4605
+match
+rate 0.730727
+input sequence 4606
+input sequence 4607
+match
+rate 0.730627
+input sequence 4608
+input sequence 4609
+input sequence 4610
+input sequence 4611
+match
+rate 0.73021
+input sequence 4612
+match
+rate 0.730269
+input sequence 4613
+input sequence 4614
+match
+rate 0.730169
+input sequence 4615
+match
+rate 0.730228
+input sequence 4616
+match
+rate 0.730286
+input sequence 4617
+match
+rate 0.730344
+input sequence 4618
+match
+rate 0.730403
+input sequence 4619
+match
+rate 0.730461
+input sequence 4620
+match
+rate 0.730519
+input sequence 4621
+match
+rate 0.730578
+input sequence 4622
+input sequence 4623
+match
+rate 0.730478
+input sequence 4624
+match
+rate 0.730536
+input sequence 4625
+match
+rate 0.730595
+input sequence 4626
+match
+rate 0.730653
+input sequence 4627
+match
+rate 0.730711
+input sequence 4628
+input sequence 4629
+match
+rate 0.730611
+input sequence 4630
+match
+rate 0.73067
+input sequence 4631
+match
+rate 0.730728
+input sequence 4632
+match
+rate 0.730786
+input sequence 4633
+match
+rate 0.730844
+input sequence 4634
+input sequence 4635
+match
+rate 0.730744
+input sequence 4636
+match
+rate 0.730802
+input sequence 4637
+match
+rate 0.73086
+input sequence 4638
+match
+rate 0.730919
+input sequence 4639
+match
+rate 0.730977
+input sequence 4640
+input sequence 4641
+input sequence 4642
+match
+rate 0.73072
+input sequence 4643
+match
+rate 0.730778
+input sequence 4644
+match
+rate 0.730835
+input sequence 4645
+match
+rate 0.730893
+input sequence 4646
+match
+rate 0.730951
+input sequence 4647
+match
+rate 0.731009
+input sequence 4648
+match
+rate 0.731067
+input sequence 4649
+input sequence 4650
+match
+rate 0.730968
+input sequence 4651
+match
+rate 0.731026
+input sequence 4652
+match
+rate 0.731083
+input sequence 4653
+match
+rate 0.731141
+input sequence 4654
+match
+rate 0.731199
+input sequence 4655
+match
+rate 0.731257
+input sequence 4656
+match
+rate 0.731314
+input sequence 4657
+match
+rate 0.731372
+input sequence 4658
+match
+rate 0.73143
+input sequence 4659
+input sequence 4660
+match
+rate 0.73133
+input sequence 4661
+match
+rate 0.731388
+input sequence 4662
+input sequence 4663
+input sequence 4664
+input sequence 4665
+input sequence 4666
+match
+rate 0.730819
+input sequence 4667
+match
+rate 0.730876
+input sequence 4668
+match
+rate 0.730934
+input sequence 4669
+match
+rate 0.730992
+input sequence 4670
+input sequence 4671
+match
+rate 0.730893
+input sequence 4672
+match
+rate 0.73095
+input sequence 4673
+match
+rate 0.731008
+input sequence 4674
+match
+rate 0.731065
+input sequence 4675
+match
+rate 0.731123
+input sequence 4676
+match
+rate 0.73118
+input sequence 4677
+match
+rate 0.731238
+input sequence 4678
+match
+rate 0.731295
+input sequence 4679
+match
+rate 0.731353
+input sequence 4680
+match
+rate 0.73141
+input sequence 4681
+input sequence 4682
+input sequence 4683
+match
+rate 0.731155
+input sequence 4684
+match
+rate 0.731213
+input sequence 4685
+match
+rate 0.73127
+input sequence 4686
+match
+rate 0.731327
+input sequence 4687
+match
+rate 0.731385
+input sequence 4688
+input sequence 4689
+match
+rate 0.731286
+input sequence 4690
+input sequence 4691
+input sequence 4692
+match
+rate 0.731032
+input sequence 4693
+match
+rate 0.731089
+input sequence 4694
+input sequence 4695
+input sequence 4696
+input sequence 4697
+input sequence 4698
+match
+rate 0.730524
+input sequence 4699
+match
+rate 0.730581
+input sequence 4700
+match
+rate 0.730638
+input sequence 4701
+match
+rate 0.730696
+input sequence 4702
+match
+rate 0.730753
+input sequence 4703
+input sequence 4704
+match
+rate 0.730655
+input sequence 4705
+input sequence 4706
+match
+rate 0.730557
+input sequence 4707
+input sequence 4708
+input sequence 4709
+input sequence 4710
+match
+rate 0.730149
+input sequence 4711
+match
+rate 0.730206
+input sequence 4712
+match
+rate 0.730263
+input sequence 4713
+match
+rate 0.73032
+input sequence 4714
+input sequence 4715
+match
+rate 0.730223
+input sequence 4716
+input sequence 4717
+match
+rate 0.730125
+input sequence 4718
+match
+rate 0.730182
+input sequence 4719
+match
+rate 0.730239
+input sequence 4720
+match
+rate 0.730297
+input sequence 4721
+match
+rate 0.730354
+input sequence 4722
+match
+rate 0.730411
+input sequence 4723
+match
+rate 0.730468
+input sequence 4724
+match
+rate 0.730525
+input sequence 4725
+match
+rate 0.730582
+input sequence 4726
+match
+rate 0.730639
+input sequence 4727
+input sequence 4728
+match
+rate 0.730541
+input sequence 4729
+match
+rate 0.730598
+input sequence 4730
+input sequence 4731
+input sequence 4732
+match
+rate 0.730347
+input sequence 4733
+match
+rate 0.730404
+input sequence 4734
+input sequence 4735
+match
+rate 0.730306
+input sequence 4736
+match
+rate 0.730363
+input sequence 4737
+match
+rate 0.73042
+input sequence 4738
+match
+rate 0.730477
+input sequence 4739
+input sequence 4740
+match
+rate 0.73038
+input sequence 4741
+match
+rate 0.730437
+input sequence 4742
+match
+rate 0.730493
+input sequence 4743
+input sequence 4744
+match
+rate 0.730396
+input sequence 4745
+match
+rate 0.730453
+input sequence 4746
+match
+rate 0.73051
+input sequence 4747
+input sequence 4748
+input sequence 4749
+match
+rate 0.730259
+input sequence 4750
+match
+rate 0.730316
+input sequence 4751
+match
+rate 0.730373
+input sequence 4752
+match
+rate 0.730429
+input sequence 4753
+match
+rate 0.730486
+input sequence 4754
+match
+rate 0.730543
+input sequence 4755
+match
+rate 0.730599
+input sequence 4756
+match
+rate 0.730656
+input sequence 4757
+input sequence 4758
+input sequence 4759
+input sequence 4760
+input sequence 4761
+match
+rate 0.730099
+input sequence 4762
+match
+rate 0.730155
+input sequence 4763
+input sequence 4764
+match
+rate 0.730059
+input sequence 4765
+input sequence 4766
+match
+rate 0.729962
+input sequence 4767
+input sequence 4768
+input sequence 4769
+input sequence 4770
+match
+rate 0.72956
+input sequence 4771
+match
+rate 0.729616
+input sequence 4772
+match
+rate 0.729673
+input sequence 4773
+input sequence 4774
+match
+rate 0.729577
+input sequence 4775
+input sequence 4776
+match
+rate 0.729481
+input sequence 4777
+match
+rate 0.729537
+input sequence 4778
+match
+rate 0.729594
+input sequence 4779
+match
+rate 0.729651
+input sequence 4780
+input sequence 4781
+match
+rate 0.729554
+input sequence 4782
+input sequence 4783
+match
+rate 0.729459
+input sequence 4784
+match
+rate 0.729515
+input sequence 4785
+input sequence 4786
+match
+rate 0.729419
+input sequence 4787
+input sequence 4788
+match
+rate 0.729323
+input sequence 4789
+match
+rate 0.72938
+input sequence 4790
+match
+rate 0.729436
+input sequence 4791
+match
+rate 0.729493
+input sequence 4792
+match
+rate 0.729549
+input sequence 4793
+match
+rate 0.729606
+input sequence 4794
+input sequence 4795
+input sequence 4796
+match
+rate 0.729358
+input sequence 4797
+match
+rate 0.729414
+input sequence 4798
+input sequence 4799
+input sequence 4800
+match
+rate 0.729167
+input sequence 4801
+input sequence 4802
+match
+rate 0.729071
+input sequence 4803
+match
+rate 0.729128
+input sequence 4804
+match
+rate 0.729184
+input sequence 4805
+input sequence 4806
+input sequence 4807
+input sequence 4808
+match
+rate 0.728785
+input sequence 4809
+match
+rate 0.728842
+input sequence 4810
+input sequence 4811
+match
+rate 0.728747
+input sequence 4812
+match
+rate 0.728803
+input sequence 4813
+match
+rate 0.728859
+input sequence 4814
+input sequence 4815
+input sequence 4816
+match
+rate 0.728613
+input sequence 4817
+match
+rate 0.728669
+input sequence 4818
+match
+rate 0.728726
+input sequence 4819
+match
+rate 0.728782
+input sequence 4820
+match
+rate 0.728838
+input sequence 4821
+match
+rate 0.728894
+input sequence 4822
+match
+rate 0.728951
+input sequence 4823
+match
+rate 0.729007
+input sequence 4824
+input sequence 4825
+match
+rate 0.728912
+input sequence 4826
+input sequence 4827
+input sequence 4828
+match
+rate 0.728666
+input sequence 4829
+match
+rate 0.728722
+input sequence 4830
+match
+rate 0.728778
+input sequence 4831
+input sequence 4832
+match
+rate 0.728684
+input sequence 4833
+match
+rate 0.72874
+input sequence 4834
+match
+rate 0.728796
+input sequence 4835
+match
+rate 0.728852
+input sequence 4836
+match
+rate 0.728908
+input sequence 4837
+input sequence 4838
+match
+rate 0.728814
+input sequence 4839
+match
+rate 0.72887
+input sequence 4840
+input sequence 4841
+match
+rate 0.728775
+input sequence 4842
+match
+rate 0.728831
+input sequence 4843
+match
+rate 0.728887
+input sequence 4844
+match
+rate 0.728943
+input sequence 4845
+match
+rate 0.728999
+input sequence 4846
+match
+rate 0.729055
+input sequence 4847
+match
+rate 0.729111
+input sequence 4848
+match
+rate 0.729167
+input sequence 4849
+input sequence 4850
+input sequence 4851
+input sequence 4852
+match
+rate 0.728772
+input sequence 4853
+match
+rate 0.728828
+input sequence 4854
+match
+rate 0.728883
+input sequence 4855
+input sequence 4856
+match
+rate 0.728789
+input sequence 4857
+input sequence 4858
+match
+rate 0.728695
+input sequence 4859
+match
+rate 0.728751
+input sequence 4860
+match
+rate 0.728807
+input sequence 4861
+match
+rate 0.728862
+input sequence 4862
+match
+rate 0.728918
+input sequence 4863
+input sequence 4864
+match
+rate 0.728824
+input sequence 4865
+match
+rate 0.72888
+input sequence 4866
+match
+rate 0.728935
+input sequence 4867
+match
+rate 0.728991
+input sequence 4868

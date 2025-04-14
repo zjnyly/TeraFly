@@ -1,0 +1,1592 @@
+<ENTRY>
+{
+ "thisFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin.link_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Nov 26 17:22:42 2024",
+ "timestampMillis": "1732612962049",
+ "buildStep": {
+  "cmdId": "d819ef2a-f2a3-4373-9e69-e33d2ca1d72c",
+  "name": "v++",
+  "logFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/link.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2023.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --vivado.prop \"run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\" --vivado.prop run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true --vivado.prop run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -l --save-temps --kernel_frequency 250 --optimize 3 --config ./connectivity.cfg -t hw --platform xilinx_u50lv_gen3x4_xdma_2_202010_1 --temp_dir ./_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1 -o./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin _x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_0.xo _x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_1.xo ",
+  "args": [
+   "-l",
+   "--save-temps",
+   "--kernel_frequency",
+   "250",
+   "--optimize",
+   "3",
+   "--config",
+   "./connectivity.cfg",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u50lv_gen3x4_xdma_2_202010_1",
+   "--temp_dir",
+   "./_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1",
+   "-o./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+   "_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_0.xo",
+   "_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_1.xo"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/connectivity.cfg",
+    "content": "[connectivity]\n\nslr=loopLynx_0_1:SLR0\nslr=loopLynx_1_1:SLR1\n\n\nstream_connect=loopLynx_0_1.stream_next:loopLynx_1_1.stream_previous:64\nstream_connect=loopLynx_1_1.stream_next:loopLynx_0_1.stream_previous:64\n\nsp=loopLynx_0_1.host_addr:PLRAM[0]\nsp=loopLynx_0_1.w_addr_0:HBM[0]\nsp=loopLynx_0_1.w_addr_1:HBM[1]\nsp=loopLynx_0_1.w_addr_2:HBM[2]\nsp=loopLynx_0_1.w_addr_3:HBM[3]\nsp=loopLynx_0_1.w_addr_4:HBM[4]\nsp=loopLynx_0_1.w_addr_5:HBM[5]\nsp=loopLynx_0_1.w_addr_6:HBM[6]\nsp=loopLynx_0_1.w_addr_7:HBM[7]\n\n\nsp=loopLynx_1_1.host_addr:PLRAM[1]\nsp=loopLynx_1_1.w_addr_0:HBM[16]\nsp=loopLynx_1_1.w_addr_1:HBM[17]\nsp=loopLynx_1_1.w_addr_2:HBM[18]\nsp=loopLynx_1_1.w_addr_3:HBM[19]\nsp=loopLynx_1_1.w_addr_4:HBM[20]\nsp=loopLynx_1_1.w_addr_5:HBM[21]\nsp=loopLynx_1_1.w_addr_6:HBM[22]\nsp=loopLynx_1_1.w_addr_7:HBM[23]\n\n[profile]\nexec=loopLynx_0:loopLynx_0_1:all\nexec=loopLynx_1:loopLynx_1_1:all\n\n# sp=loopLynx_1_1.host_addr:PLRAM[0]\n# sp=loopLynx_1_1.w_addr_0:HBM[4]\n# sp=loopLynx_1_1.w_addr_1:HBM[5]\n# sp=loopLynx_1_1.w_addr_2:HBM[6]\n# sp=loopLynx_1_1.w_addr_3:HBM[7]\n\n# sp=loopLynx_2_1.host_addr:PLRAM[1]\n# sp=loopLynx_2_1.w_addr_0:HBM[8]\n# sp=loopLynx_2_1.w_addr_1:HBM[9]\n# sp=loopLynx_2_1.w_addr_2:HBM[10]\n# sp=loopLynx_2_1.w_addr_3:HBM[11]\n\n# sp=loopLynx_3_1.host_addr:PLRAM[1]\n# sp=loopLynx_3_1.w_addr_0:HBM[12]\n# sp=loopLynx_3_1.w_addr_1:HBM[13]\n# sp=loopLynx_3_1.w_addr_2:HBM[14]\n# sp=loopLynx_3_1.w_addr_3:HBM[15]\n"
+   }
+  ],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:22:42 2024",
+ "timestampMillis": "1732612962050",
+ "status": {
+  "cmdId": "d819ef2a-f2a3-4373-9e69-e33d2ca1d72c",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Nov 26 17:22:55 2024",
+ "timestampMillis": "1732612975215",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50lv_gen3x4_xdma_2_202010_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50lv_gen3x4_xdma_2_202010_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_LINK",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "loopLynx.link",
+    "file": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "loopLynx_0",
+     "file": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_0.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_0/loopLynx_0/cpu_sources/loopLynx.h",
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_0/loopLynx_0/cpu_sources/params.h",
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_0/loopLynx_0/cpu_sources/loopLynx.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "loopLynx_0_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   },
+   {
+    "base": {
+     "type": "KERNEL",
+     "name": "loopLynx_1",
+     "file": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_1.xo",
+     "reports": [],
+     "uuid": ""
+    },
+    "sources": [
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_1/loopLynx_1/cpu_sources/loopLynx.h",
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_1/loopLynx_1/cpu_sources/params.h",
+     "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/loopLynx_1/loopLynx_1/cpu_sources/loopLynx.cpp"
+    ],
+    "psSources": [],
+    "cuNames": [
+     "loopLynx_1_1"
+    ],
+    "type": "HLS",
+    "frequency": 0,
+    "freqUnits": ""
+   }
+  ],
+  "toolVersion": "Vitis V++ Compiler Release 2023.2. SW Build 4026344 on 2023-10-11-15:42:10"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 17:22:55 2024",
+ "timestampMillis": "1732612975932",
+ "buildStep": {
+  "cmdId": "406cded4-c34a-4a92-9f83-05b55d4f77fb",
+  "name": "system_link",
+  "logFile": "",
+  "commandLine": "system_link --xo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_0.xo --xo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_1.xo -keep -memory-for-trace HBM[0] --config /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/syslinkConfig.ini --xpfm /opt/xilinx/platforms/xilinx_u50lv_gen3x4_xdma_2_202010_1/xilinx_u50lv_gen3x4_xdma_2_202010_1.xpfm --target hw --output_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int --temp_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/sys_link",
+  "args": [
+   "--xo",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_0.xo",
+   "--xo",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx_1.xo",
+   "-keep",
+   "-memory-for-trace",
+   "HBM[0]",
+   "--config",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/syslinkConfig.ini",
+   "--xpfm",
+   "/opt/xilinx/platforms/xilinx_u50lv_gen3x4_xdma_2_202010_1/xilinx_u50lv_gen3x4_xdma_2_202010_1.xpfm",
+   "--target",
+   "hw",
+   "--output_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int",
+   "--temp_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/sys_link"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/syslinkConfig.ini",
+    "content": "sc=loopLynx_0_1.stream_next:loopLynx_1_1.stream_previous:64\nsc=loopLynx_1_1.stream_next:loopLynx_0_1.stream_previous:64\nsp=loopLynx_0_1.host_addr:PLRAM[0]\nsp=loopLynx_0_1.w_addr_0:HBM[0]\nsp=loopLynx_0_1.w_addr_1:HBM[1]\nsp=loopLynx_0_1.w_addr_2:HBM[2]\nsp=loopLynx_0_1.w_addr_3:HBM[3]\nsp=loopLynx_0_1.w_addr_4:HBM[4]\nsp=loopLynx_0_1.w_addr_5:HBM[5]\nsp=loopLynx_0_1.w_addr_6:HBM[6]\nsp=loopLynx_0_1.w_addr_7:HBM[7]\nsp=loopLynx_1_1.host_addr:PLRAM[1]\nsp=loopLynx_1_1.w_addr_0:HBM[16]\nsp=loopLynx_1_1.w_addr_1:HBM[17]\nsp=loopLynx_1_1.w_addr_2:HBM[18]\nsp=loopLynx_1_1.w_addr_3:HBM[19]\nsp=loopLynx_1_1.w_addr_4:HBM[20]\nsp=loopLynx_1_1.w_addr_5:HBM[21]\nsp=loopLynx_1_1.w_addr_6:HBM[22]\nsp=loopLynx_1_1.w_addr_7:HBM[23]\nslr=loopLynx_0_1:SLR0\nslr=loopLynx_1_1:SLR1\n\n"
+   }
+  ],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:22:55 2024",
+ "timestampMillis": "1732612975933",
+ "status": {
+  "cmdId": "406cded4-c34a-4a92-9f83-05b55d4f77fb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:05 2024",
+ "timestampMillis": "1732612985868",
+ "status": {
+  "cmdId": "406cded4-c34a-4a92-9f83-05b55d4f77fb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 17:23:05 2024",
+ "timestampMillis": "1732612985869",
+ "buildStep": {
+  "cmdId": "6d671fa3-68b0-4e47-b6f4-98701161d311",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -sdsl /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/sdsl.dat -rtd /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/cf2sw.rtd -nofilter /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/cf2sw_full.rtd -xclbin /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.xml -o /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.1.xml",
+  "args": [
+   "-sdsl",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/sdsl.dat",
+   "-rtd",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/cf2sw.rtd",
+   "-nofilter",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/cf2sw_full.rtd",
+   "-xclbin",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.xml",
+   "-o",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.1.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:05 2024",
+ "timestampMillis": "1732612985869",
+ "status": {
+  "cmdId": "6d671fa3-68b0-4e47-b6f4-98701161d311",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988210",
+ "status": {
+  "cmdId": "6d671fa3-68b0-4e47-b6f4-98701161d311",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988211",
+ "buildStep": {
+  "cmdId": "7c9143ff-46fa-4105-ab40-8817dfa7bb82",
+  "name": "rtd2_system_diagram",
+  "logFile": "",
+  "commandLine": "rtd2SystemDiagram",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988211",
+ "status": {
+  "cmdId": "7c9143ff-46fa-4105-ab40-8817dfa7bb82",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988658",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/systemDiagramModel.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988658",
+ "status": {
+  "cmdId": "7c9143ff-46fa-4105-ab40-8817dfa7bb82",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988659",
+ "buildStep": {
+  "cmdId": "1083096b-de1b-41ec-9898-5a9c294a6bcb",
+  "name": "vpl",
+  "logFile": "",
+  "commandLine": "vpl -t hw -f xilinx_u50lv_gen3x4_xdma_2_202010_1 -s --kernel_frequency 250 --remote_ip_cache /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/.ipcache --trace_memory HBM[0] --output_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int --log_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/logs/link --report_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link --config /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/vplConfig.ini -k /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link --no-info --iprepo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_1_1_0 --iprepo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_0_1_0 --messageDb /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/run_link/vpl.pb /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/dr.bd.tcl",
+  "args": [
+   "-t",
+   "hw",
+   "-f",
+   "xilinx_u50lv_gen3x4_xdma_2_202010_1",
+   "-s",
+   "--kernel_frequency",
+   "250",
+   "--remote_ip_cache",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/.ipcache",
+   "--trace_memory",
+   "HBM[0]",
+   "--output_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int",
+   "--log_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/logs/link",
+   "--report_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link",
+   "--config",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/vplConfig.ini",
+   "-k",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/kernel_info.dat",
+   "--webtalk_flag",
+   "Vitis",
+   "--temp_dir",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link",
+   "--no-info",
+   "--iprepo",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_1_1_0",
+   "--iprepo",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_0_1_0",
+   "--messageDb",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/run_link/vpl.pb",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/dr.bd.tcl"
+  ],
+  "iniFiles": [
+   {
+    "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/vplConfig.ini",
+    "content": "[advanced]\nmisc=report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\nmisc=report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\nparam=compiler.enablePerformanceTrace=1\nparam=compiler.vppCurrentWorkingDir=/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize\nmisc=BinaryName=loopLynx.link\n\n[connectivity]\nnk=loopLynx_0:1:loopLynx_0_1\nnk=loopLynx_1:1:loopLynx_1_1\n\n[vivado]\nprop=run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\nprop=run.impl_1.{STEPS.PLACE_DESIGN.ARGS.MORE OPTIONS}={-retiming}\nprop=run.impl_1.STEPS.PHYS_OPT_DESIGN.IS_ENABLED=true\nprop=run.impl_1.STEPS.POST_ROUTE_PHYS_OPT_DESIGN.IS_ENABLED=true\n\n"
+   }
+  ],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:08 2024",
+ "timestampMillis": "1732612988659",
+ "status": {
+  "cmdId": "1083096b-de1b-41ec-9898-5a9c294a6bcb",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Nov 26 17:23:09 2024",
+ "timestampMillis": "1732612989352",
+ "buildStep": {
+  "cmdId": "604235c7-40e7-4d90-a0e4-1bb21a177210",
+  "name": "vpl",
+  "logFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/link.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2023.2/bin/unwrapped/lnx64.o/vpl -t hw -f xilinx_u50lv_gen3x4_xdma_2_202010_1 -s --kernel_frequency 250 --remote_ip_cache /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/.ipcache --trace_memory HBM[0] --output_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int --log_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/logs/link --report_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link --config /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/vplConfig.ini -k /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/kernel_info.dat --webtalk_flag Vitis --temp_dir /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link --no-info --iprepo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_1_1_0 --iprepo /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xo/ip_repo/xilinx_com_hls_loopLynx_0_1_0 --messageDb /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/run_link/vpl.pb /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/dr.bd.tcl ",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:09 2024",
+ "timestampMillis": "1732612989352",
+ "status": {
+  "cmdId": "604235c7-40e7-4d90-a0e4-1bb21a177210",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_VivadoProject",
+ "dateTimestamp": "Tue Nov 26 17:23:11 2024",
+ "timestampMillis": "1732612991458",
+ "vivadoProject": {
+  "openDir": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl",
+  "openScript": "openprj.tcl",
+  "relativeProject": "prj/prj.xpr"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 17:23:11 2024",
+ "timestampMillis": "1732612991459",
+ "buildStep": {
+  "cmdId": "838f2fe3-66f7-4765-9246-f3e27df31e8b",
+  "name": "vivado",
+  "logFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl/vivado.log",
+  "commandLine": "vivado -log vivado.log -applog -m64 -messageDb vivado.pb -mode batch -source vpl.tcl -notrace",
+  "args": [
+   "-log",
+   "vivado.log",
+   "-applog",
+   " -m64",
+   "-messageDb",
+   "vivado.pb",
+   "-mode",
+   "batch",
+   "-source",
+   "vpl.tcl",
+   "-notrace"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/run_link"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:23:11 2024",
+ "timestampMillis": "1732612991459",
+ "status": {
+  "cmdId": "838f2fe3-66f7-4765-9246-f3e27df31e8b",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 17:23:39 2024",
+ "timestampMillis": "1732613019866",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/debug_ip_layout.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "DEBUG_IP_LAYOUT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 17:25:06 2024",
+ "timestampMillis": "1732613106049",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/automation_summary_pre_synthesis.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Nov 26 17:38:10 2024",
+ "timestampMillis": "1732613890652",
+ "buildStep": {
+  "cmdId": "6846a0f0-9a67-4a47-8c50-cc0677406a1d",
+  "name": "vivado.impl",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:38:10 2024",
+ "timestampMillis": "1732613890652",
+ "status": {
+  "cmdId": "6846a0f0-9a67-4a47-8c50-cc0677406a1d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Nov 26 17:38:10 2024",
+ "timestampMillis": "1732613890653",
+ "buildStep": {
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2",
+  "name": "vivado.impl.impl_1",
+  "logFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl/prj/prj.runs/impl_1/runme.log",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl/prj/prj.runs/impl_1"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 17:38:10 2024",
+ "timestampMillis": "1732613890653",
+ "status": {
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 19:08:34 2024",
+ "timestampMillis": "1732619314694",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/vivado/vpl/prj/prj.runs/impl_1/system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 19:10:40 2024",
+ "timestampMillis": "1732619440537",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/kernel_service.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 19:10:40 2024",
+ "timestampMillis": "1732619440538",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/kernel_service.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "KERNEL_SERVICE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770797",
+ "status": {
+  "cmdId": "838f2fe3-66f7-4765-9246-f3e27df31e8b",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770813",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_routed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770813",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770814",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_slr_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770814",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_slr_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_ROUTED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770814",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_slr_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_synthed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_synthed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_routed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770815",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770816",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_synthed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_SYNTHESIS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770816",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_slr_util_placed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SLR_UTIL_PLACED",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770816",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_placed.xutil",
+  "name": "",
+  "fileType": "XUTIL",
+  "reportType": "KERNEL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770816",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_full_util_placed.pb",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_UTILIZATION_PLACEMENT",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770816",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_kernel_util_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "KERNEL_UTILIZATION_ROUTE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770836",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_hmss_0_0_synth_1_ulp_hmss_0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770837",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_xbar_6_synth_1_ulp_xbar_6_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770837",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_xbar_5_synth_1_ulp_xbar_5_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770837",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_loopLynx_0_1_0_synth_1_ulp_loopLynx_0_1_0_utilization_synth.rpt",
+  "name": "loopLynx_0",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770837",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_loopLynx_1_1_0_synth_1_ulp_loopLynx_1_1_0_utilization_synth.rpt",
+  "name": "loopLynx_1",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770838",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_dpa_hub_0_synth_1_ulp_dpa_hub_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770838",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_dpa_trace_s2mm_0_synth_1_ulp_dpa_trace_s2mm_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770838",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_dpa_mon0_0_synth_1_ulp_dpa_mon0_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770838",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_dpa_mon1_0_synth_1_ulp_dpa_mon1_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770838",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_m01_regslice_8_synth_1_ulp_m01_regslice_8_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_m02_regslice_0_synth_1_ulp_m02_regslice_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_m00_regslice_8_synth_1_ulp_m00_regslice_8_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/bd_85ad_interconnect0_10_0_synth_1_bd_85ad_interconnect0_10_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_auto_cc_2_synth_1_ulp_auto_cc_2_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_auto_cc_4_synth_1_ulp_auto_cc_4_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/ulp_auto_cc_3_synth_1_ulp_auto_cc_3_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/bd_85ad_hbm_inst_0_synth_1_bd_85ad_hbm_inst_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/syn/bd_85ad_interconnect17_8_0_synth_1_bd_85ad_interconnect17_8_0_utilization_synth.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_UTILIZATION",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770839",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_system_diagram.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770843",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770846",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770846",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_routed.rpv",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_CONCISE",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770849",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_postroute_physopted.rpt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770852",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_postroute_physopted.rpx",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770853",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/imp/impl_1_hw_bb_locked_timing_summary_postroute_physopted.rpv",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_REPORT_TIMING_SUMMARY_CONCISE",
+  "cmdId": "f138fe64-1cb2-4106-88bb-cb71ce8bdad2"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770863",
+ "status": {
+  "cmdId": "604235c7-40e7-4d90-a0e4-1bb21a177210",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770871",
+ "status": {
+  "cmdId": "1083096b-de1b-41ec-9898-5a9c294a6bcb",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770872",
+ "buildStep": {
+  "cmdId": "6b74852e-17e4-4f8c-be9e-854c1f16c33e",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "rtdgen",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770872",
+ "status": {
+  "cmdId": "6b74852e-17e4-4f8c-be9e-854c1f16c33e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770903",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link_xml.rtd",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "XCLBIN_INFO",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770904",
+ "buildStep": {
+  "cmdId": "d65fab41-6ec0-41fd-8088-7a53e074c234",
+  "name": "cf2sw",
+  "logFile": "",
+  "commandLine": "cf2sw -force-enable-memory HBM[0] -a /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/address_map.xml -sdsl /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/sdsl.dat -xclbin /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.xml -rtd /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.rtd -o /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.xml",
+  "args": [
+   "-force-enable-memory",
+   "HBM[0]",
+   "-a",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/address_map.xml",
+   "-sdsl",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/sdsl.dat",
+   "-xclbin",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/xclbin_orig.xml",
+   "-rtd",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.rtd",
+   "-o",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.xml"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:10 2024",
+ "timestampMillis": "1732622770904",
+ "status": {
+  "cmdId": "d65fab41-6ec0-41fd-8088-7a53e074c234",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773070",
+ "status": {
+  "cmdId": "d65fab41-6ec0-41fd-8088-7a53e074c234",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773071",
+ "buildStep": {
+  "cmdId": "5cee84ab-34f0-4b14-87fa-f1e219a4683e",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeSystemDiagram",
+  "args": [
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.rtd",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/systemDiagramModelSlrBaseAddress.json"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773071",
+ "status": {
+  "cmdId": "5cee84ab-34f0-4b14-87fa-f1e219a4683e",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/systemDiagramModelSlrBaseAddress.json",
+  "name": "",
+  "fileType": "JSON",
+  "reportType": "SYSTEM_DIAGRAM_PLUS",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "status": {
+  "cmdId": "5cee84ab-34f0-4b14-87fa-f1e219a4683e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "buildStep": {
+  "cmdId": "7c4680ef-90c3-4a61-b16f-091058e43f89",
+  "name": "rtdgen",
+  "logFile": "",
+  "commandLine": "writeAutomationSummary",
+  "args": [
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/automation_summary.txt"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "status": {
+  "cmdId": "7c4680ef-90c3-4a61-b16f-091058e43f89",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/automation_summary.txt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "VITIS_DESIGN_FLOW",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773073",
+ "status": {
+  "cmdId": "7c4680ef-90c3-4a61-b16f-091058e43f89",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773074",
+ "status": {
+  "cmdId": "6b74852e-17e4-4f8c-be9e-854c1f16c33e",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773074",
+ "buildStep": {
+  "cmdId": "5777330d-55a4-4fb9-8302-b46132cc9e39",
+  "name": "xclbinutil",
+  "logFile": "",
+  "commandLine": "xclbinutil --add-section DEBUG_IP_LAYOUT:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/debug_ip_layout.rtd --add-section BITSTREAM:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/partial.bit --force --target hw --key-value SYS:dfx_enable:true --add-section :JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.rtd --append-section :JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/appendSection.rtd --add-section CLOCK_FREQ_TOPOLOGY:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link_xml.rtd --add-section BUILD_METADATA:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link_build.rtd --add-section EMBEDDED_METADATA:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.xml --add-section SYSTEM_METADATA:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/systemDiagramModelSlrBaseAddress.json --key-value SYS:PlatformVBNV:xilinx_u50lv_gen3x4_xdma_2_202010_1 --output /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+  "args": [
+   "--add-section",
+   "DEBUG_IP_LAYOUT:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/debug_ip_layout.rtd",
+   "--add-section",
+   "BITSTREAM:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/partial.bit",
+   "--force",
+   "--target",
+   "hw",
+   "--key-value",
+   "SYS:dfx_enable:true",
+   "--add-section",
+   ":JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.rtd",
+   "--append-section",
+   ":JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/appendSection.rtd",
+   "--add-section",
+   "CLOCK_FREQ_TOPOLOGY:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link_xml.rtd",
+   "--add-section",
+   "BUILD_METADATA:JSON:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link_build.rtd",
+   "--add-section",
+   "EMBEDDED_METADATA:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/loopLynx.link.xml",
+   "--add-section",
+   "SYSTEM_METADATA:RAW:/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/link/int/systemDiagramModelSlrBaseAddress.json",
+   "--key-value",
+   "SYS:PlatformVBNV:xilinx_u50lv_gen3x4_xdma_2_202010_1",
+   "--output",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773074",
+ "status": {
+  "cmdId": "5777330d-55a4-4fb9-8302-b46132cc9e39",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773177",
+ "status": {
+  "cmdId": "5777330d-55a4-4fb9-8302-b46132cc9e39",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773178",
+ "buildStep": {
+  "cmdId": "be473d59-113c-459d-94ed-82951199a84d",
+  "name": "xclbinutilinfo",
+  "logFile": "",
+  "commandLine": "xclbinutil --quiet --force --info /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin.info --input /home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+  "args": [
+   "--quiet",
+   "--force",
+   "--info",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin.info",
+   "--input",
+   "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773178",
+ "status": {
+  "cmdId": "be473d59-113c-459d-94ed-82951199a84d",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773396",
+ "status": {
+  "cmdId": "be473d59-113c-459d-94ed-82951199a84d",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_SubCmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773397",
+ "buildStep": {
+  "cmdId": "442245b0-4cfb-49b5-ae33-b17b13c96d2a",
+  "name": "generate_sc_driver",
+  "logFile": "",
+  "commandLine": "",
+  "args": [],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773397",
+ "status": {
+  "cmdId": "442245b0-4cfb-49b5-ae33-b17b13c96d2a",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773397",
+ "status": {
+  "cmdId": "442245b0-4cfb-49b5-ae33-b17b13c96d2a",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773611",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/system_estimate_loopLynx.link.xtxt",
+  "name": "",
+  "fileType": "TEXT",
+  "reportType": "GLOBAL_SYSTEM_ESTIMATE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773613",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/logs/optraceViewer.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "OPERATION_TRACE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773613",
+ "status": {
+  "cmdId": "d819ef2a-f2a3-4373-9e69-e33d2ca1d72c",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773657",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/reports/link/v++_link_loopLynx.link_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:13 2024",
+ "timestampMillis": "1732622773657",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/v++_link_loopLynx.link_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>

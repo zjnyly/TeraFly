@@ -1,0 +1,130 @@
+Profile Summary
+Generated on: 2025-01-18 15:22:07
+Msec since Epoch: 1737184927930
+Profiled application: loopLynx
+Target platform: Xilinx
+Tool version: 2023.2
+XRT build version: 2.16.204
+Build version branch: 2023.2
+Build version hash: fa4c0045003fed0acea4593788dce5ef6d0b66ee
+Build version date: 2023-10-11 23:50:49
+Target devices: xilinx_u50lv_gen3x4_xdma_base_2-0
+Flow mode: System Run
+
+Compute Unit Utilization
+Device,Compute Unit,Kernel,Global Work Size,Local Work Size,Number Of Calls,Dataflow Execution,Max Overlapping Executions,Dataflow Acceleration,Total Time (ms),Minimum Time (ms),Average Time (ms),Maximum Time (ms),Clock Frequency (MHz),
+xilinx_u50lv_gen3x4_xdma_base_2-0,loopLynx_0_1,loopLynx_0,1:1:1,1:1:1,1024,Yes,1,1.000000x,8489.94,8.2525,8.29096,8.35102,240,
+xilinx_u50lv_gen3x4_xdma_base_2-0,loopLynx_1_1,loopLynx_1,1:1:1,1:1:1,1024,Yes,1,1.000000x,8481.89,8.25245,8.2831,8.35215,240,
+
+
+
+
+
+
+
+
+
+Guidance Parameters
+Parameter,Element,Value,
+CU_CALLS,xilinx_u50lv_gen3x4_xdma_base_2-0|loopLynx_0_1,1024,
+CU_CALLS,xilinx_u50lv_gen3x4_xdma_base_2-0|loopLynx_1_1,1024,
+NUM_MONITORS,xilinx_u50lv_gen3x4_xdma_base_2-0|XCL_PERF_MON_MEMORY|0,0,
+NUM_MONITORS,xilinx_u50lv_gen3x4_xdma_base_2-0|XCL_PERF_MON_ACCEL|2,2,
+NUM_MONITORS,xilinx_u50lv_gen3x4_xdma_base_2-0|XCL_PERF_MON_STR|0,0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[0],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[1],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[2],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[3],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[4],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[5],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[6],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[7],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[8],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[9],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[10],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[11],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[12],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[13],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[14],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[15],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[16],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[17],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[18],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[19],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[20],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[21],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[22],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[23],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[24],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[25],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[26],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[27],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[28],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[29],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[30],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM[31],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|PLRAM[0],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|PLRAM[1],1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|PLRAM[2],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|PLRAM[3],0,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|dc_0,1,
+MEMORY_USAGE,xilinx_u50lv_gen3x4_xdma_base_2-0|dc_1,1,
+PLRAM_DEVICE,all,1,
+HBM_DEVICE,all,1,
+KDMA_DEVICE,all,0,
+P2P_DEVICE,all,0,
+KERNEL_COUNT,loopLynx_0,1,
+KERNEL_COUNT,loopLynx_1,1,
+TRACE_MEMORY,all,TS2MM,
+PLRAM_SIZE_BYTES,xilinx_u50lv_gen3x4_xdma_base_2-0,131072,
+TRACE_BUFFER_FULL,xilinx_u50lv_gen3x4_xdma_base_2-0,false
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50lv_gen3x4_xdma_base_2-0|HBM,256,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50lv_gen3x4_xdma_base_2-0|DDR,512,
+MEMORY_TYPE_BIT_WIDTH,xilinx_u50lv_gen3x4_xdma_base_2-0|PLRAM,512,
+APPLICATION_RUN_TIME_MS,all,13200.6,
+TOTAL_KERNEL_RUN_TIME_MS,all,8763.83,
+XRT_INI_SETTING,opencl_trace,1,Generation of trace of OpenCL APIs and memory transfers
+XRT_INI_SETTING,device_counters,0,Hardware counters added to summary file
+XRT_INI_SETTING,host_trace,0,Enable the top level of host trace
+XRT_INI_SETTING,native_xrt_trace,0,Generation of Native XRT API function trace
+XRT_INI_SETTING,xrt_trace,0,Generation of hardware SHIM function trace
+XRT_INI_SETTING,device_trace,fine,Collection of data from PL monitors and added to summary and trace
+XRT_INI_SETTING,power_profile,0,Polling of power data during execution of application
+XRT_INI_SETTING,power_profile_interval_ms,20,Interval for reading power data (in ms)
+XRT_INI_SETTING,stall_trace,off,Enables hardware generation of stalls in compute units
+XRT_INI_SETTING,trace_buffer_size,1M,Size of buffer to allocate for trace (memory offload only)
+XRT_INI_SETTING,verbosity,4,Verbosity level
+XRT_INI_SETTING,continuous_trace,0,Continuous offloading of trace from memory to host
+XRT_INI_SETTING,trace_buffer_offload_interval_ms,10,Interval for reading of device data to host (in ms)
+XRT_INI_SETTING,trace_file_dump_interval_s,5,Interval for dumping files to host (in s)
+XRT_INI_SETTING,lop_trace,0,Generation of lower overhead OpenCL trace. Should not be used with other OpenCL options.
+XRT_INI_SETTING,debug_mode,batch,Debug mode (emulation only)
+XRT_INI_SETTING,aie_trace,0,Generation of AI Engine trace
+XRT_INI_SETTING,aie_profile,0,Generation of AI Engine profiling
+XRT_INI_SETTING,aie_status,0,Generation of AI Engine debug/status
+XRT_INI_SETTING,aie_status_interval_us,1000,Interval for reading AI Engine debug/status registers (in us)
+XRT_INI_SETTING,vitis_ai_profile,0,Generation of Vitis AI summary and trace (Vitis AI designs only)
+XRT_INI_SETTING,AIE_profile_settings.interval_us,1000,Interval for reading AI Engine profile counters (in us)
+XRT_INI_SETTING,AIE_profile_settings.graph_based_aie_metrics,,Metric set for profiling AI Engine processor modules per graph
+XRT_INI_SETTING,AIE_profile_settings.graph_based_aie_memory_metrics,,Metric set for profiling AI Engine memory modules per graph
+XRT_INI_SETTING,AIE_profile_settings.graph_based_memory_tile_metrics,,Metric set for profiling AI Engine memory tiles per graph
+XRT_INI_SETTING,AIE_profile_settings.graph_based_interface_tile_metrics,,Metric set for profiling AI Engine interface tiles per graph
+XRT_INI_SETTING,AIE_profile_settings.tile_based_aie_metrics,,Metric set for profiling AI Engine processor modules per tile
+XRT_INI_SETTING,AIE_profile_settings.tile_based_aie_memory_metrics,,Metric set for profiling AI Engine memory modules per tile
+XRT_INI_SETTING,AIE_profile_settings.tile_based_memory_tile_metrics,,Metric set for profiling AI Engine memory tiles per tile
+XRT_INI_SETTING,AIE_profile_settings.tile_based_interface_tile_metrics,,Metric set for profiling AI Engine interface tiles per tile
+XRT_INI_SETTING,AIE_trace_settings.start_type,time,Type of delay to use in AI Engine trace
+XRT_INI_SETTING,AIE_trace_settings.start_time,0,Start delay for AI Engine trace
+XRT_INI_SETTING,AIE_trace_settings.start_iteration,1,Iteration count when graph type delay is used in AI Engine Trace
+XRT_INI_SETTING,AIE_trace_settings.graph_based_aie_tile_metrics,,Configuration level used for AI Engine trace per graph
+XRT_INI_SETTING,AIE_trace_settings.graph_based_memory_tile_metrics,,Configuration level used for memory tile trace per graph
+XRT_INI_SETTING,AIE_trace_settings.graph_based_interface_tile_metrics,,Configuration level used for interface tile trace per graph
+XRT_INI_SETTING,AIE_trace_settings.tile_based_aie_tile_metrics,,Configuration level used for AI Engine trace per tile
+XRT_INI_SETTING,AIE_trace_settings.tile_based_memory_tile_metrics,,Configuration level used for memory tile trace per tile
+XRT_INI_SETTING,AIE_trace_settings.tile_based_interface_tile_metrics,,Configuration level used for interface tile trace per tile
+XRT_INI_SETTING,AIE_trace_settings.buffer_size,8M,Size of buffer to allocate for AI Engine trace
+XRT_INI_SETTING,AIE_trace_settings.periodic_offload,1,Periodic offloading of AI Engine trace from memory to host
+XRT_INI_SETTING,AIE_trace_settings.reuse_buffer,0,Enable use of circular buffer for AI Engine trace
+XRT_INI_SETTING,AIE_trace_settings.buffer_offload_interval_us,100,Interval for reading of device AI Engine trace data to host (in us)
+XRT_INI_SETTING,AIE_trace_settings.file_dump_interval_s,5,Interval for dumping AI Engine trace files to host (in s)
+XRT_INI_SETTING,AIE_trace_settings.poll_timers_interval_us,100,Interval for polling AI Engine timers (in us)

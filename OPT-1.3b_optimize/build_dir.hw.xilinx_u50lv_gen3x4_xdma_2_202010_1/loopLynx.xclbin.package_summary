@@ -1,0 +1,124 @@
+<ENTRY>
+{
+ "thisFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.xclbin.package_summary",
+ "connectId": "",
+ "serverToken": "",
+ "timestamp": "0"
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_CmdStep",
+ "dateTimestamp": "Tue Nov 26 20:06:26 2024",
+ "timestampMillis": "1732622786853",
+ "buildStep": {
+  "cmdId": "b25ed943-8ec6-49b2-8b83-e837eaeb1e35",
+  "name": "v++",
+  "logFile": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x/package/package.steps.log",
+  "commandLine": "/tools/Xilinx/Vitis/2023.2/bin/unwrapped/lnx64.o/v++  --vivado.prop \"run.__KERNEL__.{STEPS.SYNTH_DESIGN.ARGS.MORE OPTIONS}={-directive sdx_optimization_effort_high}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_route_design_summary steps {route_design} runs {impl_1} options {-max_paths 10}\" --advanced.misc \"report=type report_timing_summary name impl_report_timing_summary_post_route_phys_opt_design_summary steps {post_route_phys_opt_design} runs {impl_1} options {-max_paths 10}\" -p ./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin --save-temps -t hw --platform xilinx_u50lv_gen3x4_xdma_2_202010_1 --package.out_dir ./package.hw -o ./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.xclbin ",
+  "args": [
+   "-p",
+   "./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+   "--save-temps",
+   "-t",
+   "hw",
+   "--platform",
+   "xilinx_u50lv_gen3x4_xdma_2_202010_1",
+   "--package.out_dir",
+   "./package.hw",
+   "-o",
+   "./build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.xclbin"
+  ],
+  "iniFiles": [],
+  "cwd": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:26 2024",
+ "timestampMillis": "1732622786853",
+ "status": {
+  "cmdId": "b25ed943-8ec6-49b2-8b83-e837eaeb1e35",
+  "state": "CS_RUNNING"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_FlowMetaData",
+ "dateTimestamp": "Tue Nov 26 20:06:28 2024",
+ "timestampMillis": "1732622788246",
+ "buildSummary": {
+  "hardwarePlatform": "xilinx_u50lv_gen3x4_xdma_2_202010_1.xpfm",
+  "hardwareDsa": "hw.xsa",
+  "platformDirectory": "/opt/xilinx/platforms/xilinx_u50lv_gen3x4_xdma_2_202010_1",
+  "runtime": "OpenCL",
+  "systemConfig": "Linux",
+  "flow": "BF_PACKAGE",
+  "target": "TT_HW",
+  "binaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "loopLynx",
+    "file": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.xclbin",
+    "reports": [],
+    "uuid": ""
+   },
+   "kernels": []
+  },
+  "kernels": [],
+  "toolVersion": "Vitis V++ Compiler Release 2023.2. SW Build 4026344 on 2023-10-11-15:42:10",
+  "inputBinaryContainer": {
+   "base": {
+    "type": "BT_UKNOWN",
+    "name": "loopLynx.link",
+    "file": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/build_dir.hw.xilinx_u50lv_gen3x4_xdma_2_202010_1/loopLynx.link.xclbin",
+    "reports": [],
+    "uuid": "d819ef2a-f2a3-4373-9e69-e33d2ca1d72c"
+   },
+   "kernels": []
+  }
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Status",
+ "dateTimestamp": "Tue Nov 26 20:06:28 2024",
+ "timestampMillis": "1732622788408",
+ "status": {
+  "cmdId": "b25ed943-8ec6-49b2-8b83-e837eaeb1e35",
+  "state": "CS_PASSED"
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:28 2024",
+ "timestampMillis": "1732622788450",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x/reports/package/v++_package_loopLynx_guidance.html",
+  "name": "",
+  "fileType": "HTML",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
+<ENTRY>
+{
+ "type": "ET_Report",
+ "dateTimestamp": "Tue Nov 26 20:06:28 2024",
+ "timestampMillis": "1732622788450",
+ "report": {
+  "path": "/home/zjnyly/codegen-uram/OPT-1.3b-x2-512bit/OPT-1.3b_optimize/_x/v++_package_loopLynx_guidance.pb3",
+  "name": "",
+  "fileType": "BINARY_PROTOBUF",
+  "reportType": "GLOBAL_RULECHECK_GUIDANCE",
+  "cmdId": ""
+ }
+}
+</ENTRY>
