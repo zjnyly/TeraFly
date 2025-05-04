@@ -26,7 +26,7 @@ weight_packer.py 											# script to pack model weight into Terafly memory la
 
 ## Quick Start
 
-You can download our packed data (model weight) from here xxx
+You can download our packed data (model weight) from [here](https://pan.baidu.com/s/1HENc02MA4etf2cCWuMtApw?pwd=bcbf).
 
 ```
 cd OPT-1.3b_optimize/
