@@ -129,7 +129,7 @@ void GEMM_QUANT(
     int BIAS,
     int ROWS, int COLS,
     const int device,
-    bool isFloat, float bias_onboard[BIAS_SIZE_TOTAL], float linear_alpha[9 * NUM_LAYER])
+    bool isFloat, float bias_onboard[BIAS_SIZE_TOTAL], float linear_alpha[9 * NUM_LAYER], bool fuseActivation)
 {
 
 #pragma HLS DATAFLOW

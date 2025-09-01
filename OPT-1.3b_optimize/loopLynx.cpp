@@ -49,10 +49,6 @@ void Gelu_layer(
 #pragma HLS UNROLL factor=32
         float raw = inp[serial];
         int8_t data = round(raw);
-        if (data < 0)
-        {
-            data = 0;
-        }
         outp[serial] = data;
     }
 }
@@ -479,7 +475,7 @@ void write_buffer_ln(
 void write_buffer(
     hls::stream<router_pack_float> &from_router,
     float output_buffer_float[FULL_INP_LEN],
-    const int device, int ROWS)
+    const int device, int ROWS, bool fuseActivation)
 {   
     int STRIDE = ROWS * (PROCESSOR);
     int FULL_LEN = STRIDE * CU;
@@ -504,9 +500,25 @@ void write_buffer(
                 for(int idx = 0; idx < ROUTE_NUM; idx++)
                 {
 #pragma HLS PIPELINE II=1
+
                     converter_t converter;
                     converter.i = data_pack.range(32 * idx + 31, 32 * idx); 
-                    output_buffer_float[BASE_IDX + row * 64 + data_transfer * ROUTE_NUM + idx] = converter.f;
+                    float to_write = 0.0;
+                    if(fuseActivation)
+                    {
+                        if (converter.f < 0)
+                        {
+                            to_write = 0.0f;
+                        }
+                        else
+                        {
+                            to_write = converter.f;
+                        }
+                        
+                    }else{
+                        to_write = converter.f;
+                    }
+                    output_buffer_float[BASE_IDX + row * 64 + data_transfer * ROUTE_NUM + idx] = to_write;
                 }
             }
         }
@@ -1343,7 +1355,7 @@ void GEMM_QUANT(
     int BIAS,
     int ROWS, int COLS,
     const int device,
-    bool isFloat, float bias_onboard[BIAS_SIZE_TOTAL], float linear_alpha[9 * NUM_LAYER])
+    bool isFloat, float bias_onboard[BIAS_SIZE_TOTAL], float linear_alpha[9 * NUM_LAYER],  bool fuseActivation)
 {
 
 #pragma HLS DATAFLOW
@@ -1394,7 +1406,7 @@ void GEMM_QUANT(
 
     requant(repacked_output, for_router, BIAS, SCALE_BIAS, ROWS, isFloat, bias_onboard, linear_alpha);
 	router(for_router, stream_previous, stream_next, from_router, ROWS);
-	write_buffer(from_router, output_buffer_float, device, ROWS);
+	write_buffer(from_router, output_buffer_float, device, ROWS, fuseActivation);
 }
 
 
@@ -1503,7 +1515,7 @@ void loopLynx_0(
 
         // compute QKV
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha, false);
        
 		write_kv_buffer_onchip(float_buffer, KV_buffer[0], KV_LOCAL_BIAS_0[0]);
 		write_kv_buffer_onchip(float_buffer, KV_buffer[1], KV_LOCAL_BIAS_0[1]);
@@ -1524,17 +1536,17 @@ void loopLynx_0(
         
         // compute O
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha, false);
 
         // Res
         Fused_Res_LN_copy(input_buffer, float_buffer, res_buffer, fn_ln_bias, stream_previous, stream_next, int_buffer, device_id, ln_weight_onboard, ln_bias_onboard);
 
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha, true);
         Gelu_layer(float_buffer, int_buffer, i_seq);
        
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha, false);
         Acc_layer(float_buffer, res_buffer);
 
         for (int i = 0; i < FULL_INP_LEN; i++)
@@ -1647,7 +1659,7 @@ void loopLynx_1(
 
         // compute QKV
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha, false);
        
 		write_kv_buffer_onchip(float_buffer, KV_buffer[0], KV_LOCAL_BIAS_1[0]);
 		write_kv_buffer_onchip(float_buffer, KV_buffer[1], KV_LOCAL_BIAS_1[1]);
@@ -1668,17 +1680,17 @@ void loopLynx_1(
         
         // compute O
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha, false);
 
         // Res
         Fused_Res_LN_copy(input_buffer, float_buffer, res_buffer, fn_ln_bias, stream_previous, stream_next, int_buffer, device_id, ln_weight_onboard, ln_bias_onboard);
 
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha, true);
         Gelu_layer(float_buffer, int_buffer, i_seq);
        
         GEMM_QUANT(w_addr_0, w_addr_1, w_addr_2, w_addr_3, w_addr_4, w_addr_5, w_addr_6, w_addr_7, 
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha, false);
         Acc_layer(float_buffer, res_buffer);
 
         for (int i = 0; i < FULL_INP_LEN; i++)

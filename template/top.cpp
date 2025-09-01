@@ -81,7 +81,7 @@ void loopLynx_{CU_ID}(
 
         // compute QKV
         GEMM_QUANT({MEM_PORT_CALL}
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias, scale_layer_bias, bias_layer, QKV_ROWS, QKV_COLS, device_id, false, bias_onboard, linear_alpha, false);
        
 {WRITE_KV_ONCHIP}
 {WRITE_KV_OFFCHIP}
@@ -94,17 +94,17 @@ void loopLynx_{CU_ID}(
         
         // compute O
         GEMM_QUANT({MEM_PORT_CALL}
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_O_BIAS, scale_layer_bias + SCALE_O_BIAS, bias_layer + BIAS_O, O_ROWS, O_COLS, device_id, true, bias_onboard, linear_alpha, false);
 
         // Res
         Fused_Res_LN_copy(input_buffer, float_buffer, res_buffer, fn_ln_bias, stream_previous, stream_next, int_buffer, device_id, ln_weight_onboard, ln_bias_onboard);
 
         GEMM_QUANT({MEM_PORT_CALL}
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP1_BIAS, scale_layer_bias + SCALE_MLP1_BIAS, bias_layer + BIAS_MLP1, MLP1_ROWS, MLP1_COLS, device_id, false, bias_onboard, linear_alpha, true);
         Gelu_layer(float_buffer, int_buffer, i_seq);
        
         GEMM_QUANT({MEM_PORT_CALL}
-                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha);
+                     stream_previous, stream_next, int_buffer, float_buffer, weight_layer_bias + WEIGHT_MLP2_BIAS, scale_layer_bias + SCALE_MLP2_BIAS, bias_layer + BIAS_MLP2, MLP2_ROWS, MLP2_COLS, device_id, true, bias_onboard, linear_alpha, false);
         Acc_layer(float_buffer, res_buffer);
 
         for (int i = 0; i < FULL_INP_LEN; i++)

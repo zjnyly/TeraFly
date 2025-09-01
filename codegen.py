@@ -1,5 +1,5 @@
 import math
-import json
+import toml
 import os
 
 # PROJECT_NAME = "OPT-125m"
@@ -8,8 +8,8 @@ CONST_DATA_DIR = "const_data"
 PLATFORM = "xilinx_u50lv_gen3x4_xdma_2_202010_1"
 FREQ = 200
 
-with open(PROJECT_NAME + ".json", 'r') as file:
-    config = json.load(file)
+with open(PROJECT_NAME + ".toml", 'r') as file:
+    config = toml.load(file)
 
 if not os.path.exists(PROJECT_NAME):
     os.makedirs(PROJECT_NAME)
@@ -200,9 +200,9 @@ else:
 
 router_str = ''
 if config['CU'] != 1:
-    router_str = '\trouter(for_router, stream_previous, stream_next, from_router, ROWS);\n\twrite_buffer(from_router, output_buffer_float, device, ROWS);'
+    router_str = '\trouter(for_router, stream_previous, stream_next, from_router, ROWS);\n\twrite_buffer(from_router, output_buffer_float, device, ROWS, fuseActivation);'
 else:
-    router_str = '\twrite_buffer(for_router, output_buffer_float, device, ROWS);'
+    router_str = '\twrite_buffer(for_router, output_buffer_float, device, ROWS, fuseActivation);'
     
 gemm_str = ""
 

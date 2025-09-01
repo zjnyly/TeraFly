@@ -46,17 +46,12 @@ void Gelu_layer(
 {
     for (int serial = 0; serial < FULL_INP_LEN * 4; serial++)
     {
-#pragma HLS UNROLL factor=INP_NUM
+#pragma HLS UNROLL factor=32
         float raw = inp[serial];
         int8_t data = round(raw);
-        if (data < 0)
-        {
-            data = 0;
-        }
         outp[serial] = data;
     }
 }
-
 void Res_layer(
     float *inp_direct,
     float *inp_shortcut,

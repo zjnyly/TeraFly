@@ -84,7 +84,7 @@ void write_buffer_ln(
 void write_buffer(
     hls::stream<router_pack_float> &from_router,
     float output_buffer_float[FULL_INP_LEN],
-    const int device, int ROWS)
+    const int device, int ROWS, bool fuseActivation)
 {   
     int STRIDE = ROWS * (PROCESSOR);
     int FULL_LEN = STRIDE * CU;
@@ -109,9 +109,25 @@ void write_buffer(
                 for(int idx = 0; idx < ROUTE_NUM; idx++)
                 {
 #pragma HLS PIPELINE II=1
+
                     converter_t converter;
                     converter.i = data_pack.range(32 * idx + 31, 32 * idx); 
-                    output_buffer_float[BASE_IDX + row * 64 + data_transfer * ROUTE_NUM + idx] = converter.f;
+                    float to_write = 0.0;
+                    if(fuseActivation)
+                    {
+                        if (converter.f < 0)
+                        {
+                            to_write = 0.0f;
+                        }
+                        else
+                        {
+                            to_write = converter.f;
+                        }
+                        
+                    }else{
+                        to_write = converter.f;
+                    }
+                    output_buffer_float[BASE_IDX + row * 64 + data_transfer * ROUTE_NUM + idx] = to_write;
                 }
             }
         }
