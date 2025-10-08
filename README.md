@@ -52,6 +52,22 @@ cd LLM-demo-gui/alveo
 Then open the html file`LLM-demo-gui/llm-gui/web/index.html ` to chat with LLM.
 
 
+## Cite 
+We appreciate for your interest in our work!
+```
+@ARTICLE{11185144,
+  author={Zheng, Jianing and Chen, Gang and Huang, Libo and Lou, Xin and Zheng, Wei-shi},
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
+  title={Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Computer architecture;Computational modeling;Field programmable gate arrays;Quantization (signal);Hardware;Throughput;Integrated circuit modeling;Earth;Adaptation models;Vectors;FPGA;High-Level Synthesis;Large Language Models;Hardware Acceleration},
+  doi={10.1109/TCAD.2025.3616078}}
+```
+
+
 
  
 
