@@ -1,90 +1,115 @@
-# Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs
+# 🚀 Terafly: A Multi-Node FPGA-Based Accelerator for Efficient Cooperative LLM Inference
 
-## Demo
-![demo](assets/opt-1.3b.gif)
+> **Terafly** enables high-throughput, low-latency inference of Large Language Models (LLMs) by leveraging a multi-node FPGA architecture optimized for cooperative execution.
 
-## Related Work
+![Demo](assets/opt-1.3b.gif)
 
-If you're interested in FPGA-based LLM acceleration, please also check out:
-- [llama-fpga](https://github.com/adamgallas/llama-fpga)
-  See also related research:
-  - Li *et al.*, “Pushing up to the limit of memory bandwidth and capacity utilization for efficient LLM decoding on embedded FPGA,” *DATE 2025.*
-  - Li *et al.*, “Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA,” *ICCAD 2025.*
-    
-## Prerequesites
+---
 
-Before you start, you should better align with our experiment environment. For Alveo U50lv Card, our environment is 
+## 🔍 Overview
 
-* System: Ubuntu 18.04
-* Shell:  xilinx-u50lv-gen3x4-xdma-base_2
-* Xrt: 2023.2
-* Vitis HLS & Vivado: 2023.2
+Terafly is designed to maximize memory bandwidth and computational efficiency on FPGA platforms—specifically targeting embedded and datacenter FPGAs like the **Xilinx Alveo U50lv**. It supports end-to-end LLM inference with minimal host intervention, and includes tooling for weight packing, hardware generation, and interactive demo deployment.
 
-##  Code Structure
+---
 
-```
-template/ 													# template HLS code for generation framework
-OPT-1.3b_optimize/ 											# generated code for vitis development flow
-LLM-demo-gui/ 												# for webui interaction
-OPT-1.3b_optimize/connectivity.cfg  						# configuration file to specify topology
-codegen.py 													# script to modify the template according to configuration
-OPT-1.3b.json 												# configuration file to specify performance
-weight_packer.py 											# script to pack model weight into Terafly memory layout
-```
+## 📚 Related Work
 
-## Quick Start
+If you're exploring FPGA-based LLM acceleration, you might also be interested in:
 
-You can download our packed data (model weight) from [here](https://pan.baidu.com/s/1HENc02MA4etf2cCWuMtApw?pwd=bcbf).
+- [**llama-fpga**](https://github.com/adamgallas/llama-fpga)  
+  Related publications:
+  - Li *et al.*, “Pushing up to the limit of memory bandwidth and capacity utilization for efficient LLM decoding on embedded FPGA,” *DATE 2025*.
+  - Li *et al.*, “Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA,” *ICCAD 2025*.
 
-```
+---
+
+## ⚙️ Prerequisites
+
+To ensure compatibility, we recommend replicating our experimental environment:
+
+| Component        | Version / Configuration                     |
+|------------------|---------------------------------------------|
+| **OS**           | Ubuntu 18.04                                |
+| **Shell**        | `xilinx-u50lv-gen3x4-xdma-base_2`           |
+| **XRT**          | 2023.2                                      |
+| **Vitis HLS & Vivado** | 2023.2                              |
+
+> 💡 Ensure your Alveo U50lv card is properly flashed with the matching shell.
+
+---
+
+## 📂 Code Structure
+
+| File/Directory | Description |
+| :--- | :--- |
+| `template/` | Template **HLS code** used by the generation framework. |
+| `OPT-1.3b_optimize/` | Directory for the **generated code** tailored for the Vitis development flow. |
+| `LLM-demo-gui/` | Contains files for **WebUI interaction**. |
+| `OPT-1.3b_optimize/connectivity.cfg` | **Configuration file** to specify the multi-node accelerator topology. |
+| `codegen.py` | Python **script** to modify the template based on configuration. |
+| `OPT-1.3b.json` | **Configuration file** to specify performance and model parameters. |
+| `weight_packer.py` | Python **script** to pack model weights into the Terafly memory layout. |
+
+---
+
+## ⚡ Quick Start
+
+Follow these steps to quickly set up and run the Terafly accelerator.
+
+### 1. Download Model Weights
+Download the pre-packed model weights (**OPT-1.3B**) from the provided link:
+[Model Weights Download](https://pan.baidu.com/s/1HENc02MA4etf2cCWuMtApw?pwd=bcbf) (Password: `bcbf`).
+
+### 2. Compile and Program the FPGA
+Navigate to the optimized code directory and run the compilation command. This will automatically generate the `xclbin` file and program your Alveo card.
+
+```shell
 cd OPT-1.3b_optimize/
 make run
 ```
 
-This will automatically generate the xclbin file and program your Alveo card.
+### 3. Run the Benchmark (`lambada`)
+Compile and execute the host-side application to run the **`lambada` benchmark**.
+* **Note**: Check `tokenizer_predict_eigen.cpp` to verify that the code correctly loads the packed data.
 
-```
+```shell
 cd tokenizer/
 sh ./command.sh
 ```
 
-This will compile the host-side application to run the `lambada` benchmark. You may check the `tokenizer_predict_eigen.cpp` to make sure the code correctly loaded the packed data.
+### 4. Run the Web Demo
+You can also interact with the LLM via a WebUI interface:
 
-You can also run this code 
+1.  Start the Python server (requires `python==3.6`).
 
-```
+2.  Open the web interface in your browser: `LLM-demo-gui/llm-gui/web/index.html`.
+    (Please open the HTML file directly in your browser to chat with the LLM.)
+
+```shell
 cd LLM-demo-gui/alveo
 (python==3.6) python client-v3.py
 ```
 
-Then open the html file`LLM-demo-gui/llm-gui/web/index.html ` to chat with LLM.
 
+## 📝 Citation
 
-## Cite 
-We appreciate for your interest in our work!
-```
+If you find Terafly or LoopLynx useful in your research or project, please cite our papers. We appreciate your interest in our work!
+
+```bibtex
 @ARTICLE{Terafly,
   author={Zheng, Jianing and Chen, Gang and Huang, Libo and Lou, Xin and Zheng, Wei-shi},
-  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
-  title={Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs}, 
+  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  title={Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs},
   year={2025},
   volume={},
   number={},
   pages={1-1}}
 
 @inproceedings{LoopLynx,
-  author       = {Jianing Zheng and Gang Chen},
-  title        = {LoopLynx: {A} Scalable Dataflow Architecture for Efficient {LLM} Inference},
-  booktitle    = {Design, Automation {\&} Test in Europe Conference, {DATE} 2025, Lyon, France, March 31 - April 2, 2025},
-  pages        = {1--7},
-  publisher    = {{IEEE}},
-  year         = {2025}}
+  author         = {Jianing Zheng and Gang Chen},
+  title          = {LoopLynx: {A} Scalable Dataflow Architecture for Efficient {LLM} Inference},
+  booktitle      = {Design, Automation {\&} Test in Europe Conference, {DATE} 2025, Lyon, France, March 31 - April 2, 2025},
+  pages          = {1--7},
+  publisher      = {{IEEE}},
+  year           = {2025}}
 ```
-
-
-
- 
-
-
-
-
