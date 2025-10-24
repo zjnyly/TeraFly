@@ -10,7 +10,7 @@ If you're interested in FPGA-based LLM acceleration, please also check out:
   See also related research:
   - Li *et al.*, “Pushing up to the limit of memory bandwidth and capacity utilization for efficient LLM decoding on embedded FPGA,” *DATE 2025.*
   - Li *et al.*, “Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA,” *ICCAD 2025.*
-  - 
+    
 ## Prerequesites
 
 Before you start, you should better align with our experiment environment. For Alveo U50lv Card, our environment is 
