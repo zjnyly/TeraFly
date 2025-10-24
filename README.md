@@ -23,9 +23,6 @@ Terafly is designed to maximize memory bandwidth and computational efficiency on
 If you're exploring FPGA-based LLM acceleration, you might also be interested in:
 
 - [**llama-fpga**](https://github.com/adamgallas/llama-fpga)  
-  Related publications:
-  - Li *et al.*, “Pushing up to the limit of memory bandwidth and capacity utilization for efficient LLM decoding on embedded FPGA,” *DATE 2025*.
-  - Li *et al.*, “Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA,” *ICCAD 2025*.
 
 ---
 
