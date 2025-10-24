@@ -6,6 +6,12 @@
 
 ---
 
+## 💡 Highlight
+
+We provide **HLS kernels** that can be rapidly customized for research purposes, enabling efficient experimentation and algorithm validation on FPGAs.
+
+---
+
 ## 🔍 Overview
 
 Terafly is designed to maximize memory bandwidth and computational efficiency on FPGA platforms—specifically targeting embedded and datacenter FPGAs like the **Xilinx Alveo U50lv**. It supports end-to-end LLM inference with minimal host intervention, and includes tooling for weight packing, hardware generation, and interactive demo deployment.
