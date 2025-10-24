@@ -3,6 +3,14 @@
 ## Demo
 ![demo](assets/opt-1.3b.gif)
 
+## Related Work
+
+If you're interested in FPGA-based LLM acceleration, please also check out:
+- [llama-fpga](https://github.com/adamgallas/llama-fpga)
+  See also related research:
+  - Li *et al.*, “Pushing up to the limit of memory bandwidth and capacity utilization for efficient LLM decoding on embedded FPGA,” *DATE 2025.*
+  - Li *et al.*, “Hummingbird: A Smaller and Faster Large Language Model Accelerator on Embedded FPGA,” *ICCAD 2025.*
+  - 
 ## Prerequesites
 
 Before you start, you should better align with our experiment environment. For Alveo U50lv Card, our environment is 
@@ -55,16 +63,22 @@ Then open the html file`LLM-demo-gui/llm-gui/web/index.html ` to chat with LLM.
 ## Cite 
 We appreciate for your interest in our work!
 ```
-@ARTICLE{11185144,
+@ARTICLE{Terafly,
   author={Zheng, Jianing and Chen, Gang and Huang, Libo and Lou, Xin and Zheng, Wei-shi},
   journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}, 
   title={Terafly : A Multi-Node FPGA Based Accelerator Design for Efficient Cooperative Inference in LLMs}, 
   year={2025},
   volume={},
   number={},
-  pages={1-1},
-  keywords={Computer architecture;Computational modeling;Field programmable gate arrays;Quantization (signal);Hardware;Throughput;Integrated circuit modeling;Earth;Adaptation models;Vectors;FPGA;High-Level Synthesis;Large Language Models;Hardware Acceleration},
-  doi={10.1109/TCAD.2025.3616078}}
+  pages={1-1}}
+
+@inproceedings{LoopLynx,
+  author       = {Jianing Zheng and Gang Chen},
+  title        = {LoopLynx: {A} Scalable Dataflow Architecture for Efficient {LLM} Inference},
+  booktitle    = {Design, Automation {\&} Test in Europe Conference, {DATE} 2025, Lyon, France, March 31 - April 2, 2025},
+  pages        = {1--7},
+  publisher    = {{IEEE}},
+  year         = {2025}}
 ```
 
 
